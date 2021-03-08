@@ -1,0 +1,4936 @@
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+scons: `.' is up to date.
+scons: done building targets.
+launch_chffrplus.sh: needs update
+{"event": "dirty comma branch", "version": "0.7.5", "dirty": true, "origin": "https://github.com/BogGyver/openpilot.git", "branch": "origin/tesla_alpha", "dirty_files": ":100755 100755 7e377c78897fa573fdc942fc732ede26c94ab87d 0000000000000000000000000000000000000000 M\tlaunch_chffrplus.sh\n", "commit": "9aecca740824aa6cda8110460bd6acef4477af7b", "origin_commit": "9aecca740824aa6cda8110460bd6acef4477af7b"}
+Result: Parcel(00000000 00000001   '........')
+installed apks {'com.android.providers.telephony': '/system/priv-app/TelephonyProvider/TelephonyProvider.apk', 'com.qti.service.colorservice': '/system/vendor/app/colorservice/colorservice.apk', 'com.qualcomm.shutdownlistner': '/system/app/shutdownlistener/shutdownlistener.apk', 'com.android.documentsui': '/system/app/DocumentsUI/DocumentsUI.apk', 'ai.comma.plus.black': '/data/app/ai.comma.plus.black-1/base.apk', 'ai.comma.plus.frame': '/data/app/ai.comma.plus.frame-1/base.apk', 'com.android.externalstorage': '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk', 'com.qualcomm.qti.telephonyservice': '/system/app/QtiTelephonyService/QtiTelephonyService.apk', 'com.android.defcontainer': '/system/priv-app/DefaultContainerService/DefaultContainerService.apk', 'com.android.pacprocessor': '/system/app/PacProcessor/PacProcessor.apk', 'org.codeaurora.bluetooth': '/system/app/BluetoothExt/BluetoothExt.apk', 'com.qti.qualcomm.datastatusnotification': '/system/app/datastatusnotification/datastatusnotification.apk', 'android': '/system/framework/framework-res.apk', 'cyanogenmod.platform': '/system/framework/org.cyanogenmod.platform-res.apk', 'com.android.backupconfirm': '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk', 'org.codeaurora.ims': '/system/priv-app/ims/ims.apk', 'com.android.statementservice': '/system/priv-app/StatementService/StatementService.apk', 'com.qualcomm.qcrilmsgtunnel': '/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk', 'com.android.providers.settings': '/system/priv-app/SettingsProvider/SettingsProvider.apk', 'com.android.sharedstoragebackup': '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk', 'com.android.printspooler': '/system/app/PrintSpooler/PrintSpooler.apk', 'com.android.frameworks.telresources': '/system/app/telresources/telresources.apk', 'com.android.webview': '/system/app/webview/webview.apk', 'com.android.inputdevices': '/system/priv-app/InputDevices/InputDevices.apk', 'com.android.keychain': '/system/app/KeyChain/KeyChain.apk', 'org.cyanogenmod.cmsettings': '/system/priv-app/CMSettingsProvider/CMSettingsProvider.apk', 'com.android.packageinstaller': '/system/priv-app/PackageInstaller/PackageInstaller.apk', 'com.android.proxyhandler': '/system/priv-app/ProxyHandler/ProxyHandler.apk', 'ai.comma.plus.neossetup': '/system/priv-app/NEOSSetup/NEOSSetup.apk', 'com.android.inputmethod.latin': '/system/app/LatinIME/LatinIME.apk', 'com.android.smspush': '/system/app/WAPPushManager/WAPPushManager.apk', 'ai.comma.plus.offroad': '/data/app/ai.comma.plus.offroad-2/base.apk', 'com.android.settings': '/system/priv-app/Settings/Settings.apk', 'com.qualcomm.qti.ims': '/system/vendor/app/imssettings/imssettings.apk', 'com.android.vpndialogs': '/system/priv-app/VpnDialogs/VpnDialogs.apk', 'com.android.phone': '/system/priv-app/TeleService/TeleService.apk', 'com.android.shell': '/system/priv-app/Shell/Shell.apk', 'com.android.location.fused': '/system/priv-app/FusedLocation/FusedLocation.apk', 'com.android.systemui': '/system/priv-app/SystemUI/SystemUI.apk', 'com.android.bluetoothmidiservice': '/system/app/BluetoothMidiService/BluetoothMidiService.apk', 'com.qualcomm.fastdormancy': '/system/app/fastdormancy/fastdormancy.apk', 'com.android.bluetooth': '/system/app/Bluetooth/Bluetooth.apk', 'com.qualcomm.timeservice': '/system/app/TimeService/TimeService.apk', 'com.android.development': '/system/app/Development/Development.apk', 'com.qualcomm.embms': '/system/app/embms/embms.apk', 'com.android.captiveportallogin': '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk'}
+comparing version of ai.comma.plus.offroad  7880dcde64e7a4269b6518c73e8c42e822bcd888 vs 7880dcde64e7a4269b6518c73e8c42e822bcd888
+getting pilotauth
+dongle id is ae1d1a42582a3551
+dirty is 1
+preimporting selfdrive.tinklad.tinklad
+preimporting selfdrive.thermald.thermald
+Building panda firmware
+preimporting selfdrive.loggerd.uploader
+preimporting selfdrive.loggerd.deleter
+preimporting selfdrive.controls.controlsd
+WARNING: linker: /data/openpilot/opendbc/can/libdbc.so: unused DT entry: type 0x1d arg 0x1324
+WARNING: linker: /data/openpilot/selfdrive/controls/lib/longitudinal_mpc/libmpc1.so: unused DT entry: type 0x1d arg 0x1ffd
+WARNING: linker: /data/openpilot/selfdrive/controls/lib/longitudinal_mpc/libmpc2.so: unused DT entry: type 0x1d arg 0x1ffd
+preimporting selfdrive.controls.plannerd
+WARNING: linker: /data/openpilot/selfdrive/controls/lib/lateral_mpc/libmpc.so: unused DT entry: type 0x1d arg 0x2001
+preimporting selfdrive.controls.radard
+WARNING: linker: /data/openpilot/selfdrive/controls/lib/cluster/libfastcluster.so: unused DT entry: type 0x1d arg 0x5b1
+preimporting selfdrive.controls.dmonitoringd
+preimporting selfdrive.logmessaged
+preimporting selfdrive.locationd.locationd
+preimporting selfdrive.tombstoned
+preimporting selfdrive.pandad
+preimporting selfdrive.locationd.calibrationd
+preimporting selfdrive.updated
+preimporting selfdrive.controls.lib.driverview
+manager start
+{'environ': environ({'SHELL': '/system/comma/usr/bin/bash', 'TMUX': '/data/data/com.termux/files/tmp/tmux-0/default,1855,0', 'PREFIX': '/usr', 'NUMEXPR_NUM_THREADS': '1', 'GIT_SSH_COMMAND': 'ssh -i /data/gitkey', 'ANDROID_BOOTLOGO': '1', 'EDITOR': 'vim', 'PWD': '/data/openpilot/selfdrive', 'OPENBLAS_NUM_THREADS': '1', 'SYSTEMSERVERCLASSPATH': '/system/framework/org.cyanogenmod.platform.jar:/system/framework/org.cyanogenmod.hardware.jar:/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar', 'EXTERNAL_STORAGE': '/sdcard', 'LD_PRELOAD': 'libsigchain.so', 'HOME': '/data/data/com.termux/files/home', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/data/data/com.termux/files/home/.pythonrc', 'LD_SHIM_LIBS': '/system/lib/hw/camera.msm8996.so|libcamera_shim.so', 'VECLIB_MAXIMUM_THREADS': '1', 'ANDROID_CACHE': '/cache', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'PYTHONPATH': '/data/openpilot', 'TERM': 'xterm-256color', 'TERMINFO': '/system/etc/terminfo', 'VIMINIT': 'source $MYVIMRC', 'TMUX_PANE': '%0', 'ASEC_MOUNTPOINT': '/mnt/asec', 'SHLVL': '1', 'user_handle': 'tdigsi', 'VALGRIND_LIB': '/usr/lib/valgrind', 'ANDROID_ROOT': '/system', 'BOOTCLASSPATH': '/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar', 'PASSIVE': '0', 'LD_LIBRARY_PATH': '/data/phonelibs:/data/data/com.termux/files/usr/lib', 'MYVIMRC': '/data/data/com.termux/files/home/.vimrc', 'OMP_NUM_THREADS': '1', 'PATH': '/usr/local/bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/sbin:/data/data/com.termux/files/usr/bin/applets:/bin:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'ANDROID_PROPERTY_WORKSPACE': '9,0', 'MKL_NUM_THREADS': '1', 'ANDROID_ASSETS': '/system/app', 'OLDPWD': '/data/openpilot', '_': './manager.py', 'BASEDIR': '/data/openpilot', 'PARAMS_PATH': '/data/params', 'DONGLE_ID': 'ae1d1a42582a3551'})}
+WARNING: linker: ./loggerd: unused DT entry: type 0x1d arg 0x1c65
+selfdrive/loggerd/loggerd.cc: bootlog to /data/media/0/realdata/2021-03-08--15-27-44--0
+starting daemon manage_athenad
+starting python selfdrive.tinklad.tinklad
+starting python selfdrive.thermald.thermald
+starting process ui
+starting python selfdrive.logmessaged
+starting python selfdrive.loggerd.uploader
+starting process logcatd
+starting python selfdrive.tombstoned
+uploader_fn
+starting python selfdrive.updated
+WARNING: linker: ./_ui: unused DT entry: type 0x1d arg 0x1dc5
+WARNING: linker: ./logcatd: unused DT entry: type 0x1d arg 0x984
+running pm enable ai.comma.plus.offroad
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=65 time=42.5 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 42.557/42.557/42.557/0.000 ms
+preparing new safe staging area
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-27-44--0/bootlog.bz2', '/data/media/0/realdata/2021-03-08--15-27-44--0/bootlog.bz2')
+{"event": "upload", "key": "2021-03-08--15-27-44--0/bootlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-27-44--0/bootlog.bz2", "sz": 63064, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-27-44--0/bootlog.bz2' with size 63064
+uploading '/data/media/0/realdata/2021-03-08--15-27-44--0/bootlog.bz2'
+not running updater, openpilot running
+running pm grant ai.comma.plus.offroad android.permission.ACCESS_FINE_LOCATION
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+selfdrive/ui/ui.cc: awake normal
+Result: Parcel(00000000    '....')
+running pm grant ai.comma.plus.offroad android.permission.READ_PHONE_STATE
+Result: Parcel(00000000    '....')
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/ae1d1a42582a3551/2021-03-08--15-27-44/0/bootlog.bz2?se=2021-03-15T20%3A27%3A45Z&sp=cw&sv=2018-03-28&sr=b&sig=GHECChhSJTlKtXtOR/V8kZWdp05keDx1YoXqziRY/2U%3D {'x-ms-blob-type': 'BlockBlob'}
+running pm grant ai.comma.plus.offroad android.permission.READ_EXTERNAL_STORAGE
+{"event": "STATUS_PACKET", "count": 0, "health": null, "location": null, "thermal": {"thermal": {"cpu0": 480, "cpu1": 477, "cpu2": 529, "cpu3": 545, "mem": 493, "gpu": 425, "bat": 34500, "freeSpace": 0.9294429421424866, "batteryPercent": 78, "batteryStatus": "Charging", "fanSpeed": 0, "started": false, "usbOnline": true, "startedTs": 0, "thermalStatus": "green", "batteryCurrent": 231321, "batteryVoltage": 4067511, "chargingError": true, "chargingDisabled": false, "memUsedPercent": 19, "cpuPerc": 38, "pa0": 35, "networkType": "wifi", "offroadPowerUsage": 0, "networkStrength": "moderate"}, "logMonoTime": 66901659087, "valid": true}, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+running LD_LIBRARY_PATH= appops set ai.comma.plus.offroad SU allow
+{"event": "upload_success", "key": "2021-03-08--15-27-44--0/bootlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-27-44--0/bootlog.bz2", "sz": 63064, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+running LD_LIBRARY_PATH= appops set ai.comma.plus.offroad WIFI_SCAN allow
+running am start -n ai.comma.plus.offroad/.MainActivity
+starting python selfdrive.pandad
+WARNING: linker: ./boardd: unused DT entry: type 0x1d arg 0x17ac
+selfdrive/boardd/boardd.cc: starting boardd
+FW signature read
+health: Reader was evicted, reconnecting
+panda serial: 8035738e46e80fc0
+selfdrive/boardd/boardd.cc: panda with gps detected
+selfdrive/boardd/boardd.cc: connected to board
+thermal: Reader was evicted, reconnecting
+health: Reader was evicted, reconnecting
+Setting up EON fan handler
+sh: can't create /sys/module/dwc3_msm/parameters/otg_switch: Permission denied
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: panda GPS start
+uiLayoutState: Reader was evicted, reconnecting
+selfdrive/boardd/boardd.cc: panda GPS on
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/ui/ui.cc: awake off
+Result: Parcel(00000000    '....')
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+{"event": "STATUS_PACKET", "count": 120, "health": {"health": {"voltage": 12327, "current": 93, "ignitionLine": false, "controlsAllowed": false, "gasInterceptorDetected": false, "startedSignalDetectedDeprecated": false, "hasGps": true, "canSendErrs": 412197, "canFwdErrs": 483185, "gmlanSendErrs": 0, "hwType": "greyPanda", "fanSpeedRpm": 0, "usbPowerMode": "cdp", "ignitionCan": false, "safetyModel": "tesla", "faultStatus": "none", "powerSaveEnabled": true, "uptime": 3628, "faults": [], "canRxErrs": 0}, "logMonoTime": 129203426720, "valid": true}, "location": null, "thermal": {"thermal": {"cpu0": 373, "cpu1": 370, "cpu2": 373, "cpu3": 370, "mem": 373, "gpu": 357, "bat": 33200, "freeSpace": 0.9294426441192627, "batteryPercent": 78, "batteryStatus": "Charging", "fanSpeed": 0, "started": false, "usbOnline": true, "startedTs": 0, "thermalStatus": "green", "batteryCurrent": -648036, "batteryVoltage": 4173559, "chargingError": false, "chargingDisabled": false, "memUsedPercent": 24, "cpuPerc": 13, "pa0": 34, "networkType": "wifi", "offroadPowerUsage": 32271, "networkStrength": "moderate"}, "logMonoTime": 129205082605, "valid": true}, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+selfdrive/boardd/boardd.cc: missed cycle
+selfdrive/boardd/boardd.cc: missed cycle
+starting python selfdrive.controls.controlsd
+starting python selfdrive.controls.plannerd
+starting python selfdrive.controls.radard
+starting python selfdrive.controls.dmonitoringd
+pid 2538's current scheduling policy: SCHED_OTHER
+pid 2538's current scheduling priority: 0
+pid 2538's new scheduling policy: SCHED_FIFO
+pid 2538's new scheduling priority: 3
+starting python selfdrive.locationd.calibrationd
+starting process paramsd
+starting process camerad
+pid 2539's current scheduling policy: SCHED_OTHER
+pid 2539's current scheduling priority: 0
+pid 2539's new scheduling policy: SCHED_FIFO
+pid 2539's new scheduling priority: 2
+starting process modeld
+plannerd is waiting for CarParams
+liveCalibration: Reader was evicted, reconnecting
+pid 2543's current scheduling policy: SCHED_OTHER
+pid 2543's current scheduling priority: 0
+pid 2543's new scheduling policy: SCHED_FIFO
+pid 2543's new scheduling priority: 3
+controlsState: Reader was evicted, reconnecting
+starting process proclogd
+WARNING: linker: ./paramsd: unused DT entry: type 0x1d arg 0x1a27
+dMonitoringState: Reader was evicted, reconnecting
+pid 2541's current scheduling policy: SCHED_OTHER
+pid 2541's current scheduling priority: 0
+pid 2541's new scheduling policy: SCHED_FIFO
+pid 2541's new scheduling priority: 2
+WARNING: linker: ./camerad: unused DT entry: type 0x1d arg 0x1184
+radard is waiting for CarParams
+selfdrive/locationd/paramsd.cc: waiting for params to set vehicle model
+starting process ubloxd
+starting python selfdrive.locationd.locationd
+WARNING: linker: ./_modeld: unused DT entry: type 0x1d arg 0x2c7b
+starting process loggerd
+starting process sensord
+WARNING: linker: ./proclogd: unused DT entry: type 0x1d arg 0x1491
+starting process clocksd
+vendor: 'QUALCOMM'
+sendcan: Reader was evicted, reconnecting
+platform version: 'OpenCL 2.0 QUALCOMM build: commit #6ff34ae changeid #I0ac3940325 Date: 09/23/16 Fri Local Branch:  Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.HB.1.3.2.06.00.01.214.261'
+profile: 'FULL_PROFILE'
+extensions: ' '
+name: 'QUALCOMM Adreno(TM)'
+device version: 'OpenCL 2.0 Adreno(TM) 530'
+max work group size: 1024
+type = 0x0004 = CL_DEVICE_TYPE_GPU
+
+WARNING: linker: ./ubloxd: unused DT entry: type 0x1d arg 0xbd1
+starting process gpsd
+WARNING: linker: ./loggerd: unused DT entry: type 0x1d arg 0x1c65
+selfdrive/locationd/ubloxd_main.cc: starting ubloxd
+gpsLocationExternal: Reader was evicted, reconnecting
+ubloxGnss: Reader was evicted, reconnecting
+WARNING: linker: ./_sensord: unused DT entry: type 0x1d arg 0x9fc
+width 1164, height 874, rgb_stride 3840
+snprintfwidth 816, height 612, rgb_stride 3072
+VIN TESLAFORCED123456
+selfdrive/boardd/boardd.cc: got CarVin TESLAFORCED123456
+selfdrive/boardd/boardd.cc: waiting for params to set safety model
+WARNING: linker: ./clocksd: unused DT entry: type 0x1d arg 0x905
+starting process dmonitoringmodeld
+starting python selfdrive.loggerd.deleter
+uiButtonInfo: Reader was evicted, reconnecting
+uiCustomAlert: Reader was evicted, reconnecting
+uiSetCar: Reader was evicted, reconnecting
+uiPlaySound: Reader was evicted, reconnecting
+uiGyroInfo: Reader was evicted, reconnecting
+WARNING: linker: ./_gpsd: unused DT entry: type 0x1d arg 0x9d8
+WARNING: linker: ./_dmonitoringmodeld: unused DT entry: type 0x1d arg 0x1ac8
+uiButtonInfo: Reader was evicted, reconnecting
+uiCustomAlert: Reader was evicted, reconnecting
+uiSetCar: Reader was evicted, reconnecting
+uiPlaySound: Reader was evicted, reconnecting
+uiGyroInfo: Reader was evicted, reconnecting
+{"event": "alert_add", "alert_type": "startup", "enabled": false, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+dMonitoringState: Reader was evicted, reconnecting
+selfdrive/boardd/boardd.cc: missed cycle
+diag diag_get_max_file_size size=200,max_file_size=209715200,min_file_size=167772160
+plannerd got CarParams: tesla
+model: Reader was evicted, reconnecting
+model: Reader was evicted, reconnecting
+plan: Reader was evicted, reconnecting
+pathPlan: Reader was evicted, reconnecting
+alcaState: Reader was evicted, reconnecting
+pathPlan: Reader was evicted, reconnecting
+selfdrive/boardd/boardd.cc: got 680 bytes CarParams
+selfdrive/boardd/boardd.cc: setting safety model: 10 with param 1
+selfdrive/boardd/boardd.cc: Transmit buffer full
+loaded model with size: 52636596
+selfdrive/boardd/boardd.cc: Transmit buffer full
+radard got CarParams
+radard is importing tesla
+gpsLocation: Reader was evicted, reconnecting
+selfdrive/locationd/paramsd.cc: got 680 bytes CarParams
+selfdrive/locationd/paramsd.cc: Parameter starting with: {"angleOffsetAverage": 0.21938085930712781, "carFingerprint": "TESLA MODEL S", "carVin": "TESLAFORCED123456", "steerRatio": 15.969275951343157, "stiffnessFactor": 0.73991110953937422}
+WARNING: linker: /data/openpilot/selfdrive/locationd/kalman/generated/liblive.so: unused DT entry: type 0x1d arg 0x6227
+sensorEvents: Reader was evicted, reconnecting
+cameraOdometry: Reader was evicted, reconnecting
+Warning, evicting all subscribers!
+radarState: Reader was evicted, reconnecting
+model: Reader was evicted, reconnecting
+radarState: Reader was evicted, reconnecting
+selfdrive/boardd/boardd.cc: Transmit buffer full
+radarState: Reader was evicted, reconnecting
+radarState: Reader was evicted, reconnecting
+radarState: Reader was evicted, reconnecting
+ahbInfo: Reader was evicted, reconnecting
+selfdrive/boardd/boardd.cc: Transmit buffer full
+radarState: Reader was evicted, reconnecting
+uiIcLeads: Reader was evicted, reconnecting
+radarState: Reader was evicted, reconnecting
+radarState: Reader was evicted, reconnecting
+selfdrive/ui/ui.cc: vision_subscribe type:0
+snprintfselfdrive/camerad/main.cc: client start fd 165
+selfdrive/ui/ui.cc: vision_subscribe type:1
+selfdrive/ui/ui.cc: awake normal
+selfdrive/loggerd/loggerd.cc: logging to /data/media/0/realdata/2021-03-08--15-29-05--0
+radarState: Reader was evicted, reconnecting
+liveTracks: Reader was evicted, reconnecting
+selfdrive/loggerd/loggerd.cc: recording front camera
+selfdrive/camerad/main.cc: client start fd 167
+selfdrive/camerad/main.cc: client start fd 168
+encodeIdx: Reader was evicted, reconnecting
+frontEncodeIdx: Reader was evicted, reconnecting
+driverState: Reader was evicted, reconnecting
+driverState: Reader was evicted, reconnecting
+cameraOdometry: Reader was evicted, reconnecting
+carState: Reader was evicted, reconnecting
+driverState: Reader was evicted, reconnecting
+uiIcCarLR: Reader was evicted, reconnecting
+Result: Parcel(00000000    '....')
+driverState: Reader was evicted, reconnecting
+selfdrive/ui/ui.cc: slow frame(900) time: 289.78
+loaded model with size: 186615
+model: lambda/div:0 -> outputs/concat:0
+input product is 76800
+selfdrive/camerad/main.cc: client start fd 173
+selfdrive/modeld/dmonitoringmodeld.cc: connected with buffer size: 749088
+selfdrive/ui/ui.cc: slow frame(928) time: 82.84
+selfdrive/ui/ui.cc: slow frame(929) time: 116.61
+selfdrive/ui/ui.cc: slow frame(942) time: 104.55
+selfdrive/ui/ui.cc: slow frame(948) time: 129.13
+selfdrive/ui/ui.cc: slow frame(951) time: 197.48
+selfdrive/ui/ui.cc: slow frame(953) time: 106.60
+selfdrive/ui/ui.cc: slow frame(969) time: 165.49
+gpsLocationExternal: Reader was evicted, reconnecting
+sensorEvents: Reader was evicted, reconnecting
+cameraOdometry: Reader was evicted, reconnecting
+selfdrive/ui/ui.cc: slow frame(981) time: 83.11
+pool is full! evicted 1
+pool is full! evicted 0
+pool is full! evicted 2
+pool is full! evicted 3
+pool is full! evicted 4
+pool is full! evicted 5
+selfdrive/ui/ui.cc: slow frame(991) time: 165.55
+pool is full! evicted 6
+pool is full! evicted 7
+pool is full! evicted 8
+pool is full! evicted 9
+pool is full! evicted 10
+pool is full! evicted 11
+pool is full! evicted 12
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 13
+pool is full! evicted 14
+pool is full! evicted 15
+pool is full! evicted 16
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 17
+selfdrive/ui/ui.cc: slow frame(1011) time: 161.71
+pool is full! evicted 18
+pool is full! evicted 19
+pool is full! evicted 20
+model: input_imgs:0 -> outputs/concat:0
+input product is 393216
+adding index 3: rnn_state:0
+adding index 1: desire:0
+adding index 2: traffic_convention:0
+selfdrive/modeld/modeld.cc: models loaded, modeld starting
+selfdrive/camerad/main.cc: client start fd 177
+selfdrive/modeld/modeld.cc: connected with buffer size: 1526004
+pathPlan: Reader was evicted, reconnecting
+pool is full! evicted 21
+selfdrive/ui/ui.cc: slow frame(1013) time: 131.94
+pool is full! evicted 22
+model process: 88.16ms, from last 152022.53ms
+Lateral mpc - nan: True
+pool is full! evicted 23
+model process: 64.91ms, from last 88.67ms
+pool is full! evicted 24
+model process: 54.27ms, from last 65.34ms
+pool is full! evicted 25
+pool is full! evicted 26
+model process: 72.29ms, from last 54.78ms
+pool is full! evicted 27
+model process: 49.50ms, from last 72.80ms
+pool is full! evicted 28
+model process: 55.79ms, from last 49.87ms
+pool is full! evicted 29
+model process: 61.16ms, from last 56.29ms
+pool is full! evicted 30
+model process: 58.08ms, from last 61.51ms
+pool is full! evicted 31
+pool is full! evicted 32
+model process: 55.87ms, from last 58.53ms
+pool is full! evicted 33
+model process: 46.71ms, from last 56.88ms
+model process: 39.34ms, from last 47.09ms
+pool is full! evicted 34
+model process: 55.71ms, from last 39.77ms
+pool is full! evicted 35
+model process: 53.89ms, from last 56.27ms
+pool is full! evicted 36
+model process: 42.28ms, from last 54.27ms
+pool is full! evicted 37
+model process: 43.83ms, from last 43.20ms
+pool is full! evicted 38
+model process: 48.57ms, from last 44.57ms
+pool is full! evicted 39
+model process: 52.18ms, from last 49.14ms
+pool is full! evicted 1
+model process: 52.41ms, from last 52.61ms
+pool is full! evicted 0
+model process: 49.71ms, from last 52.93ms
+pool is full! evicted 2
+pool is full! evicted 3
+model process: 66.68ms, from last 50.11ms
+pool is full! evicted 4
+model process: 52.30ms, from last 67.23ms
+pool is full! evicted 5
+model process: 42.97ms, from last 52.81ms
+pool is full! evicted 6
+pool is full! evicted 6
+model process: 63.75ms, from last 43.58ms
+pool is full! evicted 7
+model process: 48.14ms, from last 64.18ms
+pool is full! evicted 7
+pool is full! evicted 8
+model process: 59.84ms, from last 49.01ms
+pool is full! evicted 9
+model process: 43.64ms, from last 60.35ms
+pool is full! evicted 10
+model process: 44.95ms, from last 44.08ms
+pool is full! evicted 11
+model process: 71.92ms, from last 45.38ms
+pool is full! evicted 12
+pool is full! evicted 13
+model process: 73.94ms, from last 72.79ms
+pool is full! evicted 14
+model process: 63.03ms, from last 74.38ms
+pool is full! evicted 15
+model process: 55.22ms, from last 63.46ms
+pool is full! evicted 16
+model process: 50.76ms, from last 55.70ms
+pool is full! evicted 17
+model process: 42.09ms, from last 51.40ms
+pool is full! evicted 18
+model process: 54.60ms, from last 42.84ms
+pool is full! evicted 19
+model process: 60.47ms, from last 55.18ms
+pool is full! evicted 20
+model process: 48.42ms, from last 61.08ms
+pool is full! evicted 21
+model process: 43.31ms, from last 48.96ms
+pool is full! evicted 22
+model process: 46.87ms, from last 43.76ms
+pool is full! evicted 23
+pool is full! evicted 24
+model process: 94.80ms, from last 47.34ms
+pool is full! evicted 25
+model process: 62.47ms, from last 95.94ms
+pool is full! evicted 26
+pool is full! evicted 17
+pool is full! evicted 27
+model process: 68.92ms, from last 62.83ms
+pool is full! evicted 28
+model process: 51.88ms, from last 69.40ms
+pool is full! evicted 18
+pool is full! evicted 29
+model process: 38.96ms, from last 52.51ms
+pool is full! evicted 30
+model process: 46.70ms, from last 39.38ms
+pool is full! evicted 19
+pool is full! evicted 31
+model process: 62.73ms, from last 47.37ms
+pool is full! evicted 32
+model process: 44.20ms, from last 63.22ms
+pool is full! evicted 20
+pool is full! evicted 33
+model process: 44.47ms, from last 44.94ms
+pool is full! evicted 34
+model process: 49.57ms, from last 44.90ms
+pool is full! evicted 21
+pool is full! evicted 35
+model process: 83.55ms, from last 50.08ms
+pool is full! evicted 36
+pool is full! evicted 22
+pool is full! evicted 37
+model process: 72.81ms, from last 84.06ms
+pool is full! evicted 38
+pool is full! evicted 0
+model process: 66.08ms, from last 73.27ms
+pool is full! evicted 39
+model process: 60.69ms, from last 67.04ms
+pool is full! evicted 1
+pool is full! evicted 1
+pool is full! evicted 0
+model process: 66.53ms, from last 61.23ms
+pool is full! evicted 2
+model process: 42.52ms, from last 67.03ms
+pool is full! evicted 2
+model process: 34.79ms, from last 43.23ms
+pool is full! evicted 3
+model process: 50.07ms, from last 35.33ms
+pool is full! evicted 4
+pool is full! evicted 3
+model process: 50.42ms, from last 50.91ms
+pool is full! evicted 5
+model process: 46.70ms, from last 50.83ms
+pool is full! evicted 6
+pool is full! evicted 4
+selfdrive/ui/ui.cc: slow frame(1115) time: 68.19
+model process: 59.64ms, from last 47.15ms
+pool is full! evicted 7
+pool is full! evicted 5
+pool is full! evicted 8
+model process: 59.02ms, from last 60.40ms
+pool is full! evicted 9
+model process: 64.29ms, from last 60.13ms
+pool is full! evicted 23
+pool is full! evicted 10
+model process: 53.52ms, from last 64.86ms
+pool is full! evicted 11
+pool is full! evicted 12
+model process: 78.26ms, from last 53.97ms
+pool is full! evicted 24
+pool is full! evicted 13
+model process: 59.93ms, from last 78.86ms
+pool is full! evicted 14
+model process: 79.39ms, from last 60.58ms
+pool is full! evicted 15
+pool is full! evicted 16
+model process: 73.14ms, from last 79.93ms
+pool is full! evicted 17
+model process: 39.61ms, from last 73.69ms
+pool is full! evicted 18
+model process: 51.74ms, from last 39.99ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 19
+model process: 60.68ms, from last 52.49ms
+pool is full! evicted 25
+pool is full! evicted 20
+model process: 48.14ms, from last 61.18ms
+pool is full! evicted 21
+pool is full! evicted 26
+model process: 51.75ms, from last 48.68ms
+pool is full! evicted 22
+model process: 75.20ms, from last 52.63ms
+pool is full! evicted 23
+pool is full! evicted 27
+pool is full! evicted 24
+model process: 71.75ms, from last 76.35ms
+pool is full! evicted 25
+pool is full! evicted 28
+model process: 59.83ms, from last 72.80ms
+pool is full! evicted 26
+model process: 65.08ms, from last 60.32ms
+pool is full! evicted 27
+pool is full! evicted 29
+pool is full! evicted 28
+model process: 65.17ms, from last 65.90ms
+pool is full! evicted 29
+pool is full! evicted 30
+model process: 52.02ms, from last 65.79ms
+pool is full! evicted 30
+model process: 54.59ms, from last 52.56ms
+pool is full! evicted 31
+pool is full! evicted 31
+model process: 51.90ms, from last 55.05ms
+pool is full! evicted 32
+model process: 42.45ms, from last 52.62ms
+pool is full! evicted 32
+pool is full! evicted 33
+model process: 73.02ms, from last 42.85ms
+pool is full! evicted 34
+model process: 41.08ms, from last 73.82ms
+pool is full! evicted 33
+pool is full! evicted 35
+selfdrive/ui/ui.cc: slow frame(1159) time: 70.29
+model process: 47.65ms, from last 41.80ms
+pool is full! evicted 36
+model process: 48.99ms, from last 48.07ms
+pool is full! evicted 34
+pool is full! evicted 37
+selfdrive/ui/ui.cc: slow frame(1161) time: 73.69
+model process: 50.63ms, from last 49.72ms
+pool is full! evicted 38
+model process: 45.31ms, from last 51.26ms
+pool is full! evicted 35
+pool is full! evicted 39
+selfdrive/ui/ui.cc: slow frame(1162) time: 77.07
+model process: 58.94ms, from last 45.92ms
+pool is full! evicted 1
+pool is full! evicted 36
+model process: 49.82ms, from last 59.58ms
+pool is full! evicted 0
+model process: 43.68ms, from last 50.73ms
+pool is full! evicted 2
+pool is full! evicted 37
+model process: 55.07ms, from last 44.70ms
+pool is full! evicted 3
+model process: 57.07ms, from last 55.83ms
+pool is full! evicted 4
+pool is full! evicted 38
+pool is full! evicted 5
+model process: 60.71ms, from last 57.52ms
+pool is full! evicted 6
+pool is full! evicted 39
+model process: 65.33ms, from last 61.16ms
+pool is full! evicted 7
+model process: 46.75ms, from last 66.39ms
+pool is full! evicted 8
+pool is full! evicted 6
+model process: 58.80ms, from last 47.36ms
+pool is full! evicted 9
+model process: 59.71ms, from last 59.77ms
+pool is full! evicted 10
+pool is full! evicted 7
+pool is full! evicted 11
+model process: 66.07ms, from last 60.50ms
+pool is full! evicted 12
+pool is full! evicted 8
+model process: 55.89ms, from last 66.73ms
+pool is full! evicted 13
+model process: 55.23ms, from last 56.57ms
+pool is full! evicted 14
+model process: 47.97ms, from last 55.71ms
+pool is full! evicted 15
+model process: 67.99ms, from last 48.82ms
+pool is full! evicted 16
+pool is full! evicted 17
+model process: 68.14ms, from last 68.46ms
+pool is full! evicted 18
+model process: 46.92ms, from last 68.58ms
+pool is full! evicted 19
+model process: 51.06ms, from last 47.91ms
+pool is full! evicted 20
+model process: 67.43ms, from last 51.49ms
+pool is full! evicted 21
+model process: 51.22ms, from last 67.93ms
+pool is full! evicted 22
+model process: 49.81ms, from last 52.01ms
+pool is full! evicted 23
+pool is full! evicted 24
+model process: 91.88ms, from last 50.23ms
+pool is full! evicted 25
+model process: 64.29ms, from last 92.28ms
+pool is full! evicted 26
+model process: 46.02ms, from last 64.78ms
+pool is full! evicted 27
+model process: 57.11ms, from last 46.52ms
+pool is full! evicted 28
+model process: 47.22ms, from last 57.76ms
+pool is full! evicted 29
+model process: 55.47ms, from last 47.87ms
+pool is full! evicted 30
+model process: 53.51ms, from last 55.94ms
+pool is full! evicted 31
+pool is full! evicted 9
+pool is full! evicted 32
+model process: 62.02ms, from last 54.04ms
+pool is full! evicted 33
+pool is full! evicted 10
+model process: 69.69ms, from last 62.51ms
+pool is full! evicted 34
+model process: 53.57ms, from last 70.18ms
+pool is full! evicted 35
+pool is full! evicted 11
+pool is full! evicted 36
+model process: 67.42ms, from last 54.14ms
+pool is full! evicted 12
+pool is full! evicted 37
+model process: 83.44ms, from last 68.27ms
+pool is full! evicted 38
+model process: 52.84ms, from last 83.89ms
+pool is full! evicted 13
+pool is full! evicted 39
+pool is full! evicted 1
+model process: 67.25ms, from last 53.19ms
+pool is full! evicted 14
+pool is full! evicted 0
+model process: 56.18ms, from last 67.78ms
+pool is full! evicted 2
+model process: 73.78ms, from last 56.68ms
+pool is full! evicted 15
+pool is full! evicted 3
+pool is full! evicted 4
+model process: 89.90ms, from last 74.26ms
+pool is full! evicted 16
+pool is full! evicted 5
+model process: 59.64ms, from last 90.31ms
+pool is full! evicted 6
+pool is full! evicted 17
+model process: 47.78ms, from last 60.13ms
+pool is full! evicted 7
+model process: 46.31ms, from last 48.30ms
+pool is full! evicted 8
+pool is full! evicted 18
+model process: 70.98ms, from last 47.18ms
+pool is full! evicted 9
+pool is full! evicted 10
+model process: 54.69ms, from last 72.04ms
+pool is full! evicted 19
+pool is full! evicted 11
+model process: 81.83ms, from last 55.05ms
+pool is full! evicted 12
+pool is full! evicted 20
+pool is full! evicted 13
+model process: 66.80ms, from last 82.28ms
+pool is full! evicted 14
+pool is full! evicted 21
+model process: 51.62ms, from last 67.35ms
+pool is full! evicted 15
+pool is full! evicted 16
+model process: 97.07ms, from last 52.05ms
+pool is full! evicted 17
+model process: 44.49ms, from last 97.88ms
+model process: 34.92ms, from last 44.92ms
+pool is full! evicted 18
+model process: 54.05ms, from last 35.35ms
+pool is full! evicted 19
+model process: 42.95ms, from last 54.46ms
+pool is full! evicted 20
+model process: 45.21ms, from last 43.40ms
+pool is full! evicted 21
+model process: 48.56ms, from last 45.63ms
+pool is full! evicted 22
+model process: 49.01ms, from last 49.02ms
+pool is full! evicted 23
+model process: 50.65ms, from last 49.59ms
+pool is full! evicted 24
+model process: 47.37ms, from last 51.03ms
+pool is full! evicted 25
+pool is full! evicted 25
+pool is full! evicted 26
+model process: 81.75ms, from last 47.79ms
+pool is full! evicted 27
+model process: 54.62ms, from last 82.23ms
+pool is full! evicted 26
+pool is full! evicted 28
+model process: 44.28ms, from last 55.07ms
+pool is full! evicted 29
+model process: 56.71ms, from last 44.75ms
+pool is full! evicted 32
+pool is full! evicted 30
+model process: 70.60ms, from last 57.55ms
+pool is full! evicted 31
+pool is full! evicted 33
+model process: 53.76ms, from last 71.06ms
+pool is full! evicted 32
+pool is full! evicted 33
+model process: 65.77ms, from last 54.37ms
+pool is full! evicted 34
+pool is full! evicted 34
+model process: 66.39ms, from last 66.25ms
+pool is full! evicted 35
+pool is full! evicted 35
+pool is full! evicted 36
+model process: 79.00ms, from last 66.75ms
+pool is full! evicted 37
+model process: 43.86ms, from last 79.55ms
+pool is full! evicted 36
+model process: 40.92ms, from last 44.24ms
+pool is full! evicted 38
+model process: 46.08ms, from last 41.42ms
+pool is full! evicted 39
+pool is full! evicted 37
+model process: 43.93ms, from last 46.71ms
+pool is full! evicted 1
+model process: 49.07ms, from last 44.40ms
+pool is full! evicted 0
+pool is full! evicted 38
+model process: 55.12ms, from last 49.64ms
+pool is full! evicted 2
+pool is full! evicted 39
+pool is full! evicted 3
+model process: 84.33ms, from last 55.76ms
+pool is full! evicted 4
+model process: 56.19ms, from last 84.85ms
+pool is full! evicted 6
+pool is full! evicted 5
+model process: 58.97ms, from last 56.88ms
+pool is full! evicted 6
+pool is full! evicted 7
+pool is full! evicted 7
+model process: 61.25ms, from last 59.75ms
+model process: 42.62ms, from last 62.30ms
+pool is full! evicted 8
+pool is full! evicted 8
+pool is full! evicted 9
+model process: 85.75ms, from last 43.07ms
+pool is full! evicted 10
+selfdrive/ui/ui.cc: slow frame(1304) time: 78.88
+pool is full! evicted 0
+pool is full! evicted 11
+model process: 104.74ms, from last 86.25ms
+pool is full! evicted 12
+pool is full! evicted 1
+model process: 60.64ms, from last 105.19ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 59.66ms, from last 61.08ms
+pool is full! evicted 2
+pool is full! evicted 15
+model process: 46.85ms, from last 60.07ms
+pool is full! evicted 16
+model process: 55.53ms, from last 47.27ms
+pool is full! evicted 3
+pool is full! evicted 17
+model process: 52.00ms, from last 56.15ms
+pool is full! evicted 18
+model process: 42.12ms, from last 52.50ms
+pool is full! evicted 4
+pool is full! evicted 19
+model process: 69.16ms, from last 42.69ms
+pool is full! evicted 20
+pool is full! evicted 5
+model process: 68.95ms, from last 69.56ms
+pool is full! evicted 21
+pool is full! evicted 22
+model process: 55.21ms, from last 69.47ms
+pool is full! evicted 22
+pool is full! evicted 23
+model process: 59.76ms, from last 55.70ms
+pool is full! evicted 24
+pool is full! evicted 23
+model process: 66.85ms, from last 60.16ms
+pool is full! evicted 25
+model process: 46.74ms, from last 67.38ms
+pool is full! evicted 24
+pool is full! evicted 26
+model process: 51.99ms, from last 47.38ms
+pool is full! evicted 27
+model process: 48.23ms, from last 52.37ms
+pool is full! evicted 9
+pool is full! evicted 28
+model process: 40.38ms, from last 48.76ms
+pool is full! evicted 29
+model process: 39.68ms, from last 40.91ms
+pool is full! evicted 10
+pool is full! evicted 30
+model process: 46.68ms, from last 40.02ms
+pool is full! evicted 31
+model process: 43.08ms, from last 47.27ms
+pool is full! evicted 32
+model process: 68.32ms, from last 43.90ms
+pool is full! evicted 33
+model process: 48.61ms, from last 68.75ms
+pool is full! evicted 34
+model process: 64.12ms, from last 49.08ms
+pool is full! evicted 35
+model process: 47.78ms, from last 64.96ms
+pool is full! evicted 36
+model process: 46.14ms, from last 50.04ms
+pool is full! evicted 37
+selfdrive/ui/ui.cc: slow frame(1343) time: 68.29
+model process: 62.09ms, from last 46.87ms
+pool is full! evicted 38
+pool is full! evicted 39
+model process: 79.71ms, from last 62.77ms
+pool is full! evicted 1
+model process: 49.84ms, from last 80.36ms
+pool is full! evicted 0
+pool is full! evicted 11
+model process: 42.16ms, from last 50.31ms
+pool is full! evicted 2
+pool is full! evicted 3
+pool is full! evicted 12
+model process: 96.39ms, from last 42.62ms
+pool is full! evicted 4
+model process: 69.28ms, from last 97.24ms
+pool is full! evicted 5
+pool is full! evicted 13
+pool is full! evicted 6
+model process: 66.99ms, from last 70.47ms
+model process: 37.08ms, from last 67.34ms
+pool is full! evicted 7
+pool is full! evicted 14
+pool is full! evicted 8
+model process: 79.16ms, from last 37.50ms
+pool is full! evicted 15
+pool is full! evicted 9
+model process: 58.93ms, from last 79.58ms
+pool is full! evicted 10
+model process: 62.85ms, from last 59.32ms
+pool is full! evicted 16
+pool is full! evicted 11
+pool is full! evicted 12
+model process: 76.10ms, from last 63.41ms
+pool is full! evicted 17
+pool is full! evicted 13
+model process: 67.07ms, from last 76.63ms
+pool is full! evicted 14
+pool is full! evicted 18
+pool is full! evicted 15
+model process: 76.63ms, from last 67.49ms
+pool is full! evicted 16
+model process: 46.05ms, from last 77.01ms
+pool is full! evicted 19
+pool is full! evicted 17
+model process: 56.70ms, from last 46.93ms
+pool is full! evicted 18
+model process: 39.49ms, from last 57.15ms
+pool is full! evicted 20
+pool is full! evicted 19
+model process: 49.53ms, from last 39.99ms
+pool is full! evicted 20
+model process: 51.54ms, from last 49.90ms
+pool is full! evicted 21
+pool is full! evicted 21
+model process: 72.93ms, from last 52.08ms
+pool is full! evicted 22
+pool is full! evicted 27
+model process: 63.58ms, from last 73.46ms
+pool is full! evicted 23
+model process: 41.45ms, from last 64.11ms
+pool is full! evicted 24
+pool is full! evicted 28
+model process: 45.39ms, from last 41.80ms
+pool is full! evicted 25
+model process: 47.96ms, from last 45.93ms
+pool is full! evicted 26
+pool is full! evicted 29
+model process: 49.91ms, from last 48.73ms
+pool is full! evicted 27
+model process: 55.17ms, from last 50.85ms
+pool is full! evicted 28
+pool is full! evicted 30
+pool is full! evicted 29
+model process: 61.04ms, from last 55.61ms
+model process: 34.70ms, from last 61.44ms
+pool is full! evicted 30
+pool is full! evicted 31
+pool is full! evicted 31
+model process: 65.46ms, from last 35.15ms
+pool is full! evicted 25
+pool is full! evicted 32
+model process: 54.48ms, from last 65.89ms
+pool is full! evicted 33
+model process: 55.11ms, from last 54.94ms
+pool is full! evicted 26
+pool is full! evicted 34
+model process: 43.43ms, from last 55.52ms
+pool is full! evicted 35
+model process: 70.55ms, from last 43.85ms
+pool is full! evicted 37
+pool is full! evicted 36
+model process: 44.82ms, from last 71.02ms
+pool is full! evicted 37
+model process: 46.38ms, from last 45.36ms
+pool is full! evicted 38
+pool is full! evicted 38
+model process: 57.21ms, from last 46.92ms
+pool is full! evicted 39
+pool is full! evicted 39
+model process: 52.88ms, from last 57.70ms
+pool is full! evicted 1
+model process: 46.98ms, from last 53.70ms
+pool is full! evicted 0
+pool is full! evicted 6
+model process: 51.54ms, from last 47.39ms
+pool is full! evicted 2
+model process: 56.81ms, from last 52.93ms
+pool is full! evicted 3
+model process: 51.67ms, from last 57.43ms
+pool is full! evicted 4
+model process: 35.56ms, from last 52.14ms
+pool is full! evicted 5
+model process: 58.32ms, from last 35.98ms
+pool is full! evicted 6
+model process: 49.19ms, from last 58.84ms
+pool is full! evicted 7
+model process: 57.52ms, from last 49.75ms
+pool is full! evicted 8
+model process: 46.44ms, from last 57.96ms
+pool is full! evicted 9
+selfdrive/ui/ui.cc: slow frame(1424) time: 73.75
+model process: 44.24ms, from last 47.26ms
+pool is full! evicted 10
+model process: 48.09ms, from last 44.65ms
+pool is full! evicted 11
+model process: 54.30ms, from last 48.84ms
+pool is full! evicted 12
+pool is full! evicted 13
+model process: 79.98ms, from last 54.70ms
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 92.41ms, from last 80.74ms
+pool is full! evicted 16
+pool is full! evicted 17
+model process: 88.30ms, from last 93.41ms
+pool is full! evicted 18
+model process: 69.90ms, from last 88.69ms
+pool is full! evicted 19
+model process: 69.92ms, from last 70.37ms
+pool is full! evicted 20
+pool is full! evicted 21
+model process: 64.71ms, from last 70.42ms
+pool is full! evicted 22
+model process: 44.09ms, from last 65.20ms
+pool is full! evicted 23
+model process: 56.59ms, from last 44.49ms
+pool is full! evicted 24
+model process: 84.93ms, from last 57.18ms
+pool is full! evicted 25
+model process: 48.46ms, from last 85.98ms
+pool is full! evicted 26
+pool is full! evicted 27
+model process: 75.42ms, from last 49.23ms
+pool is full! evicted 28
+model process: 41.42ms, from last 75.86ms
+pool is full! evicted 29
+model process: 67.34ms, from last 42.43ms
+pool is full! evicted 30
+model process: 53.24ms, from last 67.70ms
+pool is full! evicted 31
+model process: 40.73ms, from last 54.08ms
+pool is full! evicted 32
+model process: 52.43ms, from last 41.13ms
+pool is full! evicted 33
+model process: 50.04ms, from last 52.88ms
+pool is full! evicted 34
+model process: 40.36ms, from last 50.51ms
+pool is full! evicted 35
+model process: 42.80ms, from last 41.23ms
+pool is full! evicted 36
+model process: 58.09ms, from last 43.20ms
+pool is full! evicted 37
+model process: 54.25ms, from last 58.93ms
+pool is full! evicted 38
+model process: 64.30ms, from last 54.66ms
+pool is full! evicted 39
+pool is full! evicted 1
+model process: 64.26ms, from last 64.77ms
+pool is full! evicted 0
+model process: 59.76ms, from last 64.77ms
+pool is full! evicted 2
+model process: 62.13ms, from last 60.18ms
+pool is full! evicted 3
+model process: 57.58ms, from last 62.55ms
+pool is full! evicted 4
+model process: 53.32ms, from last 58.10ms
+pool is full! evicted 5
+model process: 51.33ms, from last 53.79ms
+pool is full! evicted 6
+model process: 46.98ms, from last 51.71ms
+pool is full! evicted 7
+model process: 51.91ms, from last 47.46ms
+pool is full! evicted 8
+pool is full! evicted 9
+model process: 85.30ms, from last 53.88ms
+pool is full! evicted 10
+model process: 60.20ms, from last 86.12ms
+pool is full! evicted 11
+pool is full! evicted 12
+model process: 62.71ms, from last 61.15ms
+model process: 34.12ms, from last 63.07ms
+pool is full! evicted 13
+model process: 48.17ms, from last 34.74ms
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 62.59ms, from last 48.59ms
+pool is full! evicted 16
+model process: 57.36ms, from last 63.06ms
+pool is full! evicted 17
+model process: 81.28ms, from last 58.14ms
+pool is full! evicted 18
+model process: 41.87ms, from last 82.10ms
+pool is full! evicted 19
+pool is full! evicted 20
+model process: 68.95ms, from last 42.43ms
+pool is full! evicted 21
+model process: 68.36ms, from last 69.37ms
+pool is full! evicted 22
+model process: 42.55ms, from last 68.79ms
+pool is full! evicted 23
+model process: 41.54ms, from last 42.98ms
+pool is full! evicted 24
+model process: 68.94ms, from last 42.51ms
+pool is full! evicted 25
+model process: 57.04ms, from last 69.41ms
+pool is full! evicted 26
+pool is full! evicted 27
+model process: 85.42ms, from last 57.55ms
+pool is full! evicted 28
+model process: 47.69ms, from last 85.94ms
+pool is full! evicted 29
+model process: 65.05ms, from last 48.09ms
+pool is full! evicted 30
+pool is full! evicted 31
+model process: 67.58ms, from last 66.24ms
+pool is full! evicted 32
+model process: 56.53ms, from last 68.33ms
+pool is full! evicted 33
+model process: 75.11ms, from last 56.96ms
+pool is full! evicted 34
+model process: 44.46ms, from last 75.57ms
+pool is full! evicted 35
+model process: 55.52ms, from last 44.97ms
+pool is full! evicted 36
+model process: 42.95ms, from last 55.96ms
+pool is full! evicted 37
+model process: 48.57ms, from last 44.65ms
+pool is full! evicted 38
+model process: 43.17ms, from last 49.05ms
+selfdrive/ui/ui.cc: slow frame(1528) time: 95.23
+pool is full! evicted 39
+model process: 61.42ms, from last 43.58ms
+pool is full! evicted 1
+model process: 50.03ms, from last 61.84ms
+pool is full! evicted 0
+model process: 52.48ms, from last 50.56ms
+pool is full! evicted 2
+model process: 54.14ms, from last 53.17ms
+pool is full! evicted 3
+model process: 50.41ms, from last 54.56ms
+pool is full! evicted 4
+model process: 43.70ms, from last 50.98ms
+pool is full! evicted 5
+pool is full! evicted 2
+model process: 57.61ms, from last 44.15ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 68.93ms, from last 58.08ms
+pool is full! evicted 3
+pool is full! evicted 8
+model process: 58.68ms, from last 69.39ms
+pool is full! evicted 9
+pool is full! evicted 6
+pool is full! evicted 10
+model process: 87.27ms, from last 59.13ms
+pool is full! evicted 11
+model process: 60.97ms, from last 87.92ms
+pool is full! evicted 8
+pool is full! evicted 12
+model process: 63.85ms, from last 61.47ms
+pool is full! evicted 13
+model process: 49.30ms, from last 64.36ms
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 71.52ms, from last 49.75ms
+pool is full! evicted 16
+model process: 54.06ms, from last 71.96ms
+pool is full! evicted 17
+model process: 37.66ms, from last 54.45ms
+model process: 35.65ms, from last 38.10ms
+pool is full! evicted 18
+model process: 40.17ms, from last 36.06ms
+pool is full! evicted 19
+model process: 65.90ms, from last 40.94ms
+pool is full! evicted 20
+pool is full! evicted 21
+model process: 74.41ms, from last 66.47ms
+pool is full! evicted 22
+model process: 62.66ms, from last 74.83ms
+pool is full! evicted 23
+pool is full! evicted 24
+model process: 86.24ms, from last 63.26ms
+pool is full! evicted 25
+pool is full! evicted 26
+model process: 105.14ms, from last 86.70ms
+pool is full! evicted 27
+pool is full! evicted 28
+model process: 98.79ms, from last 105.53ms
+pool is full! evicted 29
+model process: 72.73ms, from last 99.25ms
+pool is full! evicted 30
+model process: 42.90ms, from last 73.65ms
+pool is full! evicted 31
+model process: 40.11ms, from last 43.32ms
+pool is full! evicted 32
+model process: 53.24ms, from last 40.47ms
+pool is full! evicted 33
+model process: 52.70ms, from last 53.79ms
+pool is full! evicted 34
+model process: 45.93ms, from last 53.06ms
+pool is full! evicted 35
+model process: 44.68ms, from last 46.48ms
+pool is full! evicted 36
+model process: 54.39ms, from last 45.21ms
+pool is full! evicted 37
+model process: 46.79ms, from last 54.94ms
+pool is full! evicted 38
+model process: 45.01ms, from last 47.23ms
+pool is full! evicted 39
+model process: 56.13ms, from last 45.53ms
+pool is full! evicted 1
+model process: 59.34ms, from last 56.56ms
+pool is full! evicted 0
+model process: 47.35ms, from last 59.74ms
+pool is full! evicted 2
+pool is full! evicted 3
+model process: 63.14ms, from last 47.78ms
+pool is full! evicted 4
+model process: 49.38ms, from last 63.57ms
+pool is full! evicted 5
+model process: 60.78ms, from last 49.79ms
+pool is full! evicted 6
+model process: 61.41ms, from last 61.26ms
+pool is full! evicted 7
+pool is full! evicted 8
+model process: 84.37ms, from last 62.35ms
+pool is full! evicted 9
+model process: 58.63ms, from last 84.70ms
+pool is full! evicted 10
+model process: 63.63ms, from last 59.06ms
+pool is full! evicted 11
+model process: 46.34ms, from last 64.23ms
+pool is full! evicted 12
+model process: 42.37ms, from last 46.75ms
+pool is full! evicted 13
+model process: 46.34ms, from last 43.04ms
+pool is full! evicted 14
+model process: 66.70ms, from last 46.72ms
+pool is full! evicted 15
+model process: 51.75ms, from last 67.10ms
+pool is full! evicted 16
+model process: 41.44ms, from last 52.36ms
+pool is full! evicted 17
+pool is full! evicted 23
+model process: 39.13ms, from last 42.06ms
+pool is full! evicted 18
+model process: 60.92ms, from last 39.59ms
+pool is full! evicted 19
+pool is full! evicted 24
+pool is full! evicted 20
+model process: 72.50ms, from last 61.53ms
+pool is full! evicted 21
+model process: 65.07ms, from last 72.98ms
+pool is full! evicted 22
+model process: 54.58ms, from last 65.48ms
+pool is full! evicted 23
+model process: 58.66ms, from last 55.04ms
+pool is full! evicted 24
+model process: 39.40ms, from last 59.08ms
+pool is full! evicted 25
+model process: 60.44ms, from last 40.29ms
+selfdrive/ui/ui.cc: slow frame(1631) time: 69.52
+pool is full! evicted 26
+model process: 46.11ms, from last 60.90ms
+pool is full! evicted 27
+model process: 57.52ms, from last 46.59ms
+pool is full! evicted 28
+model process: 49.42ms, from last 57.98ms
+pool is full! evicted 29
+pool is full! evicted 30
+model process: 52.68ms, from last 49.90ms
+pool is full! evicted 31
+model process: 66.04ms, from last 53.48ms
+pool is full! evicted 32
+model process: 68.28ms, from last 66.47ms
+pool is full! evicted 33
+model process: 54.18ms, from last 68.96ms
+pool is full! evicted 34
+model process: 39.09ms, from last 55.09ms
+pool is full! evicted 35
+model process: 52.42ms, from last 39.94ms
+pool is full! evicted 36
+model process: 49.67ms, from last 53.10ms
+pool is full! evicted 37
+pool is full! evicted 38
+model process: 74.67ms, from last 51.01ms
+pool is full! evicted 39
+model process: 71.86ms, from last 75.09ms
+pool is full! evicted 1
+model process: 36.42ms, from last 72.69ms
+pool is full! evicted 0
+model process: 47.75ms, from last 36.95ms
+pool is full! evicted 2
+model process: 57.24ms, from last 48.17ms
+pool is full! evicted 3
+model process: 38.60ms, from last 57.69ms
+pool is full! evicted 4
+model process: 41.24ms, from last 39.52ms
+pool is full! evicted 5
+model process: 52.00ms, from last 41.74ms
+pool is full! evicted 6
+model process: 53.11ms, from last 52.83ms
+pool is full! evicted 7
+model process: 42.44ms, from last 53.83ms
+pool is full! evicted 8
+model process: 57.56ms, from last 42.92ms
+pool is full! evicted 9
+model process: 42.99ms, from last 57.89ms
+pool is full! evicted 10
+model process: 51.24ms, from last 43.41ms
+pool is full! evicted 11
+model process: 42.16ms, from last 53.53ms
+model process: 37.92ms, from last 43.08ms
+pool is full! evicted 12
+model process: 46.06ms, from last 38.36ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 59.83ms, from last 46.63ms
+pool is full! evicted 15
+model process: 59.94ms, from last 60.32ms
+pool is full! evicted 16
+model process: 68.06ms, from last 60.35ms
+pool is full! evicted 17
+model process: 49.69ms, from last 68.53ms
+pool is full! evicted 18
+model process: 45.02ms, from last 50.12ms
+pool is full! evicted 19
+pool is full! evicted 7
+model process: 60.23ms, from last 45.71ms
+selfdrive/ui/ui.cc: slow frame(1683) time: 75.09
+pool is full! evicted 20
+pool is full! evicted 21
+model process: 79.15ms, from last 60.56ms
+pool is full! evicted 9
+pool is full! evicted 22
+model process: 76.99ms, from last 79.71ms
+pool is full! evicted 23
+pool is full! evicted 10
+pool is full! evicted 24
+model process: 72.91ms, from last 77.40ms
+pool is full! evicted 25
+model process: 41.04ms, from last 73.42ms
+model process: 32.33ms, from last 41.59ms
+selfdrive/ui/ui.cc: slow frame(1692) time: 66.52
+pool is full! evicted 26
+model process: 49.10ms, from last 33.17ms
+pool is full! evicted 27
+pool is full! evicted 28
+model process: 75.21ms, from last 49.57ms
+pool is full! evicted 29
+model process: 53.99ms, from last 75.55ms
+pool is full! evicted 30
+selfdrive/ui/ui.cc: slow frame(1698) time: 76.90
+model process: 66.12ms, from last 54.88ms
+pool is full! evicted 31
+model process: 44.36ms, from last 66.62ms
+pool is full! evicted 32
+model process: 47.05ms, from last 44.76ms
+pool is full! evicted 33
+model process: 54.36ms, from last 47.80ms
+pool is full! evicted 34
+model process: 43.83ms, from last 54.73ms
+pool is full! evicted 35
+model process: 52.66ms, from last 44.22ms
+pool is full! evicted 36
+model process: 48.49ms, from last 53.14ms
+pool is full! evicted 37
+model process: 38.27ms, from last 48.86ms
+pool is full! evicted 38
+selfdrive/ui/ui.cc: slow frame(1707) time: 98.13
+model process: 64.35ms, from last 38.96ms
+pool is full! evicted 39
+pool is full! evicted 1
+model process: 78.41ms, from last 65.17ms
+pool is full! evicted 0
+pool is full! evicted 2
+model process: 95.38ms, from last 78.91ms
+pool is full! evicted 3
+pool is full! evicted 4
+model process: 95.15ms, from last 95.81ms
+pool is full! evicted 5
+model process: 50.13ms, from last 95.63ms
+model process: 35.42ms, from last 50.78ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 68.73ms, from last 35.85ms
+pool is full! evicted 8
+model process: 51.73ms, from last 69.47ms
+pool is full! evicted 9
+model process: 52.03ms, from last 52.36ms
+pool is full! evicted 10
+model process: 76.99ms, from last 52.45ms
+pool is full! evicted 11
+pool is full! evicted 12
+model process: 98.63ms, from last 77.43ms
+pool is full! evicted 13
+model process: 51.18ms, from last 99.13ms
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 63.94ms, from last 51.97ms
+pool is full! evicted 16
+model process: 40.78ms, from last 64.47ms
+pool is full! evicted 17
+model process: 64.37ms, from last 42.10ms
+pool is full! evicted 18
+model process: 46.92ms, from last 64.77ms
+selfdrive/ui/ui.cc: slow frame(1739) time: 76.55
+pool is full! evicted 19
+model process: 54.97ms, from last 47.41ms
+pool is full! evicted 20
+model process: 50.54ms, from last 55.37ms
+pool is full! evicted 21
+model process: 57.50ms, from last 51.00ms
+pool is full! evicted 22
+model process: 66.48ms, from last 57.85ms
+pool is full! evicted 23
+model process: 41.13ms, from last 66.88ms
+pool is full! evicted 24
+model process: 48.07ms, from last 41.63ms
+pool is full! evicted 25
+model process: 42.32ms, from last 48.80ms
+pool is full! evicted 26
+model process: 47.36ms, from last 42.99ms
+pool is full! evicted 27
+model process: 53.52ms, from last 47.70ms
+pool is full! evicted 28
+model process: 51.87ms, from last 54.10ms
+pool is full! evicted 29
+selfdrive/ui/ui.cc: slow frame(1757) time: 68.53
+model process: 55.78ms, from last 52.99ms
+pool is full! evicted 30
+pool is full! evicted 31
+model process: 66.76ms, from last 56.27ms
+pool is full! evicted 32
+model process: 52.00ms, from last 67.29ms
+pool is full! evicted 33
+model process: 41.16ms, from last 52.44ms
+model process: 45.74ms, from last 42.06ms
+pool is full! evicted 34
+model process: 45.34ms, from last 46.19ms
+pool is full! evicted 35
+pool is full! evicted 36
+model process: 57.32ms, from last 45.75ms
+model process: 37.83ms, from last 57.86ms
+pool is full! evicted 37
+pool is full! evicted 38
+model process: 62.96ms, from last 38.31ms
+pool is full! evicted 39
+model process: 58.19ms, from last 63.32ms
+selfdrive/ui/ui.cc: slow frame(1772) time: 66.55
+pool is full! evicted 1
+model process: 53.01ms, from last 61.00ms
+pool is full! evicted 0
+model process: 67.53ms, from last 53.40ms
+pool is full! evicted 2
+pool is full! evicted 3
+model process: 77.28ms, from last 67.88ms
+pool is full! evicted 4
+model process: 48.03ms, from last 77.90ms
+pool is full! evicted 5
+model process: 58.16ms, from last 48.57ms
+pool is full! evicted 6
+model process: 76.41ms, from last 58.68ms
+pool is full! evicted 7
+model process: 47.76ms, from last 76.85ms
+pool is full! evicted 8
+model process: 59.55ms, from last 48.13ms
+pool is full! evicted 9
+pool is full! evicted 10
+model process: 58.73ms, from last 60.17ms
+pool is full! evicted 11
+model process: 54.35ms, from last 59.11ms
+pool is full! evicted 12
+model process: 59.72ms, from last 54.79ms
+pool is full! evicted 13
+model process: 39.42ms, from last 60.15ms
+pool is full! evicted 14
+selfdrive/ui/ui.cc: slow frame(1793) time: 82.06
+model process: 45.23ms, from last 39.83ms
+pool is full! evicted 15
+model process: 48.47ms, from last 45.81ms
+model process: 32.12ms, from last 49.25ms
+pool is full! evicted 16
+pool is full! evicted 17
+model process: 61.05ms, from last 32.50ms
+selfdrive/ui/ui.cc: awake off
+pool is full! evicted 18
+model process: 48.34ms, from last 61.45ms
+model process: 39.05ms, from last 48.88ms
+pool is full! evicted 19
+model process: 42.54ms, from last 39.61ms
+pool is full! evicted 20
+Result: Parcel(00000000    '....')
+model process: 44.69ms, from last 42.95ms
+pool is full! evicted 21
+model process: 38.60ms, from last 45.28ms
+pool is full! evicted 22
+model process: 50.22ms, from last 39.04ms
+model process: 50.11ms, from last 50.64ms
+model process: 42.57ms, from last 50.53ms
+model process: 41.73ms, from last 42.98ms
+model process: 31.47ms, from last 42.47ms
+pool is full! evicted 23
+pool is full! evicted 24
+model process: 64.25ms, from last 42.28ms
+pool is full! evicted 25
+model process: 52.82ms, from last 64.74ms
+pool is full! evicted 26
+model process: 49.61ms, from last 53.28ms
+pool is full! evicted 27
+model process: 44.97ms, from last 50.09ms
+pool is full! evicted 28
+model process: 37.42ms, from last 45.39ms
+model process: 41.95ms, from last 37.83ms
+pool is full! evicted 29
+pool is full! evicted 30
+model process: 49.78ms, from last 48.89ms
+pool is full! evicted 31
+model process: 50.49ms, from last 50.61ms
+model process: 37.78ms, from last 50.93ms
+pool is full! evicted 32
+model process: 41.57ms, from last 45.71ms
+pool is full! evicted 33
+model process: 37.61ms, from last 51.21ms
+pool is full! evicted 34
+model process: 54.18ms, from last 48.23ms
+model process: 56.51ms, from last 73.56ms
+model process: 44.89ms, from last 56.86ms
+model process: 51.16ms, from last 45.30ms
+model process: 40.45ms, from last 51.80ms
+pool is full! evicted 35
+model process: 48.01ms, from last 40.86ms
+pool is full! evicted 36
+model process: 49.63ms, from last 48.49ms
+pool is full! evicted 37
+model process: 46.37ms, from last 50.09ms
+pool is full! evicted 38
+model process: 52.70ms, from last 47.17ms
+pool is full! evicted 39
+model process: 42.42ms, from last 53.12ms
+pool is full! evicted 1
+model process: 47.85ms, from last 42.84ms
+model process: 34.06ms, from last 48.19ms
+pool is full! evicted 0
+model process: 40.17ms, from last 42.33ms
+model process: 39.64ms, from last 49.46ms
+model process: 33.33ms, from last 50.42ms
+model process: 28.91ms, from last 49.52ms
+model process: 30.74ms, from last 50.67ms
+model process: 56.65ms, from last 49.39ms
+model process: 34.23ms, from last 57.09ms
+model process: 63.74ms, from last 42.76ms
+pool is full! evicted 4
+model process: 81.48ms, from last 64.15ms
+pool is full! evicted 19
+pool is full! evicted 20
+model process: 73.71ms, from last 82.03ms
+pool is full! evicted 21
+model process: 37.23ms, from last 74.61ms
+model process: 36.02ms, from last 37.67ms
+pool is full! evicted 22
+model process: 35.44ms, from last 36.57ms
+pool is full! evicted 2
+model process: 51.53ms, from last 35.84ms
+model process: 42.96ms, from last 52.03ms
+model process: 51.92ms, from last 43.31ms
+model process: 50.32ms, from last 52.33ms
+pool is full! evicted 3
+model process: 59.47ms, from last 50.73ms
+pool is full! evicted 5
+model process: 46.36ms, from last 59.95ms
+pool is full! evicted 23
+model process: 34.50ms, from last 47.00ms
+pool is full! evicted 24
+model process: 49.63ms, from last 34.92ms
+pool is full! evicted 25
+model process: 41.63ms, from last 49.97ms
+pool is full! evicted 26
+model process: 46.16ms, from last 42.03ms
+model process: 36.34ms, from last 47.64ms
+pool is full! evicted 27
+pool is full! evicted 28
+model process: 49.75ms, from last 47.83ms
+pool is full! evicted 29
+model process: 49.62ms, from last 50.18ms
+pool is full! evicted 30
+model process: 59.47ms, from last 50.07ms
+pool is full! evicted 31
+model process: 43.26ms, from last 59.92ms
+pool is full! evicted 32
+model process: 49.73ms, from last 43.73ms
+pool is full! evicted 33
+model process: 40.97ms, from last 50.33ms
+pool is full! evicted 34
+model process: 56.54ms, from last 41.48ms
+pool is full! evicted 6
+model process: 50.05ms, from last 56.90ms
+pool is full! evicted 7
+model process: 43.81ms, from last 50.47ms
+model process: 33.22ms, from last 44.22ms
+pool is full! evicted 8
+model process: 36.27ms, from last 45.65ms
+pool is full! evicted 9
+model process: 28.19ms, from last 48.66ms
+pool is full! evicted 10
+model process: 39.10ms, from last 52.14ms
+pool is full! evicted 35
+model process: 41.88ms, from last 48.11ms
+pool is full! evicted 36
+pool is full! evicted 37
+model process: 51.32ms, from last 50.43ms
+model process: 28.06ms, from last 51.74ms
+pool is full! evicted 38
+model process: 38.08ms, from last 49.89ms
+pool is full! evicted 39
+model process: 39.38ms, from last 47.89ms
+pool is full! evicted 1
+model process: 34.10ms, from last 59.20ms
+pool is full! evicted 0
+model process: 28.26ms, from last 40.62ms
+pool is full! evicted 11
+model process: 31.19ms, from last 49.89ms
+pool is full! evicted 12
+model process: 44.44ms, from last 50.80ms
+pool is full! evicted 13
+model process: 41.76ms, from last 50.15ms
+pool is full! evicted 14
+model process: 42.89ms, from last 50.07ms
+pool is full! evicted 15
+model process: 44.56ms, from last 51.84ms
+pool is full! evicted 16
+model process: 40.21ms, from last 48.31ms
+pool is full! evicted 17
+model process: 33.25ms, from last 50.88ms
+pool is full! evicted 18
+model process: 42.48ms, from last 48.57ms
+pool is full! evicted 4
+model process: 38.67ms, from last 56.89ms
+pool is full! evicted 22
+pool is full! evicted 2
+model process: 64.30ms, from last 49.25ms
+pool is full! evicted 19
+model process: 55.11ms, from last 64.79ms
+pool is full! evicted 20
+model process: 44.75ms, from last 55.59ms
+pool is full! evicted 21
+model process: 44.17ms, from last 45.11ms
+pool is full! evicted 3
+model process: 42.11ms, from last 44.67ms
+model process: 34.79ms, from last 42.54ms
+pool is full! evicted 5
+model process: 34.12ms, from last 41.40ms
+pool is full! evicted 23
+model process: 29.69ms, from last 49.81ms
+pool is full! evicted 24
+model process: 30.30ms, from last 49.37ms
+pool is full! evicted 25
+model process: 38.86ms, from last 50.23ms
+pool is full! evicted 26
+pool is full! evicted 27
+model process: 46.39ms, from last 57.13ms
+model process: 37.09ms, from last 46.80ms
+pool is full! evicted 28
+model process: 36.08ms, from last 48.57ms
+pool is full! evicted 29
+model process: 42.66ms, from last 48.41ms
+pool is full! evicted 30
+model process: 35.05ms, from last 48.91ms
+pool is full! evicted 31
+model process: 39.02ms, from last 51.09ms
+pool is full! evicted 32
+model process: 43.66ms, from last 48.84ms
+pool is full! evicted 33
+model process: 39.12ms, from last 50.97ms
+pool is full! evicted 34
+selfdrive/ui/ui.cc: awake normal
+pool is full! evicted 6
+model process: 47.87ms, from last 56.87ms
+Result: Parcel(00000000    '....')
+selfdrive/ui/ui.cc: slow frame(1800) time: 88.84
+pool is full! evicted 7
+model process: 59.41ms, from last 48.31ms
+pool is full! evicted 8
+model process: 51.78ms, from last 60.24ms
+pool is full! evicted 9
+model process: 53.20ms, from last 52.27ms
+pool is full! evicted 10
+model process: 59.53ms, from last 53.97ms
+pool is full! evicted 35
+pool is full! evicted 36
+model process: 72.19ms, from last 60.03ms
+pool is full! evicted 37
+model process: 82.48ms, from last 72.53ms
+pool is full! evicted 38
+model process: 59.51ms, from last 83.06ms
+pool is full! evicted 39
+pool is full! evicted 1
+model process: 60.06ms, from last 60.05ms
+pool is full! evicted 0
+model process: 67.02ms, from last 60.47ms
+pool is full! evicted 11
+model process: 54.82ms, from last 67.40ms
+pool is full! evicted 12
+model process: 49.59ms, from last 55.49ms
+pool is full! evicted 13
+model process: 48.98ms, from last 49.98ms
+selfdrive/ui/ui.cc: slow frame(1821) time: 78.33
+pool is full! evicted 14
+model process: 49.95ms, from last 49.50ms
+pool is full! evicted 15
+model process: 46.21ms, from last 50.37ms
+pool is full! evicted 16
+model process: 56.59ms, from last 46.62ms
+pool is full! evicted 17
+model process: 41.02ms, from last 57.35ms
+pool is full! evicted 18
+model process: 49.46ms, from last 41.43ms
+pool is full! evicted 4
+model process: 57.40ms, from last 49.92ms
+pool is full! evicted 22
+pool is full! evicted 2
+model process: 74.28ms, from last 57.95ms
+pool is full! evicted 19
+model process: 50.95ms, from last 74.68ms
+pool is full! evicted 20
+model process: 59.36ms, from last 51.77ms
+pool is full! evicted 21
+model process: 50.41ms, from last 60.21ms
+pool is full! evicted 3
+model process: 58.42ms, from last 51.68ms
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 87.65ms, from last 59.37ms
+pool is full! evicted 24
+pool is full! evicted 25
+model process: 87.43ms, from last 88.03ms
+pool is full! evicted 26
+model process: 55.44ms, from last 87.78ms
+pool is full! evicted 27
+model process: 45.90ms, from last 56.22ms
+pool is full! evicted 28
+model process: 57.37ms, from last 46.49ms
+pool is full! evicted 29
+model process: 82.96ms, from last 57.95ms
+pool is full! evicted 30
+pool is full! evicted 31
+model process: 53.92ms, from last 83.47ms
+pool is full! evicted 32
+model process: 82.54ms, from last 54.31ms
+pool is full! evicted 33
+pool is full! evicted 34
+model process: 69.17ms, from last 83.11ms
+pool is full! evicted 6
+model process: 47.87ms, from last 69.58ms
+pool is full! evicted 7
+model process: 73.05ms, from last 48.42ms
+pool is full! evicted 8
+model process: 53.92ms, from last 73.86ms
+pool is full! evicted 9
+model process: 60.77ms, from last 54.39ms
+pool is full! evicted 10
+pool is full! evicted 35
+model process: 74.12ms, from last 61.14ms
+pool is full! evicted 36
+model process: 47.43ms, from last 74.74ms
+pool is full! evicted 37
+model process: 46.77ms, from last 48.02ms
+pool is full! evicted 38
+model process: 44.01ms, from last 47.24ms
+pool is full! evicted 39
+model process: 49.60ms, from last 44.92ms
+pool is full! evicted 1
+model process: 42.96ms, from last 50.36ms
+pool is full! evicted 0
+model process: 52.44ms, from last 43.41ms
+model process: 28.39ms, from last 52.85ms
+pool is full! evicted 11
+selfdrive/ui/ui.cc: slow frame(1877) time: 104.38
+model process: 43.75ms, from last 28.81ms
+pool is full! evicted 12
+model process: 33.64ms, from last 44.27ms
+pool is full! evicted 13
+model process: 55.01ms, from last 34.03ms
+pool is full! evicted 14
+model process: 51.59ms, from last 55.50ms
+pool is full! evicted 15
+model process: 45.89ms, from last 52.03ms
+pool is full! evicted 16
+model process: 50.52ms, from last 46.31ms
+pool is full! evicted 17
+pool is full! evicted 18
+model process: 88.04ms, from last 51.43ms
+pool is full! evicted 4
+model process: 68.66ms, from last 88.62ms
+pool is full! evicted 22
+pool is full! evicted 2
+model process: 73.42ms, from last 69.21ms
+pool is full! evicted 19
+model process: 59.95ms, from last 76.61ms
+pool is full! evicted 20
+model process: 62.26ms, from last 60.34ms
+pool is full! evicted 21
+model process: 53.50ms, from last 62.65ms
+pool is full! evicted 3
+model process: 58.61ms, from last 54.08ms
+pool is full! evicted 5
+model process: 53.21ms, from last 59.14ms
+pool is full! evicted 23
+model process: 45.49ms, from last 53.98ms
+pool is full! evicted 24
+pool is full! evicted 25
+model process: 76.48ms, from last 46.43ms
+pool is full! evicted 26
+model process: 45.57ms, from last 76.90ms
+pool is full! evicted 27
+model process: 56.99ms, from last 45.99ms
+pool is full! evicted 28
+model process: 59.09ms, from last 57.51ms
+pool is full! evicted 29
+model process: 54.69ms, from last 59.52ms
+pool is full! evicted 30
+model process: 55.90ms, from last 55.08ms
+pool is full! evicted 31
+model process: 52.87ms, from last 56.37ms
+pool is full! evicted 32
+model process: 46.62ms, from last 53.38ms
+pool is full! evicted 33
+model process: 44.56ms, from last 47.05ms
+pool is full! evicted 34
+model process: 54.70ms, from last 45.01ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 58.85ms, from last 55.61ms
+pool is full! evicted 8
+model process: 80.06ms, from last 59.46ms
+pool is full! evicted 9
+model process: 46.15ms, from last 80.52ms
+pool is full! evicted 10
+model process: 55.48ms, from last 46.49ms
+pool is full! evicted 35
+model process: 48.94ms, from last 55.88ms
+pool is full! evicted 36
+model process: 38.16ms, from last 49.78ms
+pool is full! evicted 37
+model process: 54.19ms, from last 38.55ms
+pool is full! evicted 38
+pool is full! evicted 39
+model process: 82.37ms, from last 54.64ms
+pool is full! evicted 1
+model process: 48.41ms, from last 82.80ms
+pool is full! evicted 0
+model process: 57.95ms, from last 48.84ms
+pool is full! evicted 11
+model process: 50.91ms, from last 58.63ms
+pool is full! evicted 12
+model process: 73.95ms, from last 51.73ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 70.79ms, from last 74.46ms
+pool is full! evicted 15
+model process: 67.05ms, from last 71.27ms
+pool is full! evicted 16
+selfdrive/ui/ui.cc: slow frame(1946) time: 76.59
+model process: 39.23ms, from last 67.44ms
+pool is full! evicted 17
+pool is full! evicted 13
+model process: 76.23ms, from last 39.73ms
+pool is full! evicted 18
+pool is full! evicted 4
+pool is full! evicted 14
+model process: 70.96ms, from last 77.40ms
+pool is full! evicted 22
+model process: 58.24ms, from last 71.48ms
+pool is full! evicted 2
+pool is full! evicted 15
+model process: 48.19ms, from last 58.64ms
+pool is full! evicted 19
+model process: 53.05ms, from last 48.69ms
+pool is full! evicted 20
+pool is full! evicted 16
+model process: 66.79ms, from last 53.79ms
+pool is full! evicted 21
+pool is full! evicted 17
+pool is full! evicted 3
+model process: 56.97ms, from last 67.33ms
+pool is full! evicted 5
+model process: 55.33ms, from last 57.44ms
+pool is full! evicted 18
+pool is full! evicted 23
+model process: 57.84ms, from last 55.91ms
+pool is full! evicted 24
+model process: 53.86ms, from last 58.35ms
+pool is full! evicted 19
+pool is full! evicted 25
+model process: 60.96ms, from last 54.27ms
+pool is full! evicted 26
+pool is full! evicted 20
+model process: 65.93ms, from last 61.34ms
+pool is full! evicted 27
+pool is full! evicted 28
+model process: 63.30ms, from last 66.47ms
+pool is full! evicted 21
+pool is full! evicted 29
+model process: 76.21ms, from last 63.83ms
+pool is full! evicted 30
+pool is full! evicted 0
+pool is full! evicted 31
+model process: 65.40ms, from last 76.68ms
+pool is full! evicted 32
+model process: 41.57ms, from last 66.29ms
+pool is full! evicted 1
+pool is full! evicted 33
+model process: 70.86ms, from last 41.95ms
+pool is full! evicted 34
+pool is full! evicted 2
+pool is full! evicted 6
+model process: 93.40ms, from last 71.24ms
+pool is full! evicted 7
+pool is full! evicted 3
+pool is full! evicted 8
+model process: 84.00ms, from last 93.79ms
+pool is full! evicted 9
+pool is full! evicted 4
+model process: 64.35ms, from last 84.60ms
+pool is full! evicted 10
+model process: 56.45ms, from last 64.75ms
+pool is full! evicted 35
+pool is full! evicted 5
+model process: 63.24ms, from last 56.94ms
+pool is full! evicted 36
+pool is full! evicted 37
+pool is full! evicted 22
+pool is full! evicted 38
+model process: 115.89ms, from last 63.76ms
+pool is full! evicted 23
+pool is full! evicted 39
+model process: 67.53ms, from last 116.35ms
+pool is full! evicted 1
+pool is full! evicted 24
+pool is full! evicted 0
+model process: 76.09ms, from last 68.05ms
+model process: 38.54ms, from last 76.46ms
+pool is full! evicted 11
+model process: 37.91ms, from last 39.10ms
+pool is full! evicted 25
+pool is full! evicted 12
+model process: 63.05ms, from last 38.28ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 80.23ms, from last 63.91ms
+pool is full! evicted 15
+model process: 59.14ms, from last 80.70ms
+pool is full! evicted 16
+pool is full! evicted 17
+model process: 78.04ms, from last 59.75ms
+pool is full! evicted 18
+model process: 63.04ms, from last 78.70ms
+pool is full! evicted 4
+model process: 41.25ms, from last 63.69ms
+pool is full! evicted 22
+model process: 41.57ms, from last 41.63ms
+pool is full! evicted 2
+pool is full! evicted 26
+model process: 82.62ms, from last 42.14ms
+pool is full! evicted 19
+pool is full! evicted 20
+model process: 74.56ms, from last 83.65ms
+pool is full! evicted 27
+pool is full! evicted 21
+model process: 47.86ms, from last 75.07ms
+pool is full! evicted 3
+pool is full! evicted 28
+model process: 46.44ms, from last 48.28ms
+{"event": "STATUS_PACKET", "count": 240, "health": {"health": {"voltage": 13399, "current": 87, "ignitionLine": false, "controlsAllowed": false, "gasInterceptorDetected": false, "startedSignalDetectedDeprecated": false, "hasGps": true, "canSendErrs": 412197, "canFwdErrs": 496488, "gmlanSendErrs": 0, "hwType": "greyPanda", "fanSpeedRpm": 0, "usbPowerMode": "cdp", "ignitionCan": true, "safetyModel": "tesla", "faultStatus": "none", "powerSaveEnabled": true, "uptime": 3689, "faults": [], "canRxErrs": 0}, "logMonoTime": 189866324405, "valid": true}, "location": {"flags": 55, "latitude": 60.40502191, "longitude": 4.99266158, "altitude": 68.0, "speed": 0.0, "bearing": 0.0, "accuracy": 3.0, "timestamp": 1615235388000, "source": "android", "verticalAccuracy": 0.0, "bearingAccuracy": 0.0, "speedAccuracy": 0.0}, "thermal": {"thermal": {"cpu0": 640, "cpu1": 620, "cpu2": 643, "cpu3": 636, "mem": 614, "gpu": 584, "bat": 35500, "freeSpace": 0.9292317628860474, "batteryPercent": 78, "batteryStatus": "Charging", "fanSpeed": 16384, "started": true, "usbOnline": true, "startedTs": 146436838380, "thermalStatus": "green", "batteryCurrent": 684047, "batteryVoltage": 4002204, "chargingError": true, "chargingDisabled": false, "memUsedPercent": 36, "cpuPerc": 100, "pa0": 38, "networkType": "wifi", "offroadPowerUsage": 0, "networkStrength": "moderate"}, "logMonoTime": 189867249770, "valid": true}, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+pool is full! evicted 5
+model process: 77.76ms, from last 47.16ms
+pool is full! evicted 23
+pool is full! evicted 29
+model process: 55.52ms, from last 78.20ms
+pool is full! evicted 24
+model process: 33.98ms, from last 56.39ms
+pool is full! evicted 25
+pool is full! evicted 30
+model process: 56.03ms, from last 34.37ms
+pool is full! evicted 26
+model process: 37.29ms, from last 56.51ms
+pool is full! evicted 31
+pool is full! evicted 27
+model process: 42.20ms, from last 37.68ms
+pool is full! evicted 28
+model process: 65.42ms, from last 42.60ms
+pool is full! evicted 32
+pool is full! evicted 29
+model process: 52.19ms, from last 66.04ms
+pool is full! evicted 30
+model process: 46.94ms, from last 52.52ms
+pool is full! evicted 33
+pool is full! evicted 31
+model process: 51.86ms, from last 48.08ms
+pool is full! evicted 32
+pool is full! evicted 34
+pool is full! evicted 33
+model process: 71.95ms, from last 52.25ms
+pool is full! evicted 34
+model process: 56.72ms, from last 72.36ms
+pool is full! evicted 35
+pool is full! evicted 6
+model process: 52.63ms, from last 57.23ms
+pool is full! evicted 7
+pool is full! evicted 36
+model process: 58.22ms, from last 53.24ms
+pool is full! evicted 8
+model process: 64.23ms, from last 58.67ms
+pool is full! evicted 9
+pool is full! evicted 37
+pool is full! evicted 10
+model process: 62.51ms, from last 64.71ms
+pool is full! evicted 35
+model process: 47.54ms, from last 62.88ms
+pool is full! evicted 38
+pool is full! evicted 36
+model process: 58.44ms, from last 48.05ms
+selfdrive/ui/ui.cc: slow frame(2052) time: 76.49
+pool is full! evicted 37
+pool is full! evicted 39
+model process: 59.70ms, from last 58.83ms
+pool is full! evicted 38
+model process: 39.19ms, from last 60.13ms
+pool is full! evicted 39
+pool is full! evicted 6
+model process: 62.64ms, from last 39.61ms
+pool is full! evicted 1
+model process: 46.57ms, from last 63.11ms
+pool is full! evicted 0
+pool is full! evicted 7
+model process: 68.95ms, from last 46.99ms
+pool is full! evicted 11
+pool is full! evicted 12
+pool is full! evicted 8
+model process: 66.74ms, from last 69.37ms
+pool is full! evicted 13
+model process: 41.16ms, from last 67.54ms
+model process: 42.02ms, from last 41.65ms
+pool is full! evicted 9
+pool is full! evicted 14
+model process: 39.01ms, from last 43.11ms
+pool is full! evicted 15
+model process: 54.88ms, from last 39.68ms
+pool is full! evicted 10
+pool is full! evicted 16
+model process: 54.71ms, from last 55.58ms
+pool is full! evicted 17
+pool is full! evicted 11
+pool is full! evicted 18
+model process: 68.15ms, from last 55.11ms
+pool is full! evicted 4
+pool is full! evicted 12
+pool is full! evicted 22
+model process: 88.75ms, from last 69.23ms
+pool is full! evicted 2
+model process: 54.54ms, from last 89.13ms
+pool is full! evicted 13
+pool is full! evicted 19
+model process: 55.32ms, from last 54.98ms
+pool is full! evicted 20
+model process: 61.10ms, from last 55.97ms
+pool is full! evicted 14
+pool is full! evicted 21
+pool is full! evicted 3
+model process: 77.05ms, from last 61.77ms
+pool is full! evicted 19
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 117.26ms, from last 77.52ms
+pool is full! evicted 20
+pool is full! evicted 24
+pool is full! evicted 25
+model process: 139.03ms, from last 117.96ms
+pool is full! evicted 26
+pool is full! evicted 27
+model process: 45.52ms, from last 139.45ms
+pool is full! evicted 28
+model process: 45.81ms, from last 46.13ms
+model process: 40.75ms, from last 46.65ms
+pool is full! evicted 29
+pool is full! evicted 30
+model process: 60.06ms, from last 42.00ms
+model process: 34.36ms, from last 60.39ms
+pool is full! evicted 31
+pool is full! evicted 0
+model process: 45.35ms, from last 34.96ms
+pool is full! evicted 32
+model process: 36.05ms, from last 46.06ms
+pool is full! evicted 1
+pool is full! evicted 33
+selfdrive/ui/ui.cc: slow frame(2100) time: 69.83
+model process: 59.47ms, from last 36.42ms
+pool is full! evicted 34
+model process: 39.56ms, from last 60.32ms
+pool is full! evicted 6
+pool is full! evicted 2
+model process: 55.83ms, from last 40.09ms
+pool is full! evicted 7
+pool is full! evicted 3
+selfdrive/ui/ui.cc: slow frame(2103) time: 80.19
+pool is full! evicted 8
+model process: 74.00ms, from last 56.55ms
+pool is full! evicted 9
+model process: 48.49ms, from last 74.75ms
+pool is full! evicted 4
+pool is full! evicted 10
+model process: 60.97ms, from last 48.90ms
+pool is full! evicted 35
+model process: 48.15ms, from last 61.45ms
+pool is full! evicted 5
+pool is full! evicted 36
+model process: 64.22ms, from last 48.67ms
+pool is full! evicted 37
+pool is full! evicted 22
+pool is full! evicted 38
+model process: 75.45ms, from last 64.65ms
+pool is full! evicted 39
+model process: 52.73ms, from last 75.89ms
+pool is full! evicted 23
+pool is full! evicted 1
+model process: 64.00ms, from last 53.07ms
+pool is full! evicted 0
+pool is full! evicted 24
+model process: 54.48ms, from last 64.67ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 11
+model process: 46.55ms, from last 54.99ms
+pool is full! evicted 12
+model process: 35.02ms, from last 47.78ms
+pool is full! evicted 25
+pool is full! evicted 13
+model process: 62.42ms, from last 35.51ms
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 69.02ms, from last 62.86ms
+pool is full! evicted 15
+pool is full! evicted 16
+pool is full! evicted 16
+model process: 70.53ms, from last 69.46ms
+pool is full! evicted 17
+model process: 72.82ms, from last 71.30ms
+pool is full! evicted 17
+pool is full! evicted 18
+selfdrive/ui/ui.cc: slow frame(2132) time: 68.40
+pool is full! evicted 4
+model process: 81.61ms, from last 73.31ms
+pool is full! evicted 18
+pool is full! evicted 22
+model process: 75.79ms, from last 82.02ms
+pool is full! evicted 2
+model process: 42.77ms, from last 76.61ms
+pool is full! evicted 26
+pool is full! evicted 19
+model process: 48.00ms, from last 43.27ms
+pool is full! evicted 20
+model process: 42.01ms, from last 48.53ms
+pool is full! evicted 27
+pool is full! evicted 21
+model process: 57.61ms, from last 42.49ms
+pool is full! evicted 3
+pool is full! evicted 28
+model process: 52.28ms, from last 58.27ms
+pool is full! evicted 5
+model process: 48.12ms, from last 52.75ms
+pool is full! evicted 23
+pool is full! evicted 29
+model process: 37.89ms, from last 48.55ms
+pool is full! evicted 24
+model process: 54.37ms, from last 38.36ms
+pool is full! evicted 25
+pool is full! evicted 30
+model process: 50.13ms, from last 54.85ms
+pool is full! evicted 26
+model process: 53.00ms, from last 50.52ms
+pool is full! evicted 27
+pool is full! evicted 31
+model process: 56.05ms, from last 53.49ms
+pool is full! evicted 28
+pool is full! evicted 29
+pool is full! evicted 32
+model process: 84.04ms, from last 56.46ms
+pool is full! evicted 30
+model process: 59.25ms, from last 84.50ms
+pool is full! evicted 31
+model process: 50.63ms, from last 59.73ms
+pool is full! evicted 32
+model process: 48.56ms, from last 51.06ms
+pool is full! evicted 33
+pool is full! evicted 34
+model process: 70.20ms, from last 49.13ms
+model process: 34.51ms, from last 70.70ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 73.42ms, from last 34.95ms
+pool is full! evicted 8
+model process: 46.28ms, from last 73.81ms
+pool is full! evicted 9
+model process: 51.82ms, from last 47.90ms
+pool is full! evicted 10
+model process: 70.82ms, from last 52.26ms
+pool is full! evicted 35
+model process: 44.98ms, from last 71.29ms
+pool is full! evicted 36
+model process: 66.60ms, from last 45.63ms
+pool is full! evicted 37
+pool is full! evicted 38
+model process: 66.17ms, from last 67.13ms
+pool is full! evicted 39
+model process: 53.30ms, from last 66.65ms
+pool is full! evicted 1
+model process: 60.34ms, from last 53.73ms
+pool is full! evicted 0
+model process: 62.57ms, from last 60.79ms
+pool is full! evicted 11
+model process: 45.64ms, from last 63.20ms
+pool is full! evicted 12
+model process: 49.01ms, from last 46.11ms
+pool is full! evicted 13
+model process: 38.96ms, from last 49.38ms
+pool is full! evicted 14
+pool is full! evicted 33
+selfdrive/ui/ui.cc: slow frame(2187) time: 67.58
+model process: 64.67ms, from last 39.82ms
+pool is full! evicted 15
+pool is full! evicted 16
+pool is full! evicted 34
+model process: 78.31ms, from last 65.29ms
+pool is full! evicted 17
+pool is full! evicted 18
+model process: 76.20ms, from last 78.77ms
+pool is full! evicted 35
+pool is full! evicted 4
+model process: 56.32ms, from last 76.99ms
+pool is full! evicted 22
+pool is full! evicted 36
+model process: 65.34ms, from last 56.79ms
+pool is full! evicted 2
+model process: 56.97ms, from last 65.84ms
+pool is full! evicted 19
+pool is full! evicted 37
+model process: 50.15ms, from last 57.34ms
+pool is full! evicted 20
+model process: 57.94ms, from last 50.77ms
+pool is full! evicted 38
+pool is full! evicted 21
+model process: 53.16ms, from last 58.37ms
+pool is full! evicted 3
+model process: 38.76ms, from last 54.50ms
+pool is full! evicted 39
+pool is full! evicted 5
+model process: 44.00ms, from last 39.23ms
+pool is full! evicted 23
+model process: 55.27ms, from last 44.38ms
+pool is full! evicted 6
+pool is full! evicted 24
+model process: 59.75ms, from last 55.73ms
+pool is full! evicted 25
+pool is full! evicted 7
+model process: 40.68ms, from last 60.14ms
+pool is full! evicted 26
+model process: 52.17ms, from last 41.24ms
+pool is full! evicted 27
+pool is full! evicted 8
+pool is full! evicted 28
+model process: 72.71ms, from last 52.74ms
+pool is full! evicted 29
+model process: 57.14ms, from last 73.09ms
+pool is full! evicted 9
+pool is full! evicted 30
+model process: 63.09ms, from last 58.12ms
+pool is full! evicted 31
+pool is full! evicted 10
+pool is full! evicted 32
+model process: 74.15ms, from last 63.94ms
+pool is full! evicted 33
+pool is full! evicted 11
+model process: 74.35ms, from last 74.61ms
+pool is full! evicted 34
+pool is full! evicted 6
+model process: 66.16ms, from last 75.51ms
+pool is full! evicted 12
+model process: 43.31ms, from last 67.05ms
+pool is full! evicted 7
+model process: 37.78ms, from last 43.84ms
+pool is full! evicted 8
+pool is full! evicted 13
+model process: 62.80ms, from last 38.73ms
+pool is full! evicted 9
+selfdrive/ui/ui.cc: slow frame(2228) time: 84.47
+model process: 33.07ms, from last 63.24ms
+pool is full! evicted 10
+pool is full! evicted 14
+model process: 55.23ms, from last 33.93ms
+pool is full! evicted 35
+model process: 37.43ms, from last 55.76ms
+pool is full! evicted 36
+pool is full! evicted 19
+model process: 50.53ms, from last 37.88ms
+pool is full! evicted 37
+model process: 40.72ms, from last 51.05ms
+pool is full! evicted 20
+pool is full! evicted 38
+model process: 64.20ms, from last 41.13ms
+pool is full! evicted 39
+model process: 47.28ms, from last 64.72ms
+pool is full! evicted 1
+model process: 65.37ms, from last 47.98ms
+pool is full! evicted 0
+model process: 34.85ms, from last 65.89ms
+pool is full! evicted 11
+model process: 49.66ms, from last 35.67ms
+pool is full! evicted 12
+model process: 50.15ms, from last 50.09ms
+pool is full! evicted 13
+model process: 60.92ms, from last 50.68ms
+pool is full! evicted 14
+model process: 49.00ms, from last 61.53ms
+pool is full! evicted 15
+pool is full! evicted 16
+model process: 96.68ms, from last 49.52ms
+pool is full! evicted 17
+model process: 54.76ms, from last 97.15ms
+pool is full! evicted 18
+pool is full! evicted 4
+model process: 58.92ms, from last 55.15ms
+model process: 36.98ms, from last 59.38ms
+pool is full! evicted 22
+pool is full! evicted 2
+model process: 68.14ms, from last 37.42ms
+pool is full! evicted 19
+model process: 49.59ms, from last 68.56ms
+pool is full! evicted 20
+model process: 58.45ms, from last 50.16ms
+pool is full! evicted 21
+model process: 43.42ms, from last 59.39ms
+pool is full! evicted 3
+model process: 38.12ms, from last 44.13ms
+model process: 38.76ms, from last 38.60ms
+pool is full! evicted 5
+model process: 49.63ms, from last 39.25ms
+pool is full! evicted 23
+pool is full! evicted 24
+model process: 79.69ms, from last 50.09ms
+pool is full! evicted 25
+model process: 66.38ms, from last 80.81ms
+pool is full! evicted 26
+pool is full! evicted 27
+model process: 92.85ms, from last 67.18ms
+pool is full! evicted 28
+model process: 47.34ms, from last 93.32ms
+pool is full! evicted 29
+model process: 60.98ms, from last 47.85ms
+pool is full! evicted 30
+pool is full! evicted 31
+model process: 58.00ms, from last 61.90ms
+model process: 42.11ms, from last 58.48ms
+pool is full! evicted 32
+model process: 46.84ms, from last 42.46ms
+pool is full! evicted 33
+model process: 47.45ms, from last 47.30ms
+pool is full! evicted 34
+model process: 54.42ms, from last 47.83ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 78.28ms, from last 55.38ms
+pool is full! evicted 8
+selfdrive/ui/ui.cc: slow frame(2289) time: 68.05
+pool is full! evicted 9
+model process: 87.43ms, from last 78.70ms
+pool is full! evicted 10
+model process: 84.90ms, from last 87.79ms
+pool is full! evicted 35
+pool is full! evicted 36
+model process: 83.99ms, from last 85.56ms
+pool is full! evicted 37
+model process: 59.13ms, from last 84.76ms
+pool is full! evicted 38
+model process: 47.12ms, from last 59.56ms
+pool is full! evicted 39
+pool is full! evicted 1
+model process: 69.83ms, from last 47.59ms
+pool is full! evicted 0
+model process: 61.25ms, from last 70.48ms
+pool is full! evicted 11
+model process: 71.44ms, from last 61.70ms
+pool is full! evicted 12
+model process: 61.98ms, from last 71.91ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 68.55ms, from last 62.41ms
+pool is full! evicted 15
+pool is full! evicted 16
+model process: 90.55ms, from last 69.26ms
+pool is full! evicted 17
+pool is full! evicted 18
+model process: 89.57ms, from last 90.99ms
+pool is full! evicted 4
+model process: 51.02ms, from last 89.95ms
+pool is full! evicted 22
+model process: 46.25ms, from last 51.44ms
+pool is full! evicted 2
+model process: 70.23ms, from last 46.78ms
+pool is full! evicted 19
+model process: 44.71ms, from last 70.98ms
+pool is full! evicted 20
+model process: 58.10ms, from last 45.64ms
+pool is full! evicted 21
+model process: 64.99ms, from last 58.62ms
+model process: 73.18ms, from last 65.90ms
+selfdrive/ui/ui.cc: slow frame(2327) time: 73.98
+model process: 71.31ms, from last 73.74ms
+model process: 98.37ms, from last 71.85ms
+pool is full! evicted 3
+model process: 65.86ms, from last 98.94ms
+pool is full! evicted 5
+model process: 69.16ms, from last 66.32ms
+pool is full! evicted 23
+model process: 57.67ms, from last 69.52ms
+pool is full! evicted 30
+model process: 53.89ms, from last 58.11ms
+pool is full! evicted 31
+model process: 49.02ms, from last 54.64ms
+pool is full! evicted 32
+model process: 52.47ms, from last 49.36ms
+pool is full! evicted 33
+model process: 56.72ms, from last 52.89ms
+pool is full! evicted 34
+model process: 43.35ms, from last 57.21ms
+pool is full! evicted 6
+model process: 51.28ms, from last 43.72ms
+pool is full! evicted 7
+pool is full! evicted 8
+model process: 55.99ms, from last 51.73ms
+pool is full! evicted 9
+model process: 56.79ms, from last 57.06ms
+pool is full! evicted 10
+model process: 51.52ms, from last 57.21ms
+pool is full! evicted 35
+model process: 57.99ms, from last 52.13ms
+pool is full! evicted 36
+model process: 52.25ms, from last 58.45ms
+pool is full! evicted 37
+model process: 55.63ms, from last 52.91ms
+pool is full! evicted 38
+model process: 41.62ms, from last 56.01ms
+model process: 59.86ms, from last 42.29ms
+model process: 63.23ms, from last 60.22ms
+model process: 35.08ms, from last 63.73ms
+pool is full! evicted 39
+model process: 59.70ms, from last 35.55ms
+pool is full! evicted 1
+model process: 52.10ms, from last 60.21ms
+pool is full! evicted 0
+model process: 40.32ms, from last 52.57ms
+pool is full! evicted 11
+model process: 49.46ms, from last 40.86ms
+pool is full! evicted 12
+model process: 67.38ms, from last 49.93ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 59.23ms, from last 67.90ms
+pool is full! evicted 15
+model process: 66.35ms, from last 60.25ms
+pool is full! evicted 16
+model process: 47.78ms, from last 66.86ms
+pool is full! evicted 17
+model process: 69.95ms, from last 48.24ms
+pool is full! evicted 18
+model process: 61.20ms, from last 70.87ms
+model process: 59.23ms, from last 61.66ms
+model process: 40.12ms, from last 59.60ms
+model process: 50.19ms, from last 40.49ms
+model process: 36.20ms, from last 50.69ms
+pool is full! evicted 4
+model process: 53.46ms, from last 36.71ms
+pool is full! evicted 22
+model process: 43.73ms, from last 54.45ms
+pool is full! evicted 2
+pool is full! evicted 19
+model process: 56.96ms, from last 44.78ms
+model process: 32.49ms, from last 57.87ms
+pool is full! evicted 20
+model process: 38.21ms, from last 32.98ms
+pool is full! evicted 21
+model process: 37.47ms, from last 38.68ms
+pool is full! evicted 24
+model process: 44.34ms, from last 37.97ms
+model process: 38.06ms, from last 44.80ms
+pool is full! evicted 25
+model process: 31.34ms, from last 41.74ms
+model process: 42.10ms, from last 51.89ms
+model process: 60.24ms, from last 62.17ms
+model process: 41.60ms, from last 61.00ms
+model process: 46.17ms, from last 42.15ms
+model process: 42.79ms, from last 47.44ms
+model process: 48.76ms, from last 43.23ms
+selfdrive/ui/ui.cc: slow frame(2409) time: 66.67
+pool is full! evicted 26
+model process: 53.11ms, from last 51.69ms
+pool is full! evicted 27
+model process: 49.68ms, from last 53.59ms
+pool is full! evicted 28
+model process: 60.36ms, from last 50.12ms
+pool is full! evicted 29
+model process: 53.51ms, from last 60.87ms
+pool is full! evicted 3
+model process: 44.73ms, from last 53.86ms
+model process: 42.33ms, from last 45.21ms
+selfdrive/ui/ui.cc: slow frame(2418) time: 76.90
+pool is full! evicted 5
+model process: 54.42ms, from last 42.89ms
+pool is full! evicted 23
+model process: 52.11ms, from last 55.23ms
+pool is full! evicted 6
+model process: 56.27ms, from last 53.03ms
+pool is full! evicted 7
+model process: 49.68ms, from last 57.18ms
+pool is full! evicted 8
+pool is full! evicted 9
+model process: 72.87ms, from last 50.46ms
+model process: 41.30ms, from last 73.43ms
+pool is full! evicted 10
+model process: 40.06ms, from last 41.90ms
+pool is full! evicted 30
+model process: 57.95ms, from last 40.48ms
+pool is full! evicted 31
+pool is full! evicted 32
+model process: 57.28ms, from last 58.45ms
+pool is full! evicted 11
+model process: 64.38ms, from last 57.77ms
+pool is full! evicted 12
+model process: 70.63ms, from last 64.91ms
+pool is full! evicted 13
+pool is full! evicted 14
+model process: 69.13ms, from last 71.18ms
+pool is full! evicted 15
+model process: 65.06ms, from last 69.54ms
+pool is full! evicted 16
+model process: 52.37ms, from last 65.59ms
+pool is full! evicted 17
+model process: 43.45ms, from last 52.83ms
+pool is full! evicted 18
+model process: 42.17ms, from last 43.91ms
+pool is full! evicted 33
+model process: 54.89ms, from last 42.99ms
+pool is full! evicted 34
+model process: 35.85ms, from last 55.41ms
+pool is full! evicted 35
+model process: 53.66ms, from last 36.25ms
+pool is full! evicted 36
+model process: 48.58ms, from last 54.29ms
+pool is full! evicted 19
+model process: 81.31ms, from last 49.11ms
+pool is full! evicted 20
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 21
+model process: 69.65ms, from last 82.09ms
+pool is full! evicted 24
+model process: 72.36ms, from last 70.47ms
+pool is full! evicted 25
+pool is full! evicted 37
+model process: 67.83ms, from last 73.53ms
+pool is full! evicted 0
+model process: 53.50ms, from last 68.28ms
+pool is full! evicted 1
+model process: 53.12ms, from last 54.11ms
+pool is full! evicted 4
+model process: 64.30ms, from last 53.51ms
+pool is full! evicted 22
+model process: 46.85ms, from last 64.70ms
+pool is full! evicted 38
+model process: 55.85ms, from last 47.27ms
+pool is full! evicted 39
+model process: 56.80ms, from last 56.29ms
+pool is full! evicted 26
+model process: 49.55ms, from last 57.42ms
+pool is full! evicted 27
+model process: 42.95ms, from last 49.89ms
+pool is full! evicted 28
+model process: 64.89ms, from last 43.68ms
+pool is full! evicted 29
+model process: 46.23ms, from last 65.38ms
+pool is full! evicted 3
+model process: 50.47ms, from last 46.73ms
+pool is full! evicted 2
+pool is full! evicted 5
+model process: 70.26ms, from last 51.17ms
+pool is full! evicted 23
+model process: 58.07ms, from last 70.70ms
+pool is full! evicted 6
+model process: 47.38ms, from last 58.44ms
+pool is full! evicted 7
+model process: 52.20ms, from last 48.44ms
+pool is full! evicted 8
+model process: 43.34ms, from last 52.59ms
+pool is full! evicted 9
+model process: 50.86ms, from last 43.76ms
+pool is full! evicted 10
+model process: 41.92ms, from last 51.41ms
+pool is full! evicted 30
+model process: 50.70ms, from last 42.38ms
+pool is full! evicted 31
+model process: 49.02ms, from last 51.08ms
+pool is full! evicted 32
+model process: 50.37ms, from last 49.47ms
+pool is full! evicted 11
+model process: 48.13ms, from last 50.78ms
+pool is full! evicted 12
+model process: 48.00ms, from last 48.90ms
+pool is full! evicted 13
+model process: 49.57ms, from last 48.38ms
+pool is full! evicted 14
+model process: 55.65ms, from last 50.24ms
+pool is full! evicted 15
+model process: 54.29ms, from last 56.11ms
+selfdrive/ui/ui.cc: slow frame(2502) time: 75.19
+pool is full! evicted 16
+model process: 66.76ms, from last 54.74ms
+pool is full! evicted 17
+pool is full! evicted 18
+model process: 68.05ms, from last 67.19ms
+pool is full! evicted 33
+model process: 79.71ms, from last 68.51ms
+pool is full! evicted 34
+model process: 55.50ms, from last 80.16ms
+pool is full! evicted 35
+model process: 52.37ms, from last 55.87ms
+pool is full! evicted 36
+model process: 45.53ms, from last 52.84ms
+pool is full! evicted 19
+model process: 41.91ms, from last 45.93ms
+pool is full! evicted 20
+model process: 56.35ms, from last 42.76ms
+pool is full! evicted 21
+model process: 55.34ms, from last 57.37ms
+pool is full! evicted 24
+pool is full! evicted 25
+model process: 57.19ms, from last 55.87ms
+pool is full! evicted 37
+model process: 68.77ms, from last 58.22ms
+pool is full! evicted 0
+pool is full! evicted 1
+model process: 86.57ms, from last 69.48ms
+pool is full! evicted 4
+model process: 64.59ms, from last 87.31ms
+pool is full! evicted 22
+model process: 40.43ms, from last 65.04ms
+pool is full! evicted 38
+model process: 72.10ms, from last 40.95ms
+pool is full! evicted 39
+pool is full! evicted 26
+model process: 83.27ms, from last 72.91ms
+pool is full! evicted 27
+model process: 49.84ms, from last 83.69ms
+pool is full! evicted 28
+pool is full! evicted 29
+model process: 107.88ms, from last 50.24ms
+pool is full! evicted 3
+model process: 54.85ms, from last 108.40ms
+pool is full! evicted 2
+model process: 50.94ms, from last 55.25ms
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 99.32ms, from last 51.40ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 80.62ms, from last 100.00ms
+pool is full! evicted 8
+model process: 61.17ms, from last 81.07ms
+pool is full! evicted 9
+pool is full! evicted 10
+model process: 75.73ms, from last 61.58ms
+pool is full! evicted 30
+model process: 73.61ms, from last 76.21ms
+pool is full! evicted 31
+model process: 58.99ms, from last 74.13ms
+pool is full! evicted 32
+model process: 45.71ms, from last 59.57ms
+pool is full! evicted 11
+pool is full! evicted 13
+model process: 47.59ms, from last 46.24ms
+pool is full! evicted 12
+pool is full! evicted 13
+model process: 82.81ms, from last 48.12ms
+pool is full! evicted 0
+selfdrive/ui/ui.cc: slow frame(2560) time: 67.65
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 88.51ms, from last 83.59ms
+pool is full! evicted 1
+pool is full! evicted 16
+model process: 52.11ms, from last 88.91ms
+pool is full! evicted 17
+model process: 42.53ms, from last 52.54ms
+pool is full! evicted 2
+pool is full! evicted 18
+model process: 46.50ms, from last 42.92ms
+model process: 39.30ms, from last 47.09ms
+pool is full! evicted 33
+pool is full! evicted 3
+pool is full! evicted 34
+model process: 59.07ms, from last 39.84ms
+pool is full! evicted 35
+model process: 47.39ms, from last 59.53ms
+pool is full! evicted 4
+pool is full! evicted 36
+model process: 53.40ms, from last 47.84ms
+model process: 32.18ms, from last 53.79ms
+selfdrive/ui/ui.cc: slow frame(2572) time: 124.24
+pool is full! evicted 19
+pool is full! evicted 5
+model process: 43.79ms, from last 32.61ms
+pool is full! evicted 20
+model process: 44.69ms, from last 44.25ms
+pool is full! evicted 21
+pool is full! evicted 14
+model process: 55.13ms, from last 45.12ms
+pool is full! evicted 24
+model process: 45.58ms, from last 55.52ms
+pool is full! evicted 25
+pool is full! evicted 15
+model process: 59.33ms, from last 45.98ms
+pool is full! evicted 37
+pool is full! evicted 16
+pool is full! evicted 0
+model process: 104.58ms, from last 59.81ms
+pool is full! evicted 1
+pool is full! evicted 17
+pool is full! evicted 4
+model process: 60.47ms, from last 105.39ms
+pool is full! evicted 22
+model process: 50.34ms, from last 60.98ms
+pool is full! evicted 18
+pool is full! evicted 38
+model process: 52.50ms, from last 50.76ms
+pool is full! evicted 39
+model process: 49.43ms, from last 52.92ms
+pool is full! evicted 19
+pool is full! evicted 26
+model process: 49.83ms, from last 49.78ms
+pool is full! evicted 27
+model process: 52.20ms, from last 50.30ms
+pool is full! evicted 28
+model process: 46.23ms, from last 52.60ms
+pool is full! evicted 29
+model process: 50.87ms, from last 46.59ms
+pool is full! evicted 3
+model process: 69.04ms, from last 51.35ms
+pool is full! evicted 2
+model process: 57.92ms, from last 69.50ms
+pool is full! evicted 5
+model process: 51.91ms, from last 58.37ms
+pool is full! evicted 23
+model process: 63.68ms, from last 52.32ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 64.51ms, from last 64.18ms
+pool is full! evicted 8
+model process: 62.89ms, from last 64.97ms
+pool is full! evicted 9
+pool is full! evicted 20
+model process: 55.29ms, from last 63.69ms
+pool is full! evicted 10
+model process: 57.17ms, from last 55.77ms
+pool is full! evicted 30
+pool is full! evicted 21
+pool is full! evicted 31
+model process: 86.33ms, from last 57.54ms
+pool is full! evicted 32
+pool is full! evicted 22
+model process: 62.15ms, from last 87.29ms
+pool is full! evicted 11
+model process: 44.94ms, from last 62.63ms
+pool is full! evicted 23
+pool is full! evicted 12
+model process: 40.35ms, from last 45.41ms
+pool is full! evicted 13
+model process: 53.44ms, from last 40.83ms
+pool is full! evicted 24
+pool is full! evicted 14
+pool is full! evicted 15
+model process: 73.96ms, from last 54.02ms
+pool is full! evicted 25
+pool is full! evicted 16
+model process: 74.56ms, from last 74.35ms
+pool is full! evicted 17
+pool is full! evicted 26
+model process: 53.61ms, from last 74.99ms
+pool is full! evicted 18
+model process: 48.51ms, from last 54.12ms
+pool is full! evicted 33
+pool is full! evicted 27
+model process: 45.21ms, from last 49.16ms
+pool is full! evicted 34
+model process: 49.10ms, from last 46.79ms
+pool is full! evicted 35
+pool is full! evicted 28
+pool is full! evicted 36
+model process: 72.33ms, from last 49.46ms
+model process: 41.16ms, from last 72.76ms
+pool is full! evicted 19
+pool is full! evicted 29
+model process: 46.93ms, from last 41.52ms
+pool is full! evicted 20
+model process: 55.59ms, from last 47.35ms
+pool is full! evicted 21
+pool is full! evicted 30
+pool is full! evicted 24
+model process: 74.40ms, from last 56.12ms
+pool is full! evicted 25
+pool is full! evicted 6
+model process: 60.23ms, from last 74.89ms
+pool is full! evicted 37
+pool is full! evicted 0
+pool is full! evicted 7
+model process: 83.45ms, from last 60.68ms
+pool is full! evicted 1
+pool is full! evicted 4
+pool is full! evicted 8
+model process: 108.20ms, from last 84.17ms
+pool is full! evicted 22
+pool is full! evicted 38
+pool is full! evicted 9
+model process: 97.56ms, from last 108.60ms
+pool is full! evicted 39
+pool is full! evicted 10
+pool is full! evicted 26
+pool is full! evicted 27
+model process: 135.15ms, from last 98.01ms
+selfdrive/ui/ui.cc: slow frame(2656) time: 67.32
+pool is full! evicted 28
+pool is full! evicted 11
+pool is full! evicted 29
+pool is full! evicted 12
+pool is full! evicted 3
+pool is full! evicted 2
+pool is full! evicted 31
+model process: 238.58ms, from last 135.56ms
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 91.06ms, from last 240.75ms
+pool is full! evicted 6
+pool is full! evicted 7
+model process: 84.99ms, from last 91.67ms
+pool is full! evicted 8
+model process: 52.66ms, from last 85.84ms
+pool is full! evicted 9
+model process: 45.63ms, from last 53.37ms
+pool is full! evicted 10
+model process: 37.60ms, from last 46.09ms
+pool is full! evicted 30
+model process: 36.56ms, from last 38.12ms
+model process: 35.89ms, from last 37.10ms
+pool is full! evicted 31
+model process: 45.82ms, from last 36.59ms
+pool is full! evicted 32
+model process: 46.18ms, from last 46.30ms
+pool is full! evicted 11
+model process: 44.29ms, from last 46.62ms
+pool is full! evicted 12
+pool is full! evicted 32
+model process: 49.32ms, from last 44.92ms
+pool is full! evicted 13
+model process: 59.47ms, from last 49.73ms
+pool is full! evicted 14
+pool is full! evicted 33
+pool is full! evicted 15
+model process: 76.01ms, from last 60.00ms
+pool is full! evicted 34
+pool is full! evicted 16
+model process: 45.48ms, from last 76.56ms
+selfdrive/ui/ui.cc: slow frame(2686) time: 67.79
+pool is full! evicted 17
+model process: 43.82ms, from last 45.83ms
+pool is full! evicted 35
+pool is full! evicted 18
+model process: 61.72ms, from last 44.24ms
+pool is full! evicted 33
+pool is full! evicted 36
+pool is full! evicted 34
+pool is full! evicted 35
+model process: 141.43ms, from last 62.35ms
+pool is full! evicted 37
+pool is full! evicted 36
+model process: 78.99ms, from last 142.28ms
+pool is full! evicted 19
+pool is full! evicted 38
+pool is full! evicted 20
+model process: 78.66ms, from last 79.45ms
+pool is full! evicted 21
+selfdrive/ui/ui.cc: awake off
+model process: 49.51ms, from last 79.08ms
+pool is full! evicted 39
+pool is full! evicted 24
+model process: 45.08ms, from last 49.94ms
+pool is full! evicted 25
+model process: 34.34ms, from last 45.69ms
+Result: Parcel(00000000    '....')
+pool is full! evicted 13
+pool is full! evicted 37
+model process: 57.52ms, from last 34.75ms
+pool is full! evicted 0
+model process: 49.76ms, from last 58.01ms
+pool is full! evicted 0
+pool is full! evicted 1
+model process: 52.55ms, from last 50.09ms
+pool is full! evicted 4
+pool is full! evicted 19
+model process: 62.32ms, from last 53.29ms
+pool is full! evicted 22
+model process: 44.84ms, from last 62.74ms
+pool is full! evicted 38
+model process: 36.78ms, from last 45.34ms
+pool is full! evicted 1
+pool is full! evicted 39
+model process: 43.72ms, from last 37.50ms
+pool is full! evicted 26
+model process: 58.25ms, from last 44.63ms
+pool is full! evicted 2
+pool is full! evicted 27
+model process: 39.10ms, from last 59.07ms
+model process: 35.30ms, from last 39.57ms
+pool is full! evicted 28
+pool is full! evicted 3
+pool is full! evicted 29
+model process: 70.05ms, from last 35.70ms
+pool is full! evicted 4
+pool is full! evicted 3
+model process: 44.36ms, from last 70.49ms
+pool is full! evicted 2
+model process: 51.01ms, from last 45.60ms
+model process: 34.61ms, from last 51.34ms
+pool is full! evicted 5
+pool is full! evicted 5
+model process: 36.57ms, from last 35.01ms
+pool is full! evicted 23
+model process: 47.13ms, from last 37.02ms
+pool is full! evicted 20
+pool is full! evicted 6
+model process: 58.81ms, from last 47.49ms
+pool is full! evicted 7
+model process: 40.22ms, from last 59.28ms
+pool is full! evicted 21
+pool is full! evicted 8
+model process: 40.83ms, from last 40.70ms
+pool is full! evicted 9
+model process: 52.78ms, from last 41.27ms
+pool is full! evicted 22
+pool is full! evicted 10
+model process: 49.03ms, from last 53.16ms
+pool is full! evicted 30
+model process: 37.64ms, from last 49.58ms
+pool is full! evicted 23
+pool is full! evicted 31
+model process: 46.21ms, from last 38.07ms
+pool is full! evicted 32
+model process: 45.66ms, from last 55.66ms
+pool is full! evicted 11
+model process: 57.48ms, from last 46.12ms
+pool is full! evicted 12
+model process: 41.66ms, from last 57.92ms
+selfdrive/loggerd/loggerd.cc: rotated to /data/media/0/realdata/2021-03-08--15-29-05--1
+pool is full! evicted 13
+model process: 57.37ms, from last 42.11ms
+model process: 38.21ms, from last 58.33ms
+model process: 37.25ms, from last 38.65ms
+model process: 38.49ms, from last 46.01ms
+pool is full! evicted 14
+model process: 34.33ms, from last 50.22ms
+pool is full! evicted 15
+model process: 33.57ms, from last 49.60ms
+pool is full! evicted 16
+model process: 36.67ms, from last 49.99ms
+pool is full! evicted 17
+model process: 28.87ms, from last 50.84ms
+pool is full! evicted 18
+model process: 35.96ms, from last 51.51ms
+pool is full! evicted 33
+model process: 29.55ms, from last 47.87ms
+pool is full! evicted 34
+model process: 35.56ms, from last 49.88ms
+pool is full! evicted 35
+model process: 31.26ms, from last 49.84ms
+pool is full! evicted 36
+model process: 34.30ms, from last 50.41ms
+pool is full! evicted 19
+model process: 38.31ms, from last 49.64ms
+pool is full! evicted 20
+model process: 32.68ms, from last 49.76ms
+pool is full! evicted 21
+model process: 33.99ms, from last 50.45ms
+selfdrive/ui/ui.cc: awake normal
+pool is full! evicted 24
+model process: 32.89ms, from last 51.29ms
+pool is full! evicted 25
+Result: Parcel(00000000    '....')
+selfdrive/ui/ui.cc: slow frame(2700) time: 92.79
+pool is full! evicted 37
+model process: 83.66ms, from last 49.55ms
+pool is full! evicted 0
+model process: 41.19ms, from last 84.16ms
+pool is full! evicted 1
+model process: 63.43ms, from last 41.84ms
+pool is full! evicted 4
+model process: 50.08ms, from last 63.89ms
+pool is full! evicted 22
+model process: 50.61ms, from last 50.88ms
+pool is full! evicted 38
+model process: 44.70ms, from last 51.39ms
+pool is full! evicted 39
+model process: 39.44ms, from last 45.13ms
+pool is full! evicted 26
+model process: 67.59ms, from last 39.88ms
+pool is full! evicted 27
+pool is full! evicted 28
+model process: 54.64ms, from last 68.10ms
+model process: 37.58ms, from last 55.42ms
+pool is full! evicted 29
+model process: 50.62ms, from last 38.00ms
+pool is full! evicted 3
+model process: 43.44ms, from last 51.00ms
+pool is full! evicted 2
+model process: 42.49ms, from last 44.19ms
+pool is full! evicted 6
+model process: 44.24ms, from last 43.05ms
+pool is full! evicted 7
+model process: 45.63ms, from last 45.03ms
+pool is full! evicted 8
+model process: 46.75ms, from last 46.09ms
+pool is full! evicted 9
+model process: 59.33ms, from last 47.41ms
+pool is full! evicted 10
+model process: 66.70ms, from last 59.78ms
+pool is full! evicted 30
+model process: 38.13ms, from last 67.15ms
+pool is full! evicted 31
+model process: 48.05ms, from last 38.63ms
+pool is full! evicted 32
+model process: 40.86ms, from last 48.67ms
+pool is full! evicted 11
+model process: 57.62ms, from last 41.80ms
+model process: 64.47ms, from last 58.01ms
+model process: 53.02ms, from last 65.64ms
+model process: 43.10ms, from last 53.48ms
+pool is full! evicted 12
+model process: 38.82ms, from last 43.58ms
+pool is full! evicted 13
+model process: 55.57ms, from last 39.17ms
+pool is full! evicted 5
+model process: 57.75ms, from last 56.24ms
+pool is full! evicted 23
+pool is full! evicted 14
+model process: 65.79ms, from last 58.16ms
+pool is full! evicted 15
+model process: 61.84ms, from last 66.25ms
+pool is full! evicted 16
+model process: 44.87ms, from last 62.29ms
+pool is full! evicted 17
+model process: 60.42ms, from last 45.40ms
+pool is full! evicted 18
+model process: 42.88ms, from last 61.22ms
+pool is full! evicted 33
+model process: 50.85ms, from last 43.31ms
+pool is full! evicted 34
+model process: 62.61ms, from last 51.26ms
+pool is full! evicted 35
+pool is full! evicted 36
+model process: 69.08ms, from last 63.16ms
+pool is full! evicted 19
+model process: 71.62ms, from last 69.60ms
+pool is full! evicted 20
+pool is full! evicted 21
+model process: 76.61ms, from last 72.22ms
+pool is full! evicted 24
+model process: 51.70ms, from last 77.07ms
+model process: 75.98ms, from last 52.23ms
+model process: 53.38ms, from last 76.74ms
+model process: 53.19ms, from last 53.77ms
+model process: 52.08ms, from last 53.81ms
+model process: 31.85ms, from last 52.46ms
+pool is full! evicted 25
+model process: 59.34ms, from last 32.38ms
+pool is full! evicted 37
+pool is full! evicted 0
+model process: 66.59ms, from last 59.81ms
+pool is full! evicted 1
+pool is full! evicted 4
+model process: 103.89ms, from last 67.05ms
+pool is full! evicted 22
+pool is full! evicted 38
+model process: 89.33ms, from last 104.99ms
+pool is full! evicted 39
+model process: 55.86ms, from last 89.75ms
+pool is full! evicted 26
+model process: 45.32ms, from last 56.26ms
+pool is full! evicted 27
+model process: 56.71ms, from last 45.86ms
+pool is full! evicted 28
+model process: 49.84ms, from last 57.30ms
+pool is full! evicted 29
+model process: 48.43ms, from last 50.76ms
+pool is full! evicted 3
+model process: 52.27ms, from last 48.87ms
+pool is full! evicted 2
+model process: 76.18ms, from last 53.33ms
+pool is full! evicted 30
+pool is full! evicted 31
+model process: 88.49ms, from last 76.67ms
+pool is full! evicted 32
+pool is full! evicted 6
+model process: 72.27ms, from last 88.87ms
+model process: 39.66ms, from last 72.88ms
+pool is full! evicted 7
+pool is full! evicted 8
+model process: 57.52ms, from last 41.23ms
+pool is full! evicted 5
+model process: 65.66ms, from last 58.36ms
+pool is full! evicted 23
+model process: 54.97ms, from last 66.12ms
+pool is full! evicted 14
+model process: 66.93ms, from last 55.71ms
+pool is full! evicted 15
+model process: 59.02ms, from last 67.42ms
+pool is full! evicted 16
+pool is full! evicted 17
+selfdrive/ui/ui.cc: slow frame(2812) time: 67.34
+pool is full! evicted 18
+model process: 127.01ms, from last 60.08ms
+pool is full! evicted 33
+model process: 50.03ms, from last 127.40ms
+pool is full! evicted 34
+pool is full! evicted 35
+model process: 71.92ms, from last 50.46ms
+pool is full! evicted 8
+pool is full! evicted 36
+model process: 52.77ms, from last 72.97ms
+pool is full! evicted 19
+model process: 58.39ms, from last 53.21ms
+pool is full! evicted 9
+selfdrive/ui/ui.cc: slow frame(2821) time: 70.04
+pool is full! evicted 20
+model process: 61.37ms, from last 58.83ms
+pool is full! evicted 21
+pool is full! evicted 10
+pool is full! evicted 24
+model process: 85.14ms, from last 61.89ms
+pool is full! evicted 11
+pool is full! evicted 9
+model process: 52.91ms, from last 85.56ms
+pool is full! evicted 10
+model process: 54.11ms, from last 53.81ms
+pool is full! evicted 12
+model process: 98.01ms, from last 54.62ms
+model process: 107.11ms, from last 98.71ms
+pool is full! evicted 11
+model process: 46.83ms, from last 107.54ms
+selfdrive/ui/ui.cc: slow frame(2834) time: 79.12
+pool is full! evicted 12
+model process: 60.66ms, from last 47.29ms
+pool is full! evicted 13
+pool is full! evicted 13
+pool is full! evicted 25
+model process: 77.17ms, from last 61.11ms
+pool is full! evicted 14
+pool is full! evicted 37
+model process: 64.34ms, from last 78.69ms
+pool is full! evicted 0
+selfdrive/ui/ui.cc: slow frame(2841) time: 80.21
+pool is full! evicted 15
+pool is full! evicted 1
+model process: 111.45ms, from last 64.79ms
+pool is full! evicted 4
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--0/qlog.bz2', '/data/media/0/realdata/2021-03-08--15-29-05--0/qlog.bz2')
+{"event": "upload", "key": "2021-03-08--15-29-05--0/qlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/qlog.bz2", "sz": 206671, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-29-05--0/qlog.bz2' with size 206671
+pool is full! evicted 16
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--0/qlog.bz2'
+pool is full! evicted 22
+model process: 62.27ms, from last 112.15ms
+model process: 43.32ms, from last 62.71ms
+pool is full! evicted 38
+pool is full! evicted 17
+model process: 48.32ms, from last 43.85ms
+pool is full! evicted 39
+model process: 46.47ms, from last 48.86ms
+pool is full! evicted 26
+pool is full! evicted 18
+model process: 49.33ms, from last 47.35ms
+pool is full! evicted 27
+model process: 44.77ms, from last 49.81ms
+pool is full! evicted 28
+pool is full! evicted 19
+model process: 45.39ms, from last 45.48ms
+pool is full! evicted 29
+model process: 47.69ms, from last 45.83ms
+pool is full! evicted 3
+pool is full! evicted 20
+model process: 43.39ms, from last 48.36ms
+pool is full! evicted 2
+model process: 50.01ms, from last 43.82ms
+pool is full! evicted 21
+pool is full! evicted 30
+model process: 47.30ms, from last 50.38ms
+pool is full! evicted 31
+model process: 57.53ms, from last 47.73ms
+pool is full! evicted 22
+pool is full! evicted 32
+model process: 47.66ms, from last 57.99ms
+pool is full! evicted 6
+model process: 44.25ms, from last 48.38ms
+pool is full! evicted 23
+pool is full! evicted 7
+model process: 51.45ms, from last 44.69ms
+pool is full! evicted 8
+model process: 42.21ms, from last 51.85ms
+pool is full! evicted 24
+pool is full! evicted 5
+model process: 53.10ms, from last 42.69ms
+pool is full! evicted 23
+model process: 54.49ms, from last 53.54ms
+pool is full! evicted 25
+pool is full! evicted 14
+model process: 43.98ms, from last 55.12ms
+pool is full! evicted 33
+pool is full! evicted 26
+model process: 58.63ms, from last 44.40ms
+pool is full! evicted 34
+pool is full! evicted 35
+model process: 82.60ms, from last 59.28ms
+pool is full! evicted 27
+pool is full! evicted 36
+model process: 52.12ms, from last 83.72ms
+pool is full! evicted 19
+upload_url v1.3 https://commadata2.blob.core.windows.net/qlog/ae1d1a42582a3551/2021-03-08--15-29-05/0/qlog.bz2?se=2021-03-15T20%3A30%3A19Z&sp=cw&sv=2018-03-28&sr=b&sig=%2B3uBO75ase%2BKsCv72vwYedlMVLnX/WpGhbP1g0yl61c%3D {'x-ms-blob-type': 'BlockBlob'}
+pool is full! evicted 28
+pool is full! evicted 20
+model process: 105.04ms, from last 52.55ms
+pool is full! evicted 21
+pool is full! evicted 29
+pool is full! evicted 24
+model process: 95.85ms, from last 105.51ms
+pool is full! evicted 9
+pool is full! evicted 0
+pool is full! evicted 10
+model process: 92.28ms, from last 96.58ms
+pool is full! evicted 15
+pool is full! evicted 1
+model process: 79.34ms, from last 93.13ms
+pool is full! evicted 16
+model process: 41.26ms, from last 80.30ms
+pool is full! evicted 17
+pool is full! evicted 2
+model process: 51.22ms, from last 41.62ms
+pool is full! evicted 18
+model process: 49.68ms, from last 51.66ms
+pool is full! evicted 3
+pool is full! evicted 11
+model process: 45.11ms, from last 50.11ms
+pool is full! evicted 12
+model process: 43.95ms, from last 45.74ms
+pool is full! evicted 4
+pool is full! evicted 13
+model process: 45.46ms, from last 44.55ms
+pool is full! evicted 25
+model process: 56.96ms, from last 45.89ms
+pool is full! evicted 5
+pool is full! evicted 37
+model process: 61.38ms, from last 57.41ms
+pool is full! evicted 0
+pool is full! evicted 6
+model process: 48.25ms, from last 61.82ms
+pool is full! evicted 1
+model process: 48.84ms, from last 48.72ms
+pool is full! evicted 4
+model process: 48.78ms, from last 49.35ms
+model process: 72.77ms, from last 49.17ms
+model process: 61.66ms, from last 73.27ms
+model process: 51.52ms, from last 62.07ms
+pool is full! evicted 22
+model process: 42.47ms, from last 51.94ms
+pool is full! evicted 38
+pool is full! evicted 7
+model process: 64.07ms, from last 42.96ms
+pool is full! evicted 39
+model process: 60.72ms, from last 65.06ms
+pool is full! evicted 26
+pool is full! evicted 30
+pool is full! evicted 27
+model process: 58.85ms, from last 61.36ms
+pool is full! evicted 28
+pool is full! evicted 31
+model process: 55.15ms, from last 59.31ms
+pool is full! evicted 29
+model process: 67.48ms, from last 55.61ms
+pool is full! evicted 3
+pool is full! evicted 32
+model process: 52.58ms, from last 68.00ms
+selfdrive/ui/ui.cc: slow frame(2925) time: 71.29
+pool is full! evicted 2
+model process: 36.06ms, from last 53.04ms
+pool is full! evicted 30
+pool is full! evicted 33
+model process: 60.34ms, from last 36.50ms
+pool is full! evicted 31
+model process: 54.97ms, from last 60.76ms
+pool is full! evicted 34
+pool is full! evicted 32
+model process: 43.17ms, from last 55.88ms
+pool is full! evicted 6
+model process: 41.23ms, from last 43.59ms
+pool is full! evicted 7
+pool is full! evicted 35
+model process: 44.83ms, from last 42.06ms
+pool is full! evicted 8
+model process: 42.43ms, from last 45.29ms
+pool is full! evicted 36
+pool is full! evicted 5
+model process: 51.87ms, from last 42.96ms
+pool is full! evicted 23
+model process: 61.18ms, from last 52.35ms
+pool is full! evicted 37
+pool is full! evicted 14
+model process: 46.79ms, from last 61.71ms
+pool is full! evicted 33
+model process: 43.27ms, from last 47.62ms
+pool is full! evicted 38
+pool is full! evicted 34
+model process: 60.68ms, from last 43.78ms
+pool is full! evicted 35
+{"event": "upload_success", "key": "2021-03-08--15-29-05--0/qlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/qlog.bz2", "sz": 206671, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+model process: 40.10ms, from last 61.13ms
+upload done, success=True
+pool is full! evicted 39
+pool is full! evicted 36
+model process: 64.73ms, from last 40.54ms
+pool is full! evicted 9
+model process: 44.17ms, from last 65.20ms
+pool is full! evicted 8
+pool is full! evicted 10
+model process: 47.52ms, from last 44.57ms
+pool is full! evicted 15
+model process: 45.77ms, from last 48.13ms
+pool is full! evicted 9
+pool is full! evicted 16
+model process: 53.05ms, from last 46.28ms
+pool is full! evicted 17
+pool is full! evicted 12
+model process: 50.09ms, from last 53.53ms
+pool is full! evicted 18
+model process: 54.71ms, from last 50.81ms
+pool is full! evicted 11
+pool is full! evicted 10
+model process: 49.91ms, from last 55.17ms
+pool is full! evicted 12
+model process: 57.23ms, from last 50.41ms
+pool is full! evicted 13
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+pool is full! evicted 11
+to upload ('2021-03-08--15-29-05--0/qcamera.ts', '/data/media/0/realdata/2021-03-08--15-29-05--0/qcamera.ts')
+{"event": "upload", "key": "2021-03-08--15-29-05--0/qcamera.ts", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/qcamera.ts", "sz": 542756, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-29-05--0/qcamera.ts' with size 542756
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--0/qcamera.ts'
+model process: 49.93ms, from last 57.67ms
+pool is full! evicted 25
+model process: 45.47ms, from last 50.36ms
+pool is full! evicted 37
+pool is full! evicted 13
+selfdrive/ui/ui.cc: slow frame(2963) time: 66.24
+pool is full! evicted 0
+model process: 71.64ms, from last 45.90ms
+pool is full! evicted 14
+pool is full! evicted 1
+model process: 58.08ms, from last 72.03ms
+pool is full! evicted 4
+model process: 46.74ms, from last 58.80ms
+pool is full! evicted 18
+pool is full! evicted 19
+model process: 40.72ms, from last 47.17ms
+pool is full! evicted 20
+model process: 57.61ms, from last 41.09ms
+pool is full! evicted 19
+pool is full! evicted 21
+model process: 39.53ms, from last 58.05ms
+model process: 44.00ms, from last 40.37ms
+pool is full! evicted 24
+pool is full! evicted 20
+pool is full! evicted 22
+model process: 61.73ms, from last 44.89ms
+pool is full! evicted 38
+model process: 61.09ms, from last 62.15ms
+pool is full! evicted 21
+pool is full! evicted 39
+model process: 61.19ms, from last 61.91ms
+pool is full! evicted 26
+model process: 60.63ms, from last 62.32ms
+model process: 46.53ms, from last 61.53ms
+model process: 52.07ms, from last 47.30ms
+model process: 82.28ms, from last 52.52ms
+pool is full! evicted 2
+model process: 62.78ms, from last 82.67ms
+pool is full! evicted 30
+model process: 42.14ms, from last 63.33ms
+pool is full! evicted 31
+model process: 57.98ms, from last 42.54ms
+upload_url v1.3 https://commadata2.blob.core.windows.net/qlog/ae1d1a42582a3551/2021-03-08--15-29-05/0/qcamera.ts?se=2021-03-15T20%3A30%3A22Z&sp=cw&sv=2018-03-28&sr=b&sig=0yNaLnUT/iiujwIdjPK3gkHUwxTw7TDpFRaOy3CpCDw%3D {'x-ms-blob-type': 'BlockBlob'}
+pool is full! evicted 32
+pool is full! evicted 6
+selfdrive/ui/ui.cc: slow frame(2992) time: 75.75
+model process: 74.69ms, from last 58.44ms
+pool is full! evicted 7
+model process: 55.37ms, from last 75.04ms
+pool is full! evicted 8
+model process: 54.59ms, from last 55.79ms
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 75.80ms, from last 55.05ms
+pool is full! evicted 14
+model process: 60.06ms, from last 76.28ms
+pool is full! evicted 33
+model process: 65.02ms, from last 60.51ms
+pool is full! evicted 34
+model process: 47.29ms, from last 65.48ms
+pool is full! evicted 35
+model process: 54.08ms, from last 47.73ms
+pool is full! evicted 36
+model process: 62.96ms, from last 54.59ms
+pool is full! evicted 9
+pool is full! evicted 10
+model process: 77.33ms, from last 63.54ms
+pool is full! evicted 15
+model process: 41.40ms, from last 77.84ms
+pool is full! evicted 16
+model process: 76.94ms, from last 41.89ms
+pool is full! evicted 17
+pool is full! evicted 0
+model process: 49.80ms, from last 77.34ms
+pool is full! evicted 18
+pool is full! evicted 11
+model process: 66.13ms, from last 50.17ms
+pool is full! evicted 1
+pool is full! evicted 12
+model process: 43.95ms, from last 66.60ms
+pool is full! evicted 13
+model process: 64.19ms, from last 44.69ms
+pool is full! evicted 2
+pool is full! evicted 25
+model process: 58.91ms, from last 64.63ms
+pool is full! evicted 37
+pool is full! evicted 3
+model process: 40.94ms, from last 59.41ms
+pool is full! evicted 0
+model process: 58.35ms, from last 41.45ms
+pool is full! evicted 1
+pool is full! evicted 4
+model process: 45.90ms, from last 58.76ms
+pool is full! evicted 4
+model process: 38.07ms, from last 46.33ms
+pool is full! evicted 19
+pool is full! evicted 5
+model process: 76.08ms, from last 38.47ms
+pool is full! evicted 20
+pool is full! evicted 21
+pool is full! evicted 6
+model process: 72.09ms, from last 76.58ms
+model process: 49.63ms, from last 72.53ms
+pool is full! evicted 24
+pool is full! evicted 15
+pool is full! evicted 22
+model process: 47.65ms, from last 50.46ms
+pool is full! evicted 38
+model process: 46.68ms, from last 48.55ms
+pool is full! evicted 16
+pool is full! evicted 39
+model process: 71.77ms, from last 47.23ms
+pool is full! evicted 26
+pool is full! evicted 17
+pool is full! evicted 27
+model process: 79.77ms, from last 72.54ms
+pool is full! evicted 3
+pool is full! evicted 7
+model process: 77.72ms, from last 80.52ms
+pool is full! evicted 28
+model process: 50.66ms, from last 78.16ms
+pool is full! evicted 29
+pool is full! evicted 30
+pool is full! evicted 2
+model process: 68.06ms, from last 51.07ms
+pool is full! evicted 30
+model process: 48.27ms, from last 68.67ms
+{"event": "upload_success", "key": "2021-03-08--15-29-05--0/qcamera.ts", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/qcamera.ts", "sz": 542756, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+model process: 46.19ms, from last 48.66ms
+model process: 34.48ms, from last 46.53ms
+model process: 48.93ms, from last 35.08ms
+model process: 43.28ms, from last 49.49ms
+model process: 49.55ms, from last 44.13ms
+model process: 57.61ms, from last 50.36ms
+model process: 76.58ms, from last 58.43ms
+pool is full! evicted 6
+model process: 60.11ms, from last 77.03ms
+pool is full! evicted 7
+model process: 46.21ms, from last 60.49ms
+pool is full! evicted 8
+model process: 50.09ms, from last 46.63ms
+pool is full! evicted 5
+model process: 54.54ms, from last 50.48ms
+pool is full! evicted 23
+model process: 49.30ms, from last 55.35ms
+pool is full! evicted 14
+model process: 50.72ms, from last 50.10ms
+pool is full! evicted 31
+pool is full! evicted 9
+model process: 45.64ms, from last 51.68ms
+pool is full! evicted 10
+model process: 56.45ms, from last 46.12ms
+pool is full! evicted 32
+pool is full! evicted 15
+model process: 50.83ms, from last 57.06ms
+pool is full! evicted 16
+pool is full! evicted 33
+model process: 50.71ms, from last 51.36ms
+pool is full! evicted 17
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--0/rlog.bz2', '/data/media/0/realdata/2021-03-08--15-29-05--0/rlog.bz2')
+{"event": "upload", "key": "2021-03-08--15-29-05--0/rlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/rlog.bz2", "sz": 3760417, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-29-05--0/rlog.bz2' with size 3760417
+model process: 42.41ms, from last 51.21ms
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--0/rlog.bz2'
+pool is full! evicted 18
+pool is full! evicted 34
+model process: 55.31ms, from last 42.85ms
+pool is full! evicted 11
+pool is full! evicted 12
+model process: 72.25ms, from last 55.77ms
+pool is full! evicted 35
+pool is full! evicted 13
+model process: 65.12ms, from last 72.66ms
+pool is full! evicted 25
+pool is full! evicted 36
+model process: 60.30ms, from last 65.55ms
+pool is full! evicted 37
+model process: 39.06ms, from last 60.81ms
+pool is full! evicted 0
+pool is full! evicted 37
+model process: 53.89ms, from last 39.41ms
+pool is full! evicted 1
+model process: 43.62ms, from last 54.73ms
+pool is full! evicted 4
+pool is full! evicted 38
+model process: 55.70ms, from last 43.99ms
+pool is full! evicted 19
+model process: 37.59ms, from last 56.61ms
+pool is full! evicted 20
+pool is full! evicted 39
+model process: 49.19ms, from last 38.33ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 21
+model process: 52.15ms, from last 49.71ms
+pool is full! evicted 24
+pool is full! evicted 8
+model process: 48.62ms, from last 52.91ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 22
+model process: 65.45ms, from last 49.43ms
+pool is full! evicted 38
+pool is full! evicted 9
+model process: 56.23ms, from last 66.35ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 39
+model process: 48.67ms, from last 56.81ms
+pool is full! evicted 12
+pool is full! evicted 26
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 27
+model process: 87.74ms, from last 49.29ms
+pool is full! evicted 10
+pool is full! evicted 3
+model process: 54.82ms, from last 88.19ms
+pool is full! evicted 28
+model process: 41.55ms, from last 55.22ms
+pool is full! evicted 11
+pool is full! evicted 29
+pool is full! evicted 2
+model process: 81.72ms, from last 42.05ms
+pool is full! evicted 13
+pool is full! evicted 31
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/ae1d1a42582a3551/2021-03-08--15-29-05/0/rlog.bz2?se=2021-03-15T20%3A30%3A26Z&sp=cw&sv=2018-03-28&sr=b&sig=MMUs9QLnMBMhehroKW8F4j7BkY4cbAcJrisEHne3REM%3D {'x-ms-blob-type': 'BlockBlob'}
+model process: 58.63ms, from last 82.20ms
+pool is full! evicted 30
+model process: 41.56ms, from last 59.21ms
+pool is full! evicted 14
+pool is full! evicted 32
+pool is full! evicted 33
+model process: 85.00ms, from last 42.30ms
+pool is full! evicted 18
+pool is full! evicted 34
+model process: 72.12ms, from last 85.49ms
+pool is full! evicted 35
+pool is full! evicted 19
+pool is full! evicted 36
+model process: 80.26ms, from last 72.56ms
+model process: 41.96ms, from last 80.72ms
+pool is full! evicted 6
+pool is full! evicted 20
+pool is full! evicted 7
+model process: 64.14ms, from last 42.46ms
+pool is full! evicted 8
+model process: 53.38ms, from last 64.75ms
+pool is full! evicted 21
+pool is full! evicted 5
+model process: 67.36ms, from last 54.00ms
+pool is full! evicted 23
+pool is full! evicted 22
+model process: 50.55ms, from last 67.99ms
+pool is full! evicted 14
+model process: 60.84ms, from last 51.01ms
+pool is full! evicted 9
+pool is full! evicted 23
+pool is full! evicted 10
+model process: 84.48ms, from last 61.65ms
+pool is full! evicted 15
+pool is full! evicted 24
+model process: 73.33ms, from last 84.92ms
+model process: 74.23ms, from last 73.77ms
+selfdrive/ui/ui.cc: slow frame(3138) time: 69.22
+model process: 54.64ms, from last 74.68ms
+pool is full! evicted 16
+model process: 42.04ms, from last 55.02ms
+pool is full! evicted 17
+model process: 47.33ms, from last 42.55ms
+pool is full! evicted 25
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 18
+model process: 41.26ms, from last 47.76ms
+pool is full! evicted 11
+model process: 42.54ms, from last 41.73ms
+pool is full! evicted 26
+pool is full! evicted 12
+model process: 56.84ms, from last 42.91ms
+pool is full! evicted 13
+model process: 50.09ms, from last 57.20ms
+pool is full! evicted 27
+pool is full! evicted 25
+model process: 70.44ms, from last 50.45ms
+pool is full! evicted 4
+pool is full! evicted 28
+model process: 60.69ms, from last 70.95ms
+pool is full! evicted 19
+model process: 46.36ms, from last 61.67ms
+pool is full! evicted 20
+pool is full! evicted 29
+model process: 44.50ms, from last 46.90ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 21
+model process: 37.22ms, from last 45.32ms
+pool is full! evicted 24
+pool is full! evicted 15
+selfdrive/ui/ui.cc: slow frame(3158) time: 71.26
+model process: 71.02ms, from last 37.65ms
+pool is full! evicted 22
+model process: 37.59ms, from last 71.54ms
+pool is full! evicted 38
+pool is full! evicted 16
+pool is full! evicted 39
+model process: 66.83ms, from last 38.13ms
+pool is full! evicted 26
+pool is full! evicted 17
+model process: 74.19ms, from last 67.44ms
+pool is full! evicted 27
+pool is full! evicted 3
+pool is full! evicted 7
+model process: 117.77ms, from last 74.66ms
+pool is full! evicted 28
+pool is full! evicted 29
+pool is full! evicted 30
+model process: 77.41ms, from last 118.47ms
+pool is full! evicted 2
+model process: 58.79ms, from last 77.92ms
+pool is full! evicted 0
+pool is full! evicted 31
+model process: 58.42ms, from last 59.20ms
+pool is full! evicted 30
+pool is full! evicted 1
+pool is full! evicted 32
+model process: 75.08ms, from last 59.55ms
+pool is full! evicted 33
+model process: 37.08ms, from last 75.65ms
+pool is full! evicted 2
+pool is full! evicted 34
+model process: 66.19ms, from last 37.90ms
+pool is full! evicted 35
+pool is full! evicted 3
+model process: 69.80ms, from last 66.71ms
+pool is full! evicted 36
+pool is full! evicted 6
+model process: 61.48ms, from last 70.28ms
+pool is full! evicted 4
+pool is full! evicted 7
+pool is full! evicted 8
+model process: 106.44ms, from last 61.94ms
+pool is full! evicted 5
+pool is full! evicted 5
+model process: 45.73ms, from last 106.82ms
+pool is full! evicted 23
+model process: 46.08ms, from last 46.16ms
+pool is full! evicted 6
+pool is full! evicted 14
+model process: 48.11ms, from last 46.47ms
+pool is full! evicted 9
+model process: 48.34ms, from last 48.53ms
+pool is full! evicted 33
+pool is full! evicted 10
+model process: 49.79ms, from last 48.84ms
+pool is full! evicted 15
+model process: 53.66ms, from last 50.25ms
+pool is full! evicted 34
+pool is full! evicted 0
+model process: 53.69ms, from last 54.25ms
+pool is full! evicted 1
+pool is full! evicted 35
+model process: 64.36ms, from last 54.09ms
+pool is full! evicted 37
+model process: 56.50ms, from last 65.14ms
+pool is full! evicted 16
+pool is full! evicted 36
+model process: 44.29ms, from last 57.03ms
+pool is full! evicted 17
+model process: 65.27ms, from last 44.65ms
+pool is full! evicted 18
+pool is full! evicted 37
+pool is full! evicted 11
+model process: 52.91ms, from last 65.91ms
+model process: 41.94ms, from last 53.37ms
+pool is full! evicted 12
+pool is full! evicted 38
+model process: 50.10ms, from last 43.41ms
+pool is full! evicted 13
+pool is full! evicted 39
+pool is full! evicted 25
+model process: 82.42ms, from last 50.95ms
+pool is full! evicted 4
+pool is full! evicted 8
+pool is full! evicted 19
+model process: 74.99ms, from last 82.88ms
+model process: 45.19ms, from last 75.37ms
+pool is full! evicted 20
+pool is full! evicted 9
+model process: 42.05ms, from last 45.67ms
+pool is full! evicted 21
+model process: 39.35ms, from last 42.80ms
+pool is full! evicted 24
+model process: 37.14ms, from last 40.20ms
+pool is full! evicted 12
+pool is full! evicted 22
+model process: 50.81ms, from last 37.57ms
+pool is full! evicted 38
+model process: 37.19ms, from last 51.25ms
+pool is full! evicted 10
+pool is full! evicted 39
+model process: 50.55ms, from last 37.67ms
+pool is full! evicted 26
+model process: 47.99ms, from last 51.16ms
+pool is full! evicted 11
+model process: 69.34ms, from last 48.60ms
+model process: 48.99ms, from last 69.80ms
+model process: 60.12ms, from last 49.56ms
+model process: 52.91ms, from last 60.57ms
+model process: 50.75ms, from last 53.32ms
+pool is full! evicted 27
+pool is full! evicted 3
+model process: 72.75ms, from last 51.23ms
+pool is full! evicted 28
+model process: 51.03ms, from last 73.31ms
+pool is full! evicted 29
+model process: 41.43ms, from last 51.58ms
+pool is full! evicted 31
+pool is full! evicted 13
+model process: 50.88ms, from last 41.86ms
+pool is full! evicted 30
+model process: 48.31ms, from last 54.62ms
+pool is full! evicted 14
+pool is full! evicted 32
+model process: 54.87ms, from last 48.64ms
+pool is full! evicted 33
+model process: 46.67ms, from last 55.38ms
+pool is full! evicted 18
+pool is full! evicted 34
+model process: 44.20ms, from last 47.16ms
+pool is full! evicted 35
+model process: 52.36ms, from last 44.86ms
+pool is full! evicted 19
+pool is full! evicted 36
+model process: 64.03ms, from last 52.72ms
+pool is full! evicted 6
+model process: 52.06ms, from last 64.42ms
+pool is full! evicted 20
+pool is full! evicted 7
+model process: 49.16ms, from last 53.05ms
+pool is full! evicted 8
+pool is full! evicted 21
+model process: 58.68ms, from last 49.79ms
+pool is full! evicted 14
+model process: 48.82ms, from last 59.27ms
+pool is full! evicted 9
+pool is full! evicted 22
+model process: 54.34ms, from last 49.45ms
+pool is full! evicted 10
+{"event": "upload_success", "key": "2021-03-08--15-29-05--0/rlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/rlog.bz2", "sz": 3760417, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+pool is full! evicted 15
+model process: 62.31ms, from last 54.82ms
+pool is full! evicted 23
+pool is full! evicted 0
+model process: 48.74ms, from last 62.76ms
+pool is full! evicted 1
+model process: 52.86ms, from last 49.18ms
+pool is full! evicted 24
+pool is full! evicted 37
+model process: 61.58ms, from last 53.33ms
+pool is full! evicted 16
+pool is full! evicted 31
+model process: 51.02ms, from last 61.99ms
+pool is full! evicted 17
+model process: 47.42ms, from last 51.47ms
+pool is full! evicted 18
+pool is full! evicted 32
+model process: 58.07ms, from last 48.24ms
+pool is full! evicted 11
+model process: 49.21ms, from last 58.50ms
+pool is full! evicted 12
+pool is full! evicted 25
+pool is full! evicted 13
+model process: 77.32ms, from last 49.69ms
+pool is full! evicted 26
+pool is full! evicted 25
+model process: 50.80ms, from last 77.85ms
+pool is full! evicted 4
+model process: 47.75ms, from last 51.27ms
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--0/fcamera.hevc', '/data/media/0/realdata/2021-03-08--15-29-05--0/fcamera.hevc')
+{"event": "upload", "key": "2021-03-08--15-29-05--0/fcamera.hevc", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/fcamera.hevc", "sz": 5350586, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+pool is full! evicted 27
+pool is full! evicted 19
+model process: 52.36ms, from last 48.20ms
+checking '2021-03-08--15-29-05--0/fcamera.hevc' with size 5350586
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--0/fcamera.hevc'
+pool is full! evicted 20
+model process: 44.12ms, from last 52.81ms
+pool is full! evicted 28
+pool is full! evicted 21
+model process: 54.48ms, from last 44.51ms
+pool is full! evicted 24
+model process: 51.72ms, from last 54.98ms
+pool is full! evicted 29
+pool is full! evicted 22
+model process: 75.52ms, from last 52.35ms
+pool is full! evicted 26
+pool is full! evicted 15
+pool is full! evicted 38
+model process: 75.88ms, from last 75.96ms
+pool is full! evicted 2
+model process: 53.05ms, from last 76.66ms
+pool is full! evicted 16
+pool is full! evicted 5
+model process: 65.50ms, from last 53.43ms
+pool is full! evicted 23
+pool is full! evicted 17
+model process: 52.01ms, from last 65.91ms
+pool is full! evicted 39
+model process: 56.62ms, from last 52.85ms
+pool is full! evicted 27
+pool is full! evicted 7
+model process: 58.48ms, from last 57.06ms
+pool is full! evicted 3
+pool is full! evicted 28
+model process: 61.83ms, from last 58.96ms
+pool is full! evicted 30
+pool is full! evicted 29
+model process: 60.05ms, from last 62.52ms
+model process: 60.80ms, from last 60.50ms
+model process: 54.13ms, from last 61.40ms
+model process: 46.16ms, from last 54.59ms
+model process: 41.50ms, from last 46.82ms
+pool is full! evicted 31
+model process: 47.31ms, from last 41.94ms
+pool is full! evicted 30
+model process: 61.07ms, from last 47.75ms
+pool is full! evicted 32
+pool is full! evicted 33
+model process: 72.58ms, from last 61.46ms
+pool is full! evicted 34
+model process: 49.97ms, from last 73.05ms
+pool is full! evicted 35
+pool is full! evicted 0
+model process: 84.58ms, from last 50.41ms
+pool is full! evicted 36
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/ae1d1a42582a3551/2021-03-08--15-29-05/0/fcamera.hevc?se=2021-03-15T20%3A30%3A33Z&sp=cw&sv=2018-03-28&sr=b&sig=FxJz0dpLLQPOjm/x8UAj0tVQ76UFaaCXDXx8XbbO488%3D {'x-ms-blob-type': 'BlockBlob'}
+model process: 46.28ms, from last 85.26ms
+pool is full! evicted 9
+model process: 39.99ms, from last 46.66ms
+pool is full! evicted 1
+pool is full! evicted 10
+model process: 59.65ms, from last 41.32ms
+pool is full! evicted 15
+pool is full! evicted 2
+model process: 49.41ms, from last 60.15ms
+pool is full! evicted 0
+model process: 52.34ms, from last 50.25ms
+pool is full! evicted 1
+pool is full! evicted 3
+pool is full! evicted 37
+model process: 61.15ms, from last 52.85ms
+pool is full! evicted 16
+model process: 40.45ms, from last 61.99ms
+pool is full! evicted 4
+pool is full! evicted 17
+model process: 52.27ms, from last 41.05ms
+pool is full! evicted 18
+model process: 54.79ms, from last 52.68ms
+pool is full! evicted 5
+pool is full! evicted 11
+model process: 48.24ms, from last 55.17ms
+pool is full! evicted 12
+pool is full! evicted 6
+model process: 65.82ms, from last 48.69ms
+pool is full! evicted 13
+model process: 43.21ms, from last 66.72ms
+pool is full! evicted 25
+pool is full! evicted 12
+model process: 45.67ms, from last 43.67ms
+pool is full! evicted 4
+model process: 54.90ms, from last 46.07ms
+pool is full! evicted 19
+pool is full! evicted 10
+model process: 47.61ms, from last 55.32ms
+pool is full! evicted 20
+model process: 63.13ms, from last 48.06ms
+selfdrive/boardd/boardd.cc: missed cycle
+pool is full! evicted 21
+pool is full! evicted 11
+model process: 62.29ms, from last 63.56ms
+pool is full! evicted 24
+model process: 49.64ms, from last 62.83ms
+pool is full! evicted 33
+pool is full! evicted 22
+model process: 41.32ms, from last 50.82ms
+pool is full! evicted 26
+pool is full! evicted 34
+model process: 64.05ms, from last 41.76ms
+pool is full! evicted 38
+pool is full! evicted 2
+model process: 84.68ms, from last 64.85ms
+pool is full! evicted 35
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 72.31ms, from last 85.26ms
+pool is full! evicted 36
+pool is full! evicted 39
+model process: 64.92ms, from last 72.71ms
+pool is full! evicted 27
+model process: 43.10ms, from last 65.56ms
+pool is full! evicted 13
+pool is full! evicted 3
+model process: 54.52ms, from last 43.48ms
+pool is full! evicted 28
+model process: 43.21ms, from last 54.93ms
+pool is full! evicted 14
+pool is full! evicted 29
+model process: 53.18ms, from last 43.61ms
+pool is full! evicted 6
+pool is full! evicted 18
+model process: 63.59ms, from last 53.61ms
+pool is full! evicted 7
+model process: 57.43ms, from last 64.46ms
+pool is full! evicted 8
+pool is full! evicted 19
+model process: 47.07ms, from last 57.86ms
+pool is full! evicted 14
+model process: 49.06ms, from last 47.54ms
+pool is full! evicted 31
+pool is full! evicted 20
+model process: 50.51ms, from last 49.74ms
+pool is full! evicted 30
+model process: 47.65ms, from last 51.15ms
+pool is full! evicted 32
+pool is full! evicted 21
+model process: 55.82ms, from last 48.08ms
+pool is full! evicted 33
+model process: 44.51ms, from last 56.79ms
+pool is full! evicted 34
+pool is full! evicted 22
+model process: 45.89ms, from last 44.99ms
+pool is full! evicted 35
+selfdrive/ui/ui.cc: slow frame(3373) time: 73.22
+model process: 59.15ms, from last 46.46ms
+pool is full! evicted 36
+pool is full! evicted 23
+model process: 67.73ms, from last 59.68ms
+model process: 65.81ms, from last 68.38ms
+model process: 55.13ms, from last 66.74ms
+pool is full! evicted 15
+model process: 57.06ms, from last 55.70ms
+pool is full! evicted 0
+model process: 41.08ms, from last 57.78ms
+pool is full! evicted 1
+model process: 39.95ms, from last 41.55ms
+pool is full! evicted 37
+model process: 54.72ms, from last 40.63ms
+pool is full! evicted 24
+pool is full! evicted 16
+model process: 56.12ms, from last 55.18ms
+pool is full! evicted 17
+pool is full! evicted 31
+model process: 52.47ms, from last 56.71ms
+pool is full! evicted 18
+model process: 51.28ms, from last 54.99ms
+pool is full! evicted 12
+pool is full! evicted 32
+pool is full! evicted 13
+model process: 75.64ms, from last 52.27ms
+pool is full! evicted 25
+pool is full! evicted 25
+model process: 50.48ms, from last 76.11ms
+pool is full! evicted 4
+selfdrive/ui/ui.cc: slow frame(3397) time: 90.68
+model process: 71.07ms, from last 50.92ms
+pool is full! evicted 19
+pool is full! evicted 26
+pool is full! evicted 20
+model process: 73.35ms, from last 71.62ms
+pool is full! evicted 21
+pool is full! evicted 27
+model process: 72.14ms, from last 74.03ms
+pool is full! evicted 24
+pool is full! evicted 22
+model process: 63.59ms, from last 72.75ms
+pool is full! evicted 28
+pool is full! evicted 26
+model process: 50.06ms, from last 64.19ms
+pool is full! evicted 38
+pool is full! evicted 29
+model process: 52.78ms, from last 50.42ms
+pool is full! evicted 2
+model process: 46.15ms, from last 53.29ms
+pool is full! evicted 5
+pool is full! evicted 15
+model process: 62.42ms, from last 46.65ms
+selfdrive/ui/ui.cc: slow frame(3412) time: 69.76
+pool is full! evicted 23
+pool is full! evicted 16
+pool is full! evicted 39
+model process: 102.91ms, from last 62.82ms
+pool is full! evicted 27
+model process: 38.28ms, from last 103.48ms
+pool is full! evicted 17
+pool is full! evicted 3
+model process: 74.87ms, from last 38.66ms
+pool is full! evicted 28
+pool is full! evicted 7
+model process: 57.83ms, from last 75.31ms
+pool is full! evicted 29
+model process: 38.97ms, from last 59.17ms
+pool is full! evicted 6
+model process: 40.77ms, from last 39.32ms
+pool is full! evicted 30
+pool is full! evicted 7
+model process: 56.93ms, from last 41.20ms
+pool is full! evicted 8
+model process: 40.48ms, from last 57.39ms
+pool is full! evicted 37
+pool is full! evicted 14
+model process: 64.71ms, from last 41.39ms
+pool is full! evicted 31
+pool is full! evicted 8
+pool is full! evicted 30
+model process: 67.08ms, from last 65.05ms
+pool is full! evicted 32
+pool is full! evicted 9
+model process: 77.25ms, from last 67.40ms
+pool is full! evicted 33
+model process: 51.58ms, from last 77.76ms
+pool is full! evicted 34
+pool is full! evicted 38
+pool is full! evicted 35
+model process: 72.93ms, from last 51.96ms
+pool is full! evicted 36
+pool is full! evicted 39
+model process: 95.19ms, from last 73.80ms
+pool is full! evicted 9
+pool is full! evicted 10
+pool is full! evicted 0
+model process: 70.46ms, from last 95.67ms
+pool is full! evicted 11
+model process: 41.85ms, from last 70.95ms
+pool is full! evicted 15
+pool is full! evicted 1
+model process: 57.32ms, from last 42.26ms
+pool is full! evicted 0
+model process: 50.44ms, from last 57.80ms
+pool is full! evicted 1
+pool is full! evicted 2
+model process: 67.21ms, from last 51.26ms
+pool is full! evicted 37
+pool is full! evicted 3
+pool is full! evicted 16
+model process: 76.18ms, from last 67.71ms
+pool is full! evicted 17
+model process: 63.32ms, from last 77.51ms
+pool is full! evicted 4
+pool is full! evicted 18
+model process: 65.94ms, from last 63.90ms
+pool is full! evicted 12
+pool is full! evicted 5
+selfdrive/ui/ui.cc: slow frame(3455) time: 72.05
+pool is full! evicted 13
+model process: 78.23ms, from last 66.34ms
+pool is full! evicted 25
+pool is full! evicted 6
+pool is full! evicted 4
+model process: 88.17ms, from last 78.71ms
+model process: 48.27ms, from last 88.61ms
+model process: 54.68ms, from last 48.71ms
+model process: 43.49ms, from last 55.05ms
+model process: 53.35ms, from last 44.50ms
+selfdrive/ui/ui.cc: slow frame(3467) time: 67.02
+model process: 101.53ms, from last 53.88ms
+model process: 63.67ms, from last 102.00ms
+model process: 56.00ms, from last 64.50ms
+pool is full! evicted 21
+pool is full! evicted 24
+model process: 62.48ms, from last 56.48ms
+pool is full! evicted 22
+model process: 56.63ms, from last 64.03ms
+pool is full! evicted 26
+model process: 45.13ms, from last 57.09ms
+pool is full! evicted 38
+model process: 51.71ms, from last 45.54ms
+pool is full! evicted 2
+model process: 65.12ms, from last 52.20ms
+pool is full! evicted 5
+pool is full! evicted 23
+model process: 87.86ms, from last 65.61ms
+pool is full! evicted 39
+model process: 56.87ms, from last 88.32ms
+pool is full! evicted 27
+model process: 49.51ms, from last 57.32ms
+pool is full! evicted 3
+model process: 47.14ms, from last 49.90ms
+pool is full! evicted 28
+model process: 37.73ms, from last 47.53ms
+{"event": "upload_success", "key": "2021-03-08--15-29-05--0/fcamera.hevc", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/fcamera.hevc", "sz": 5350586, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+pool is full! evicted 29
+model process: 61.13ms, from last 38.18ms
+pool is full! evicted 6
+model process: 37.64ms, from last 61.64ms
+pool is full! evicted 7
+model process: 56.37ms, from last 37.99ms
+pool is full! evicted 8
+model process: 40.49ms, from last 56.83ms
+pool is full! evicted 14
+model process: 67.11ms, from last 41.32ms
+pool is full! evicted 31
+model process: 57.01ms, from last 67.56ms
+pool is full! evicted 30
+selfdrive/ui/ui.cc: slow frame(3499) time: 84.91
+model process: 47.85ms, from last 57.79ms
+pool is full! evicted 32
+model process: 44.17ms, from last 48.26ms
+pool is full! evicted 33
+model process: 44.99ms, from last 44.71ms
+pool is full! evicted 34
+pool is full! evicted 33
+model process: 46.37ms, from last 45.48ms
+pool is full! evicted 35
+model process: 39.22ms, from last 46.77ms
+pool is full! evicted 36
+model process: 48.70ms, from last 39.78ms
+pool is full! evicted 34
+pool is full! evicted 9
+model process: 42.22ms, from last 49.33ms
+pool is full! evicted 10
+model process: 50.64ms, from last 42.71ms
+pool is full! evicted 35
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--0/dcamera.hevc', '/data/media/0/realdata/2021-03-08--15-29-05--0/dcamera.hevc')
+{"event": "upload", "key": "2021-03-08--15-29-05--0/dcamera.hevc", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/dcamera.hevc", "sz": 13360041, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+model process: 36.45ms, from last 51.62ms
+pool is full! evicted 11
+checking '2021-03-08--15-29-05--0/dcamera.hevc' with size 13360041
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--0/dcamera.hevc'
+model process: 38.98ms, from last 37.13ms
+pool is full! evicted 0
+pool is full! evicted 36
+model process: 41.79ms, from last 39.46ms
+pool is full! evicted 1
+model process: 55.62ms, from last 42.53ms
+pool is full! evicted 10
+pool is full! evicted 37
+model process: 68.41ms, from last 56.60ms
+pool is full! evicted 16
+pool is full! evicted 11
+pool is full! evicted 17
+model process: 59.37ms, from last 68.85ms
+pool is full! evicted 12
+model process: 43.74ms, from last 60.09ms
+pool is full! evicted 12
+pool is full! evicted 13
+model process: 50.00ms, from last 44.14ms
+model process: 37.96ms, from last 50.41ms
+pool is full! evicted 15
+pool is full! evicted 24
+pool is full! evicted 4
+model process: 59.36ms, from last 38.34ms
+model process: 38.33ms, from last 59.81ms
+pool is full! evicted 18
+pool is full! evicted 31
+model process: 47.56ms, from last 38.96ms
+pool is full! evicted 19
+model process: 64.10ms, from last 47.97ms
+pool is full! evicted 20
+pool is full! evicted 32
+pool is full! evicted 25
+model process: 60.73ms, from last 64.67ms
+pool is full! evicted 21
+pool is full! evicted 25
+model process: 66.90ms, from last 61.18ms
+pool is full! evicted 24
+model process: 48.73ms, from last 67.55ms
+pool is full! evicted 22
+pool is full! evicted 28
+model process: 46.98ms, from last 49.21ms
+pool is full! evicted 26
+pool is full! evicted 38
+model process: 71.52ms, from last 47.64ms
+model process: 59.61ms, from last 72.01ms
+model process: 47.67ms, from last 60.10ms
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/ae1d1a42582a3551/2021-03-08--15-29-05/0/dcamera.hevc?se=2021-03-15T20%3A30%3A40Z&sp=cw&sv=2018-03-28&sr=b&sig=awE5AeXBfWT2gf861zj2ncz0cmvXxM%2BsOJGHiN8AB0c%3D {'x-ms-blob-type': 'BlockBlob'}
+model process: 71.11ms, from last 48.08ms
+pool is full! evicted 2
+pool is full! evicted 5
+model process: 73.81ms, from last 72.00ms
+model process: 38.79ms, from last 74.20ms
+pool is full! evicted 23
+pool is full! evicted 39
+model process: 62.55ms, from last 40.06ms
+pool is full! evicted 28
+model process: 53.88ms, from last 63.03ms
+pool is full! evicted 29
+model process: 41.53ms, from last 54.34ms
+pool is full! evicted 6
+model process: 48.84ms, from last 41.87ms
+pool is full! evicted 7
+model process: 66.18ms, from last 49.80ms
+pool is full! evicted 8
+model process: 52.23ms, from last 66.58ms
+pool is full! evicted 14
+model process: 53.21ms, from last 52.70ms
+pool is full! evicted 37
+pool is full! evicted 31
+model process: 65.74ms, from last 53.64ms
+pool is full! evicted 30
+pool is full! evicted 8
+model process: 42.77ms, from last 66.15ms
+pool is full! evicted 32
+model process: 56.25ms, from last 43.30ms
+pool is full! evicted 33
+pool is full! evicted 9
+pool is full! evicted 34
+model process: 75.80ms, from last 56.97ms
+pool is full! evicted 35
+pool is full! evicted 38
+model process: 56.25ms, from last 76.31ms
+pool is full! evicted 36
+model process: 52.37ms, from last 56.70ms
+pool is full! evicted 9
+pool is full! evicted 39
+model process: 66.00ms, from last 53.21ms
+pool is full! evicted 10
+pool is full! evicted 11
+model process: 57.64ms, from last 66.38ms
+pool is full! evicted 5
+pool is full! evicted 0
+model process: 69.88ms, from last 57.99ms
+pool is full! evicted 1
+pool is full! evicted 6
+model process: 44.42ms, from last 70.61ms
+pool is full! evicted 37
+model process: 64.68ms, from last 45.34ms
+pool is full! evicted 16
+pool is full! evicted 13
+selfdrive/ui/ui.cc: slow frame(3581) time: 70.19
+pool is full! evicted 17
+model process: 97.82ms, from last 65.15ms
+pool is full! evicted 12
+pool is full! evicted 7
+model process: 43.14ms, from last 98.43ms
+pool is full! evicted 13
+model process: 45.13ms, from last 43.61ms
+selfdrive/ui/ui.cc: slow frame(3586) time: 74.65
+pool is full! evicted 14
+pool is full! evicted 15
+pool is full! evicted 4
+model process: 93.00ms, from last 45.93ms
+pool is full! evicted 15
+pool is full! evicted 18
+pool is full! evicted 19
+model process: 90.73ms, from last 93.51ms
+pool is full! evicted 16
+pool is full! evicted 20
+model process: 60.04ms, from last 91.16ms
+pool is full! evicted 25
+model process: 51.90ms, from last 60.90ms
+pool is full! evicted 17
+pool is full! evicted 21
+model process: 53.39ms, from last 52.30ms
+pool is full! evicted 24
+pool is full! evicted 18
+pool is full! evicted 26
+model process: 82.95ms, from last 53.79ms
+selfdrive/ui/ui.cc: awake off
+model process: 37.13ms, from last 83.38ms
+pool is full! evicted 38
+pool is full! evicted 19
+model process: 48.01ms, from last 37.79ms
+pool is full! evicted 3
+Result: Parcel(00000000    '....')
+model process: 47.08ms, from last 48.88ms
+pool is full! evicted 22
+pool is full! evicted 20
+model process: 41.59ms, from last 47.49ms
+pool is full! evicted 27
+model process: 44.14ms, from last 42.05ms
+model process: 49.85ms, from last 44.80ms
+model process: 48.04ms, from last 50.77ms
+model process: 49.36ms, from last 48.64ms
+model process: 49.99ms, from last 50.03ms
+model process: 55.54ms, from last 50.38ms
+pool is full! evicted 2
+model process: 47.29ms, from last 55.96ms
+pool is full! evicted 5
+model process: 44.96ms, from last 48.05ms
+pool is full! evicted 23
+model process: 47.47ms, from last 45.46ms
+pool is full! evicted 39
+pool is full! evicted 21
+model process: 52.45ms, from last 47.97ms
+pool is full! evicted 6
+model process: 48.40ms, from last 52.90ms
+pool is full! evicted 22
+pool is full! evicted 7
+model process: 52.56ms, from last 48.84ms
+pool is full! evicted 8
+model process: 48.12ms, from last 52.95ms
+pool is full! evicted 23
+pool is full! evicted 14
+model process: 37.14ms, from last 48.62ms
+pool is full! evicted 33
+model process: 51.49ms, from last 37.66ms
+pool is full! evicted 26
+pool is full! evicted 34
+model process: 57.75ms, from last 52.32ms
+pool is full! evicted 35
+model process: 43.11ms, from last 58.18ms
+pool is full! evicted 27
+pool is full! evicted 36
+model process: 47.45ms, from last 43.59ms
+pool is full! evicted 9
+model process: 35.47ms, from last 48.10ms
+pool is full! evicted 30
+pool is full! evicted 10
+model process: 46.50ms, from last 35.89ms
+model process: 30.49ms, from last 47.16ms
+pool is full! evicted 11
+pool is full! evicted 33
+model process: 57.60ms, from last 31.00ms
+pool is full! evicted 0
+model process: 37.56ms, from last 58.34ms
+pool is full! evicted 1
+pool is full! evicted 34
+model process: 48.92ms, from last 38.35ms
+pool is full! evicted 37
+model process: 47.95ms, from last 49.91ms
+pool is full! evicted 16
+pool is full! evicted 35
+model process: 55.23ms, from last 48.38ms
+pool is full! evicted 17
+model process: 42.42ms, from last 55.91ms
+pool is full! evicted 12
+pool is full! evicted 36
+model process: 46.94ms, from last 42.90ms
+pool is full! evicted 13
+model process: 37.21ms, from last 47.43ms
+pool is full! evicted 15
+pool is full! evicted 10
+model process: 61.87ms, from last 37.69ms
+pool is full! evicted 4
+model process: 43.60ms, from last 62.37ms
+pool is full! evicted 18
+pool is full! evicted 11
+model process: 44.01ms, from last 44.49ms
+pool is full! evicted 19
+model process: 38.12ms, from last 44.63ms
+model process: 37.68ms, from last 39.08ms
+pool is full! evicted 20
+pool is full! evicted 12
+model process: 38.47ms, from last 48.07ms
+pool is full! evicted 25
+model process: 38.13ms, from last 47.83ms
+pool is full! evicted 32
+pool is full! evicted 21
+model process: 41.85ms, from last 50.88ms
+pool is full! evicted 24
+pool is full! evicted 25
+pool is full! evicted 26
+model process: 43.52ms, from last 56.03ms
+model process: 33.63ms, from last 45.30ms
+pool is full! evicted 38
+pool is full! evicted 0
+pool is full! evicted 3
+model process: 54.90ms, from last 48.61ms
+model process: 40.86ms, from last 55.75ms
+pool is full! evicted 22
+pool is full! evicted 1
+pool is full! evicted 27
+model process: 56.00ms, from last 57.46ms
+pool is full! evicted 28
+model process: 51.50ms, from last 56.50ms
+pool is full! evicted 2
+pool is full! evicted 29
+model process: 52.85ms, from last 52.00ms
+pool is full! evicted 30
+pool is full! evicted 3
+model process: 52.83ms, from last 53.26ms
+pool is full! evicted 31
+model process: 48.93ms, from last 53.28ms
+pool is full! evicted 32
+model process: 32.53ms, from last 49.37ms
+pool is full! evicted 4
+pool is full! evicted 2
+model process: 51.69ms, from last 33.33ms
+model process: 38.26ms, from last 52.23ms
+pool is full! evicted 5
+pool is full! evicted 28
+model process: 32.58ms, from last 46.41ms
+pool is full! evicted 23
+model process: 28.34ms, from last 39.66ms
+pool is full! evicted 39
+pool is full! evicted 29
+pool is full! evicted 6
+model process: 53.70ms, from last 51.68ms
+model process: 59.75ms, from last 54.10ms
+model process: 41.75ms, from last 60.64ms
+model process: 54.27ms, from last 42.12ms
+model process: 48.93ms, from last 54.77ms
+model process: 30.83ms, from last 49.41ms
+model process: 52.30ms, from last 39.63ms
+pool is full! evicted 37
+pool is full! evicted 7
+model process: 54.78ms, from last 52.69ms
+model process: 36.08ms, from last 55.53ms
+pool is full! evicted 8
+model process: 30.40ms, from last 41.75ms
+pool is full! evicted 8
+pool is full! evicted 14
+model process: 27.96ms, from last 49.77ms
+pool is full! evicted 9
+pool is full! evicted 9
+pool is full! evicted 10
+model process: 46.19ms, from last 52.81ms
+pool is full! evicted 11
+model process: 43.34ms, from last 55.26ms
+pool is full! evicted 38
+pool is full! evicted 37
+model process: 48.70ms, from last 44.19ms
+model process: 35.26ms, from last 50.11ms
+pool is full! evicted 16
+pool is full! evicted 39
+model process: 36.01ms, from last 45.50ms
+pool is full! evicted 17
+model process: 47.58ms, from last 49.87ms
+pool is full! evicted 12
+pool is full! evicted 13
+pool is full! evicted 13
+model process: 56.34ms, from last 51.22ms
+pool is full! evicted 15
+model process: 50.94ms, from last 56.85ms
+pool is full! evicted 7
+pool is full! evicted 4
+model process: 52.87ms, from last 51.57ms
+pool is full! evicted 18
+model process: 42.57ms, from last 53.31ms
+pool is full! evicted 14
+pool is full! evicted 19
+model process: 56.58ms, from last 43.00ms
+pool is full! evicted 20
+model process: 37.82ms, from last 57.01ms
+pool is full! evicted 15
+model process: 40.84ms, from last 39.16ms
+pool is full! evicted 25
+model process: 29.78ms, from last 51.42ms
+pool is full! evicted 21
+pool is full! evicted 16
+pool is full! evicted 24
+model process: 49.82ms, from last 60.83ms
+pool is full! evicted 26
+pool is full! evicted 17
+model process: 46.21ms, from last 50.21ms
+pool is full! evicted 38
+model process: 62.75ms, from last 46.97ms
+pool is full! evicted 3
+pool is full! evicted 18
+model process: 51.28ms, from last 63.33ms
+pool is full! evicted 22
+model process: 57.63ms, from last 51.81ms
+pool is full! evicted 19
+pool is full! evicted 27
+model process: 40.39ms, from last 58.11ms
+pool is full! evicted 28
+pool is full! evicted 20
+pool is full! evicted 29
+model process: 80.49ms, from last 40.76ms
+pool is full! evicted 30
+model process: 58.75ms, from last 80.97ms
+pool is full! evicted 5
+pool is full! evicted 31
+model process: 54.31ms, from last 59.22ms
+pool is full! evicted 32
+model process: 49.37ms, from last 55.05ms
+pool is full! evicted 6
+pool is full! evicted 2
+model process: 45.84ms, from last 50.24ms
+pool is full! evicted 5
+model process: 55.40ms, from last 46.30ms
+pool is full! evicted 24
+pool is full! evicted 23
+model process: 56.50ms, from last 55.88ms
+pool is full! evicted 39
+pool is full! evicted 31
+model process: 49.28ms, from last 57.29ms
+pool is full! evicted 6
+model process: 52.78ms, from last 50.45ms
+pool is full! evicted 33
+pool is full! evicted 21
+model process: 42.14ms, from last 53.73ms
+pool is full! evicted 0
+model process: 50.38ms, from last 42.65ms
+pool is full! evicted 1
+pool is full! evicted 22
+model process: 55.03ms, from last 50.86ms
+pool is full! evicted 34
+model process: 42.45ms, from last 55.51ms
+pool is full! evicted 35
+pool is full! evicted 23
+model process: 62.91ms, from last 42.95ms
+pool is full! evicted 36
+model process: 38.68ms, from last 63.27ms
+pool is full! evicted 7
+pool is full! evicted 26
+model process: 59.53ms, from last 39.09ms
+pool is full! evicted 8
+model process: 38.30ms, from last 59.97ms
+pool is full! evicted 14
+pool is full! evicted 27
+model process: 55.49ms, from last 38.69ms
+pool is full! evicted 9
+model process: 45.96ms, from last 55.99ms
+pool is full! evicted 30
+pool is full! evicted 10
+model process: 48.04ms, from last 46.40ms
+model process: 41.83ms, from last 48.45ms
+model process: 50.52ms, from last 42.24ms
+model process: 46.56ms, from last 50.95ms
+model process: 49.79ms, from last 47.01ms
+model process: 37.98ms, from last 50.13ms
+model process: 36.86ms, from last 38.45ms
+model process: 40.44ms, from last 37.36ms
+model process: 48.46ms, from last 41.32ms
+pool is full! evicted 11
+model process: 53.08ms, from last 48.96ms
+pool is full! evicted 12
+pool is full! evicted 13
+model process: 69.25ms, from last 53.49ms
+pool is full! evicted 15
+model process: 42.01ms, from last 69.85ms
+model process: 39.45ms, from last 42.95ms
+pool is full! evicted 4
+model process: 32.77ms, from last 40.08ms
+pool is full! evicted 18
+model process: 54.59ms, from last 34.03ms
+{"event": "STATUS_PACKET", "count": 360, "health": {"health": {"voltage": 13337, "current": 90, "ignitionLine": false, "controlsAllowed": false, "gasInterceptorDetected": false, "startedSignalDetectedDeprecated": false, "hasGps": true, "canSendErrs": 412197, "canFwdErrs": 496488, "gmlanSendErrs": 0, "hwType": "greyPanda", "fanSpeedRpm": 0, "usbPowerMode": "cdp", "ignitionCan": true, "safetyModel": "tesla", "faultStatus": "none", "powerSaveEnabled": true, "uptime": 3749, "faults": [], "canRxErrs": 0}, "logMonoTime": 249975874590, "valid": true}, "location": null, "thermal": {"thermal": {"cpu0": 646, "cpu1": 662, "cpu2": 672, "cpu3": 659, "mem": 633, "gpu": 601, "bat": 36200, "freeSpace": 0.9286772012710571, "batteryPercent": 78, "batteryStatus": "Charging", "fanSpeed": 32768, "started": true, "usbOnline": true, "startedTs": 146436838380, "thermalStatus": "green", "batteryCurrent": 731349, "batteryVoltage": 3980994, "chargingError": true, "chargingDisabled": false, "memUsedPercent": 36, "cpuPerc": 100, "pa0": 39, "networkType": "wifi", "offroadPowerUsage": 0, "networkStrength": "moderate"}, "logMonoTime": 249982834434, "valid": true}, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+pool is full! evicted 19
+model process: 49.25ms, from last 54.94ms
+pool is full! evicted 20
+model process: 74.21ms, from last 50.00ms
+pool is full! evicted 25
+model process: 40.72ms, from last 74.88ms
+pool is full! evicted 21
+model process: 45.66ms, from last 41.37ms
+pool is full! evicted 24
+model process: 38.29ms, from last 46.23ms
+pool is full! evicted 26
+model process: 46.97ms, from last 38.75ms
+pool is full! evicted 38
+model process: 43.82ms, from last 47.35ms
+pool is full! evicted 3
+pool is full! evicted 33
+model process: 48.87ms, from last 44.21ms
+pool is full! evicted 22
+model process: 48.34ms, from last 49.31ms
+pool is full! evicted 34
+pool is full! evicted 27
+model process: 49.19ms, from last 49.23ms
+pool is full! evicted 28
+model process: 48.68ms, from last 49.61ms
+pool is full! evicted 0
+pool is full! evicted 29
+model process: 48.28ms, from last 49.37ms
+pool is full! evicted 30
+model process: 43.91ms, from last 48.97ms
+pool is full! evicted 1
+model process: 36.64ms, from last 44.35ms
+pool is full! evicted 31
+model process: 37.50ms, from last 43.89ms
+pool is full! evicted 32
+pool is full! evicted 2
+model process: 38.53ms, from last 48.53ms
+pool is full! evicted 2
+model process: 30.36ms, from last 47.51ms
+pool is full! evicted 33
+pool is full! evicted 3
+pool is full! evicted 0
+model process: 62.01ms, from last 47.49ms
+pool is full! evicted 1
+pool is full! evicted 4
+model process: 71.31ms, from last 62.48ms
+pool is full! evicted 34
+model process: 41.76ms, from last 72.37ms
+pool is full! evicted 35
+pool is full! evicted 28
+model process: 49.90ms, from last 42.17ms
+pool is full! evicted 36
+model process: 54.82ms, from last 50.50ms
+pool is full! evicted 7
+pool is full! evicted 29
+model process: 51.86ms, from last 55.48ms
+pool is full! evicted 8
+model process: 50.78ms, from last 52.28ms
+pool is full! evicted 14
+pool is full! evicted 25
+model process: 44.90ms, from last 51.33ms
+pool is full! evicted 9
+model process: 38.08ms, from last 45.35ms
+pool is full! evicted 10
+pool is full! evicted 32
+model process: 40.53ms, from last 38.76ms
+model process: 62.01ms, from last 40.95ms
+model process: 84.47ms, from last 62.35ms
+model process: 35.00ms, from last 84.87ms
+model process: 41.45ms, from last 35.62ms
+model process: 46.50ms, from last 41.97ms
+pool is full! evicted 37
+model process: 37.39ms, from last 46.97ms
+pool is full! evicted 16
+model process: 34.53ms, from last 37.85ms
+model process: 33.42ms, from last 34.99ms
+pool is full! evicted 17
+model process: 35.78ms, from last 48.64ms
+pool is full! evicted 5
+model process: 32.45ms, from last 45.01ms
+pool is full! evicted 6
+model process: 36.96ms, from last 50.84ms
+pool is full! evicted 23
+model process: 43.20ms, from last 47.77ms
+pool is full! evicted 39
+pool is full! evicted 11
+model process: 45.28ms, from last 56.19ms
+pool is full! evicted 12
+model process: 58.62ms, from last 47.87ms
+model process: 29.87ms, from last 63.18ms
+pool is full! evicted 13
+pool is full! evicted 15
+model process: 59.94ms, from last 38.94ms
+pool is full! evicted 4
+model process: 42.45ms, from last 60.44ms
+pool is full! evicted 35
+pool is full! evicted 18
+model process: 42.47ms, from last 42.91ms
+model process: 35.68ms, from last 42.86ms
+model process: 37.31ms, from last 55.03ms
+model process: 38.61ms, from last 43.25ms
+model process: 63.61ms, from last 49.42ms
+model process: 58.07ms, from last 64.62ms
+model process: 48.97ms, from last 58.50ms
+model process: 47.02ms, from last 49.53ms
+model process: 60.71ms, from last 47.42ms
+model process: 62.93ms, from last 61.23ms
+model process: 34.52ms, from last 63.54ms
+model process: 49.31ms, from last 35.03ms
+model process: 50.81ms, from last 49.81ms
+model process: 56.49ms, from last 51.20ms
+model process: 73.79ms, from last 57.17ms
+model process: 56.05ms, from last 74.29ms
+pool is full! evicted 29
+model process: 51.85ms, from last 56.53ms
+pool is full! evicted 30
+model process: 39.69ms, from last 52.30ms
+pool is full! evicted 31
+model process: 45.26ms, from last 40.17ms
+model process: 123.02ms, from last 45.91ms
+model process: 61.36ms, from last 123.57ms
+model process: 48.26ms, from last 61.82ms
+model process: 52.22ms, from last 48.72ms
+model process: 81.32ms, from last 53.12ms
+model process: 55.65ms, from last 81.72ms
+model process: 54.93ms, from last 56.09ms
+model process: 58.92ms, from last 55.41ms
+model process: 37.00ms, from last 59.37ms
+model process: 49.80ms, from last 37.42ms
+model process: 71.93ms, from last 50.43ms
+model process: 37.18ms, from last 72.54ms
+model process: 46.18ms, from last 37.69ms
+model process: 61.51ms, from last 46.57ms
+model process: 32.76ms, from last 61.91ms
+pool is full! evicted 7
+model process: 36.87ms, from last 33.36ms
+model process: 67.66ms, from last 37.50ms
+model process: 54.47ms, from last 68.11ms
+model process: 37.22ms, from last 55.17ms
+model process: 53.93ms, from last 37.64ms
+model process: 44.34ms, from last 54.57ms
+pool is full! evicted 16
+model process: 45.49ms, from last 45.03ms
+pool is full! evicted 13
+model process: 63.38ms, from last 46.49ms
+pool is full! evicted 4
+model process: 51.09ms, from last 64.27ms
+pool is full! evicted 15
+model process: 31.32ms, from last 51.56ms
+pool is full! evicted 18
+model process: 48.43ms, from last 31.80ms
+pool is full! evicted 3
+model process: 46.13ms, from last 48.85ms
+pool is full! evicted 2
+model process: 50.24ms, from last 46.51ms
+pool is full! evicted 19
+model process: 44.45ms, from last 50.68ms
+pool is full! evicted 20
+model process: 62.16ms, from last 44.84ms
+pool is full! evicted 21
+model process: 46.41ms, from last 62.56ms
+pool is full! evicted 22
+{"event": "upload_success", "key": "2021-03-08--15-29-05--0/dcamera.hevc", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--0/dcamera.hevc", "sz": 13360041, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+pool is full! evicted 24
+model process: 72.93ms, from last 46.82ms
+model process: 27.91ms, from last 73.39ms
+pool is full! evicted 25
+model process: 63.23ms, from last 28.77ms
+pool is full! evicted 26
+model process: 40.12ms, from last 63.74ms
+pool is full! evicted 27
+pool is full! evicted 28
+model process: 70.00ms, from last 40.77ms
+model process: 45.11ms, from last 70.49ms
+pool is full! evicted 38
+model process: 38.10ms, from last 46.46ms
+pool is full! evicted 0
+pool is full! evicted 1
+model process: 98.13ms, from last 38.58ms
+pool is full! evicted 29
+model process: 83.75ms, from last 98.66ms
+model process: 44.05ms, from last 84.18ms
+model process: 61.59ms, from last 44.46ms
+pool is full! evicted 5
+model process: 46.01ms, from last 62.34ms
+pool is full! evicted 6
+model process: 49.55ms, from last 46.55ms
+pool is full! evicted 11
+model process: 45.37ms, from last 49.92ms
+pool is full! evicted 12
+model process: 41.46ms, from last 46.66ms
+pool is full! evicted 17
+model process: 52.75ms, from last 41.92ms
+pool is full! evicted 23
+model process: 58.56ms, from last 53.16ms
+pool is full! evicted 30
+pool is full! evicted 31
+model process: 87.02ms, from last 58.98ms
+pool is full! evicted 32
+model process: 51.83ms, from last 87.50ms
+pool is full! evicted 33
+model process: 53.21ms, from last 52.34ms
+pool is full! evicted 34
+model process: 51.20ms, from last 53.69ms
+model process: 58.91ms, from last 51.60ms
+model process: 38.31ms, from last 59.73ms
+model process: 40.38ms, from last 38.72ms
+model process: 70.90ms, from last 40.76ms
+pool is full! evicted 35
+pool is full! evicted 36
+model process: 77.65ms, from last 71.44ms
+pool is full! evicted 39
+model process: 58.71ms, from last 78.38ms
+pool is full! evicted 7
+model process: 60.98ms, from last 59.19ms
+pool is full! evicted 8
+model process: 61.48ms, from last 61.45ms
+pool is full! evicted 9
+pool is full! evicted 10
+model process: 58.14ms, from last 62.40ms
+pool is full! evicted 14
+model process: 50.43ms, from last 58.56ms
+model process: 65.96ms, from last 50.86ms
+model process: 56.94ms, from last 66.42ms
+model process: 61.01ms, from last 57.41ms
+model process: 40.31ms, from last 61.47ms
+model process: 46.18ms, from last 40.68ms
+pool is full! evicted 37
+model process: 44.11ms, from last 46.64ms
+pool is full! evicted 16
+model process: 58.36ms, from last 44.63ms
+pool is full! evicted 13
+model process: 36.88ms, from last 59.64ms
+pool is full! evicted 27
+model process: 36.38ms, from last 37.50ms
+model process: 33.44ms, from last 36.93ms
+pool is full! evicted 28
+model process: 38.76ms, from last 34.18ms
+pool is full! evicted 38
+model process: 40.28ms, from last 39.19ms
+pool is full! evicted 0
+model process: 36.85ms, from last 40.70ms
+model process: 34.13ms, from last 37.27ms
+pool is full! evicted 1
+model process: 30.47ms, from last 44.62ms
+pool is full! evicted 29
+model process: 38.56ms, from last 47.85ms
+model process: 27.93ms, from last 57.00ms
+model process: 56.39ms, from last 44.07ms
+model process: 42.91ms, from last 56.98ms
+model process: 54.37ms, from last 44.93ms
+pool is full! evicted 4
+model process: 52.63ms, from last 54.95ms
+pool is full! evicted 15
+model process: 46.54ms, from last 58.46ms
+pool is full! evicted 18
+model process: 45.24ms, from last 47.01ms
+killing deleter
+pool is full! evicted 5
+model process: 43.45ms, from last 45.96ms
+pool is full! evicted 6
+model process: 48.48ms, from last 44.15ms
+model process: 42.33ms, from last 48.97ms
+deleter is dead with 1
+pool is full! evicted 11
+killing dmonitoringmodeld
+model process: 32.34ms, from last 53.89ms
+selfdrive/camerad/main.cc: client end fd 173
+dmonitoringmodeld is dead with -15
+killing gpsd
+pool is full! evicted 12
+gpsd is dead with 0
+selfdrive/ui/ui.cc: slow frame(3604) time: 67.58
+selfdrive/ui/ui.cc: awake normal
+killing clocksd
+clocksd is dead with -15
+model process: 40.32ms, from last 46.41ms
+pool is full! evicted 17
+killing sensord
+sensord is dead with -9
+killing loggerd
+Result: Parcel(00000000    '....')
+model process: 51.34ms, from last 51.98ms
+vipc_recv err: Connection reset by peer
+selfdrive/camerad/main.cc: client end fd 167
+vipc_recv err: Connection reset by peer
+selfdrive/camerad/main.cc: client end fd 168
+selfdrive/ui/ui.cc: slow frame(3605) time: 117.04
+model process: 54.61ms, from last 54.28ms
+model process: 60.11ms, from last 58.43ms
+model process: 42.66ms, from last 60.58ms
+model process: 49.32ms, from last 43.09ms
+model process: 47.43ms, from last 49.74ms
+model process: 45.62ms, from last 47.82ms
+model process: 43.76ms, from last 56.24ms
+model process: 56.34ms, from last 44.36ms
+model process: 49.33ms, from last 56.73ms
+model process: 73.28ms, from last 49.80ms
+model process: 69.19ms, from last 73.69ms
+model process: 81.77ms, from last 69.64ms
+model process: 50.11ms, from last 82.71ms
+model process: 69.01ms, from last 50.69ms
+model process: 79.20ms, from last 69.49ms
+model process: 61.86ms, from last 79.72ms
+model process: 43.73ms, from last 62.32ms
+model process: 54.09ms, from last 44.13ms
+model process: 55.87ms, from last 54.52ms
+model process: 61.50ms, from last 56.35ms
+model process: 48.89ms, from last 61.97ms
+model process: 56.38ms, from last 49.26ms
+model process: 49.68ms, from last 56.76ms
+model process: 46.71ms, from last 50.12ms
+model process: 63.66ms, from last 47.12ms
+model process: 53.65ms, from last 64.20ms
+model process: 63.35ms, from last 54.24ms
+selfdrive/ui/ui.cc: slow frame(3652) time: 73.53
+model process: 79.32ms, from last 63.73ms
+model process: 65.46ms, from last 79.92ms
+model process: 55.52ms, from last 65.99ms
+model process: 50.96ms, from last 56.00ms
+model process: 50.15ms, from last 51.35ms
+model process: 59.34ms, from last 50.54ms
+model process: 51.09ms, from last 59.87ms
+model process: 57.48ms, from last 51.57ms
+model process: 71.43ms, from last 58.03ms
+model process: 60.58ms, from last 71.81ms
+model process: 114.21ms, from last 61.19ms
+model process: 58.26ms, from last 114.72ms
+model process: 47.70ms, from last 58.75ms
+model process: 49.98ms, from last 48.15ms
+model process: 55.29ms, from last 50.39ms
+model process: 38.47ms, from last 55.76ms
+model process: 54.59ms, from last 38.96ms
+model process: 63.10ms, from last 55.11ms
+model process: 82.08ms, from last 63.57ms
+model process: 68.95ms, from last 82.49ms
+selfdrive/loggerd/loggerd.cc: joining threads
+selfdrive/loggerd/loggerd.cc: encoder joined
+model process: 49.53ms, from last 69.36ms
+model process: 68.25ms, from last 49.97ms
+model process: 73.85ms, from last 68.90ms
+model process: 30.22ms, from last 74.34ms
+model process: 46.96ms, from last 30.62ms
+model process: 49.31ms, from last 47.43ms
+model process: 42.61ms, from last 49.71ms
+model process: 43.44ms, from last 43.08ms
+model process: 59.79ms, from last 43.85ms
+model process: 63.30ms, from last 60.22ms
+loggerd is dead with 0
+killing locationd
+model process: 48.23ms, from last 63.80ms
+model process: 38.57ms, from last 48.87ms
+locationd is dead with 1
+killing ubloxd
+model process: 50.09ms, from last 39.01ms
+ubloxd is dead with 0
+killing proclogd
+proclogd is dead with -15
+killing modeld
+vipc_recv err: Connection reset by peer
+selfdrive/camerad/main.cc: client end fd 177
+modeld is dead with -15
+killing camerad
+selfdrive/camerad/main.cc: client end fd 165
+selfdrive/ui/ui.cc: vision disconnected
+E: 21-03-08 15:31:00 dangling 'PUSH' socket created at selfdrive/camerad/cameras/camera_qcom.c:126
+E: 21-03-08 15:31:00 dangling 'PUSH' socket created at selfdrive/camerad/cameras/camera_qcom.c:126
+E: 21-03-08 15:31:00 dangling sockets: cannot terminate ZMQ safely
+selfdrive/boardd/boardd.cc: Transmit buffer full
+selfdrive/boardd/boardd.cc: missed cycle
+camerad is dead with 0
+killing paramsd
+paramsd is dead with -9
+killing calibrationd
+calibrationd is dead with 1
+killing dmonitoringd
+dmonitoringd is dead with 1
+killing radard
+Working with  tesla  with radarOffCan= False
+SIGINT received, exiting
+radard is dead with 1
+killing plannerd
+plannerd is dead with 1
+killing controlsd
+Waiting for CAN messages...
+ECU Camera Simulated:  True
+ECU Gas Interceptor:  False
+Buttons iniatlized with just base code
+alca  label2: using last value from file
+acc  label does not match, using default
+dsp  label2: using last value from file
+  label2: using last value from file
+msg  label2: using last value from file
+sound  label2: using last value from file
+Buttons iniatlized with just base code
+alca  label2: using last value from file
+acc  label does not match, using default
+dsp  label2: using last value from file
+  label2: using last value from file
+msg  label2: using last value from file
+sound  label2: using last value from file
+SIGINT received, exiting
+controlsd is dead with 1
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--1/qlog.bz2', '/data/media/0/realdata/2021-03-08--15-29-05--1/qlog.bz2')
+{"event": "upload", "key": "2021-03-08--15-29-05--1/qlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/qlog.bz2", "sz": 190973, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-29-05--1/qlog.bz2' with size 190973
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--1/qlog.bz2'
+upload_url v1.3 https://commadata2.blob.core.windows.net/qlog/ae1d1a42582a3551/2021-03-08--15-29-05/1/qlog.bz2?se=2021-03-15T20%3A31%3A05Z&sp=cw&sv=2018-03-28&sr=b&sig=g9RgGrXloK8964R57UjmAh3GRL/d/ukbxrmYZESFnhw%3D {'x-ms-blob-type': 'BlockBlob'}
+{"event": "upload_success", "key": "2021-03-08--15-29-05--1/qlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/qlog.bz2", "sz": 190973, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--1/qcamera.ts', '/data/media/0/realdata/2021-03-08--15-29-05--1/qcamera.ts')
+{"event": "upload", "key": "2021-03-08--15-29-05--1/qcamera.ts", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/qcamera.ts", "sz": 913868, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-29-05--1/qcamera.ts' with size 913868
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--1/qcamera.ts'
+upload_url v1.3 https://commadata2.blob.core.windows.net/qlog/ae1d1a42582a3551/2021-03-08--15-29-05/1/qcamera.ts?se=2021-03-15T20%3A31%3A08Z&sp=cw&sv=2018-03-28&sr=b&sig=9gv%2BY5rRgUawFjh/bVTmFGAQ6pmzg3eYtNzyBJ0c3uY%3D {'x-ms-blob-type': 'BlockBlob'}
+{"event": "upload_success", "key": "2021-03-08--15-29-05--1/qcamera.ts", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/qcamera.ts", "sz": 913868, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--1/rlog.bz2', '/data/media/0/realdata/2021-03-08--15-29-05--1/rlog.bz2')
+{"event": "upload", "key": "2021-03-08--15-29-05--1/rlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/rlog.bz2", "sz": 3386310, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+checking '2021-03-08--15-29-05--1/rlog.bz2' with size 3386310
+uploading '/data/media/0/realdata/2021-03-08--15-29-05--1/rlog.bz2'
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/ae1d1a42582a3551/2021-03-08--15-29-05/1/rlog.bz2?se=2021-03-15T20%3A31%3A10Z&sp=cw&sv=2018-03-28&sr=b&sig=Yh83c8Jw4iSxIKJgs8TQkDXbA0unBHkyw13agt9IUBA%3D {'x-ms-blob-type': 'BlockBlob'}
+{"event": "upload_success", "key": "2021-03-08--15-29-05--1/rlog.bz2", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/rlog.bz2", "sz": 3386310, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+upload done, success=True
+{"event": "uploader_netcheck", "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
+to upload ('2021-03-08--15-29-05--1/fcamera.hevc', '/data/media/0/realdata/2021-03-08--15-29-05--1/fcamera.hevc')
+{"event": "upload", "key": "2021-03-08--15-29-05--1/fcamera.hevc", "fn": "/data/media/0/realdata/2021-03-08--15-29-05--1/fcamera.hevc", "sz": 17787114, "ctx": {"dongle_id": "ae1d1a42582a3551", "version": "0.7.5", "dirty": true, "is_eon": true}}
